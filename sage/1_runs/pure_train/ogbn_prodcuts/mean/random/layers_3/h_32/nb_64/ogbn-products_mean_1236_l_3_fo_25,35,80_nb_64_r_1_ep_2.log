@@ -1,0 +1,3293 @@
+main start at this time 1648452211.5197992
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+in feats:  100
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 2.0242919921875 GB
+    Memory Allocated: 4.4345855712890625e-05  GigaBytes
+Max Memory Allocated: 4.4345855712890625e-05  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.6403687000274658
+random selection method range initialization spend 0.01427316665649414
+time for parepare:  0.3662688732147217
+local_output_nid generation:  0.0018763542175292969
+local_in_edges_tensor generation:  0.03024744987487793
+mini_batch_src_global generation:  0.006643056869506836
+r_  generation:  0.08186936378479004
+local_output_nid generation:  0.0018842220306396484
+local_in_edges_tensor generation:  0.002706766128540039
+mini_batch_src_global generation:  0.008065938949584961
+r_  generation:  0.08845329284667969
+local_output_nid generation:  0.0018739700317382812
+local_in_edges_tensor generation:  0.0026874542236328125
+mini_batch_src_global generation:  0.0051496028900146484
+r_  generation:  0.09161543846130371
+local_output_nid generation:  0.0018696784973144531
+local_in_edges_tensor generation:  0.0026612281799316406
+mini_batch_src_global generation:  0.0051839351654052734
+r_  generation:  0.09427857398986816
+local_output_nid generation:  0.0018646717071533203
+local_in_edges_tensor generation:  0.0027022361755371094
+mini_batch_src_global generation:  0.005231142044067383
+r_  generation:  0.09496784210205078
+local_output_nid generation:  0.0018873214721679688
+local_in_edges_tensor generation:  0.0026612281799316406
+mini_batch_src_global generation:  0.00561833381652832
+r_  generation:  0.1008143424987793
+local_output_nid generation:  0.0018494129180908203
+local_in_edges_tensor generation:  0.003286600112915039
+mini_batch_src_global generation:  0.013684749603271484
+r_  generation:  0.10077714920043945
+local_output_nid generation:  0.0018646717071533203
+local_in_edges_tensor generation:  0.002685070037841797
+mini_batch_src_global generation:  0.005894899368286133
+r_  generation:  0.10070633888244629
+local_output_nid generation:  0.0018773078918457031
+local_in_edges_tensor generation:  0.002773761749267578
+mini_batch_src_global generation:  0.006186962127685547
+r_  generation:  0.10463309288024902
+local_output_nid generation:  0.001863718032836914
+local_in_edges_tensor generation:  0.002663135528564453
+mini_batch_src_global generation:  0.006725788116455078
+r_  generation:  0.10380768775939941
+local_output_nid generation:  0.00186920166015625
+local_in_edges_tensor generation:  0.0026535987854003906
+mini_batch_src_global generation:  0.0067577362060546875
+r_  generation:  0.10856842994689941
+local_output_nid generation:  0.001886129379272461
+local_in_edges_tensor generation:  0.002606630325317383
+mini_batch_src_global generation:  0.007025957107543945
+r_  generation:  0.10501861572265625
+local_output_nid generation:  0.0018587112426757812
+local_in_edges_tensor generation:  0.0026366710662841797
+mini_batch_src_global generation:  0.0072193145751953125
+r_  generation:  0.11143088340759277
+local_output_nid generation:  0.0018613338470458984
+local_in_edges_tensor generation:  0.0028040409088134766
+mini_batch_src_global generation:  0.007657051086425781
+r_  generation:  0.11059761047363281
+local_output_nid generation:  0.001878976821899414
+local_in_edges_tensor generation:  0.002674579620361328
+mini_batch_src_global generation:  0.007668972015380859
+r_  generation:  0.1116495132446289
+local_output_nid generation:  0.0018796920776367188
+local_in_edges_tensor generation:  0.0026540756225585938
+mini_batch_src_global generation:  0.007729768753051758
+r_  generation:  0.11253118515014648
+local_output_nid generation:  0.0018749237060546875
+local_in_edges_tensor generation:  0.0026793479919433594
+mini_batch_src_global generation:  0.008162975311279297
+r_  generation:  0.11205315589904785
+local_output_nid generation:  0.0018877983093261719
+local_in_edges_tensor generation:  0.0026776790618896484
+mini_batch_src_global generation:  0.008095741271972656
+r_  generation:  0.11707282066345215
+local_output_nid generation:  0.0018720626831054688
+local_in_edges_tensor generation:  0.0055310726165771484
+mini_batch_src_global generation:  0.008126258850097656
+r_  generation:  0.11555957794189453
+local_output_nid generation:  0.0019087791442871094
+local_in_edges_tensor generation:  0.0051898956298828125
+mini_batch_src_global generation:  0.008313655853271484
+r_  generation:  0.11338472366333008
+local_output_nid generation:  0.001926422119140625
+local_in_edges_tensor generation:  0.00493621826171875
+mini_batch_src_global generation:  0.008119821548461914
+r_  generation:  0.11509203910827637
+local_output_nid generation:  0.0018973350524902344
+local_in_edges_tensor generation:  0.004662275314331055
+mini_batch_src_global generation:  0.008309364318847656
+r_  generation:  0.11874914169311523
+local_output_nid generation:  0.0018894672393798828
+local_in_edges_tensor generation:  0.004521846771240234
+mini_batch_src_global generation:  0.008188486099243164
+r_  generation:  0.11501836776733398
+local_output_nid generation:  0.0018727779388427734
+local_in_edges_tensor generation:  0.004338264465332031
+mini_batch_src_global generation:  0.008368492126464844
+r_  generation:  0.11760711669921875
+local_output_nid generation:  0.0019245147705078125
+local_in_edges_tensor generation:  0.004139423370361328
+mini_batch_src_global generation:  0.008589982986450195
+r_  generation:  0.11519598960876465
+local_output_nid generation:  0.0019197463989257812
+local_in_edges_tensor generation:  0.003988981246948242
+mini_batch_src_global generation:  0.00806879997253418
+r_  generation:  0.12186121940612793
+local_output_nid generation:  0.0018699169158935547
+local_in_edges_tensor generation:  0.0037965774536132812
+mini_batch_src_global generation:  0.008519649505615234
+r_  generation:  0.11796283721923828
+local_output_nid generation:  0.0018658638000488281
+local_in_edges_tensor generation:  0.003737211227416992
+mini_batch_src_global generation:  0.008493900299072266
+r_  generation:  0.11587643623352051
+local_output_nid generation:  0.0018727779388427734
+local_in_edges_tensor generation:  0.0035665035247802734
+mini_batch_src_global generation:  0.008292675018310547
+r_  generation:  0.11558675765991211
+local_output_nid generation:  0.0018770694732666016
+local_in_edges_tensor generation:  0.03998613357543945
+mini_batch_src_global generation:  0.008249998092651367
+r_  generation:  0.11872601509094238
+local_output_nid generation:  0.0018820762634277344
+local_in_edges_tensor generation:  0.003373861312866211
+mini_batch_src_global generation:  0.00815272331237793
+r_  generation:  0.11604046821594238
+local_output_nid generation:  0.0018768310546875
+local_in_edges_tensor generation:  0.0032775402069091797
+mini_batch_src_global generation:  0.00835418701171875
+r_  generation:  0.11775898933410645
+local_output_nid generation:  0.0018842220306396484
+local_in_edges_tensor generation:  0.003190279006958008
+mini_batch_src_global generation:  0.008400917053222656
+r_  generation:  0.11887145042419434
+local_output_nid generation:  0.0018677711486816406
+local_in_edges_tensor generation:  0.003152608871459961
+mini_batch_src_global generation:  0.008382558822631836
+r_  generation:  0.1160271167755127
+local_output_nid generation:  0.0018761157989501953
+local_in_edges_tensor generation:  0.003095865249633789
+mini_batch_src_global generation:  0.008704423904418945
+r_  generation:  0.11638998985290527
+local_output_nid generation:  0.0018761157989501953
+local_in_edges_tensor generation:  0.003006458282470703
+mini_batch_src_global generation:  0.008381128311157227
+r_  generation:  0.1182410717010498
+local_output_nid generation:  0.0018718242645263672
+local_in_edges_tensor generation:  0.002963542938232422
+mini_batch_src_global generation:  0.008613824844360352
+r_  generation:  0.1162412166595459
+local_output_nid generation:  0.001863241195678711
+local_in_edges_tensor generation:  0.0029015541076660156
+mini_batch_src_global generation:  0.008614301681518555
+r_  generation:  0.1167299747467041
+local_output_nid generation:  0.001871347427368164
+local_in_edges_tensor generation:  0.00286102294921875
+mini_batch_src_global generation:  0.008235454559326172
+r_  generation:  0.11983823776245117
+local_output_nid generation:  0.0018582344055175781
+local_in_edges_tensor generation:  0.0028409957885742188
+mini_batch_src_global generation:  0.008661031723022461
+r_  generation:  0.11586689949035645
+local_output_nid generation:  0.0018739700317382812
+local_in_edges_tensor generation:  0.002803325653076172
+mini_batch_src_global generation:  0.008335590362548828
+r_  generation:  0.1167593002319336
+local_output_nid generation:  0.0019156932830810547
+local_in_edges_tensor generation:  0.002825021743774414
+mini_batch_src_global generation:  0.008561849594116211
+r_  generation:  0.11838150024414062
+local_output_nid generation:  0.0018689632415771484
+local_in_edges_tensor generation:  0.002819061279296875
+mini_batch_src_global generation:  0.010758638381958008
+r_  generation:  0.11809539794921875
+local_output_nid generation:  0.0029997825622558594
+local_in_edges_tensor generation:  0.0027997493743896484
+mini_batch_src_global generation:  0.008300065994262695
+r_  generation:  0.1172332763671875
+local_output_nid generation:  0.0019423961639404297
+local_in_edges_tensor generation:  0.0056209564208984375
+mini_batch_src_global generation:  0.008631229400634766
+r_  generation:  0.1189730167388916
+local_output_nid generation:  0.0018718242645263672
+local_in_edges_tensor generation:  0.005223989486694336
+mini_batch_src_global generation:  0.008336067199707031
+r_  generation:  0.10513424873352051
+local_output_nid generation:  0.001865386962890625
+local_in_edges_tensor generation:  0.004937887191772461
+mini_batch_src_global generation:  0.008475303649902344
+r_  generation:  0.11659598350524902
+local_output_nid generation:  0.0018677711486816406
+local_in_edges_tensor generation:  0.0048046112060546875
+mini_batch_src_global generation:  0.02137923240661621
+r_  generation:  0.11805105209350586
+local_output_nid generation:  0.0018744468688964844
+local_in_edges_tensor generation:  0.004491090774536133
+mini_batch_src_global generation:  0.008533716201782227
+r_  generation:  0.12099218368530273
+local_output_nid generation:  0.0018696784973144531
+local_in_edges_tensor generation:  0.004319667816162109
+mini_batch_src_global generation:  0.008679628372192383
+r_  generation:  0.11800789833068848
+local_output_nid generation:  0.0018639564514160156
+local_in_edges_tensor generation:  0.004095792770385742
+mini_batch_src_global generation:  0.00866556167602539
+r_  generation:  0.11863517761230469
+local_output_nid generation:  0.0018754005432128906
+local_in_edges_tensor generation:  0.00397801399230957
+mini_batch_src_global generation:  0.010750532150268555
+r_  generation:  0.12054753303527832
+local_output_nid generation:  0.002044677734375
+local_in_edges_tensor generation:  0.0037877559661865234
+mini_batch_src_global generation:  0.008893966674804688
+r_  generation:  0.11740231513977051
+local_output_nid generation:  0.003181934356689453
+local_in_edges_tensor generation:  0.0036644935607910156
+mini_batch_src_global generation:  0.008623838424682617
+r_  generation:  0.11836004257202148
+local_output_nid generation:  0.002063751220703125
+local_in_edges_tensor generation:  0.003498554229736328
+mini_batch_src_global generation:  0.008958578109741211
+r_  generation:  0.11660528182983398
+local_output_nid generation:  0.001901388168334961
+local_in_edges_tensor generation:  0.0036232471466064453
+mini_batch_src_global generation:  0.008613109588623047
+r_  generation:  0.11781096458435059
+local_output_nid generation:  0.0018846988677978516
+local_in_edges_tensor generation:  0.0033104419708251953
+mini_batch_src_global generation:  0.008659601211547852
+r_  generation:  0.11944222450256348
+local_output_nid generation:  0.0019106864929199219
+local_in_edges_tensor generation:  0.003221273422241211
+mini_batch_src_global generation:  0.00878286361694336
+r_  generation:  0.11669063568115234
+local_output_nid generation:  0.001917123794555664
+local_in_edges_tensor generation:  0.003249645233154297
+mini_batch_src_global generation:  0.008514404296875
+r_  generation:  0.11994814872741699
+local_output_nid generation:  0.0018885135650634766
+local_in_edges_tensor generation:  0.0031943321228027344
+mini_batch_src_global generation:  0.008855819702148438
+r_  generation:  0.12105584144592285
+local_output_nid generation:  0.002108335494995117
+local_in_edges_tensor generation:  0.0034263134002685547
+mini_batch_src_global generation:  0.00856637954711914
+r_  generation:  0.11836385726928711
+local_output_nid generation:  0.0018894672393798828
+local_in_edges_tensor generation:  0.003007650375366211
+mini_batch_src_global generation:  0.010007381439208984
+r_  generation:  0.12670135498046875
+local_output_nid generation:  0.001909494400024414
+local_in_edges_tensor generation:  0.003751993179321289
+mini_batch_src_global generation:  0.009093284606933594
+r_  generation:  0.11882424354553223
+local_output_nid generation:  0.0018229484558105469
+local_in_edges_tensor generation:  0.011471986770629883
+mini_batch_src_global generation:  0.009030580520629883
+r_  generation:  0.10367298126220703
+----------------------check_connections_block total spend ----------------------------- 9.995171785354614
+generate_one_block  5.6898510456085205
+generate_one_block  0.12453174591064453
+generate_one_block  0.12863683700561523
+generate_one_block  0.1221930980682373
+generate_one_block  0.1253805160522461
+generate_one_block  0.12341022491455078
+generate_one_block  0.12502765655517578
+generate_one_block  0.1250324249267578
+generate_one_block  0.12447476387023926
+generate_one_block  0.12786865234375
+generate_one_block  0.12816667556762695
+generate_one_block  0.1222679615020752
+generate_one_block  0.1257953643798828
+generate_one_block  0.12689805030822754
+generate_one_block  0.1262645721435547
+generate_one_block  0.12196493148803711
+generate_one_block  0.12598013877868652
+generate_one_block  0.1256258487701416
+generate_one_block  0.12711787223815918
+generate_one_block  0.12469291687011719
+generate_one_block  0.12634897232055664
+generate_one_block  0.12503767013549805
+generate_one_block  0.12506484985351562
+generate_one_block  0.12504839897155762
+generate_one_block  0.12444663047790527
+generate_one_block  0.12493157386779785
+generate_one_block  0.12728095054626465
+generate_one_block  0.12689566612243652
+generate_one_block  0.12316274642944336
+generate_one_block  0.1261458396911621
+generate_one_block  0.1254420280456543
+generate_one_block  0.12988924980163574
+generate_one_block  0.12351536750793457
+generate_one_block  0.12545490264892578
+generate_one_block  0.12649273872375488
+generate_one_block  0.1250760555267334
+generate_one_block  0.12673020362854004
+generate_one_block  0.12533044815063477
+generate_one_block  0.12764620780944824
+generate_one_block  0.12534570693969727
+generate_one_block  0.12549448013305664
+generate_one_block  0.1262974739074707
+generate_one_block  0.12910175323486328
+generate_one_block  0.13048839569091797
+generate_one_block  0.14421916007995605
+generate_one_block  0.1612541675567627
+generate_one_block  0.13975238800048828
+generate_one_block  0.13165569305419922
+generate_one_block  0.12819504737854004
+generate_one_block  0.12582111358642578
+generate_one_block  0.12492823600769043
+generate_one_block  0.1261289119720459
+generate_one_block  0.13065218925476074
+generate_one_block  0.15383386611938477
+generate_one_block  0.1355445384979248
+generate_one_block  0.13257884979248047
+generate_one_block  0.12979578971862793
+generate_one_block  0.12680506706237793
+generate_one_block  0.12893080711364746
+generate_one_block  0.12982439994812012
+generate_one_block  0.13002610206604004
+generate_one_block  0.15137672424316406
+generate_one_block  0.13511085510253906
+generate_one_block  0.1303119659423828
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.3349287509918213
+gen group dst list time:  0.3710188865661621
+time for parepare:  0.45864200592041016
+local_output_nid generation:  0.060647010803222656
+local_in_edges_tensor generation:  0.28491902351379395
+mini_batch_src_global generation:  0.18410992622375488
+r_  generation:  2.3059608936309814
+local_output_nid generation:  0.0636284351348877
+local_in_edges_tensor generation:  0.15993189811706543
+mini_batch_src_global generation:  0.24168658256530762
+r_  generation:  2.429103136062622
+local_output_nid generation:  0.0635213851928711
+local_in_edges_tensor generation:  0.24731016159057617
+mini_batch_src_global generation:  0.2418065071105957
+r_  generation:  2.4604780673980713
+local_output_nid generation:  0.08107781410217285
+local_in_edges_tensor generation:  0.18410634994506836
+mini_batch_src_global generation:  0.23444581031799316
+r_  generation:  2.5490996837615967
+local_output_nid generation:  0.06366920471191406
+local_in_edges_tensor generation:  0.17934131622314453
+mini_batch_src_global generation:  0.259047269821167
+r_  generation:  2.6046924591064453
+local_output_nid generation:  0.10472226142883301
+local_in_edges_tensor generation:  0.30757951736450195
+mini_batch_src_global generation:  0.2514009475708008
+r_  generation:  2.56107497215271
+local_output_nid generation:  0.06398725509643555
+local_in_edges_tensor generation:  0.19633960723876953
+mini_batch_src_global generation:  0.25900936126708984
+r_  generation:  2.5721523761749268
+local_output_nid generation:  0.06317019462585449
+local_in_edges_tensor generation:  0.1747136116027832
+mini_batch_src_global generation:  0.2743699550628662
+r_  generation:  2.64081072807312
+local_output_nid generation:  0.06506919860839844
+local_in_edges_tensor generation:  0.16305255889892578
+mini_batch_src_global generation:  0.2656819820404053
+r_  generation:  2.6231026649475098
+local_output_nid generation:  0.06226158142089844
+local_in_edges_tensor generation:  0.20493268966674805
+mini_batch_src_global generation:  0.2882964611053467
+r_  generation:  2.6096227169036865
+local_output_nid generation:  0.1053915023803711
+local_in_edges_tensor generation:  0.21502971649169922
+mini_batch_src_global generation:  0.268373966217041
+r_  generation:  2.6295506954193115
+local_output_nid generation:  0.0628366470336914
+local_in_edges_tensor generation:  0.1701059341430664
+mini_batch_src_global generation:  0.2690293788909912
+r_  generation:  2.6186697483062744
+local_output_nid generation:  0.06267690658569336
+local_in_edges_tensor generation:  0.16212201118469238
+mini_batch_src_global generation:  0.27393507957458496
+r_  generation:  2.610996723175049
+local_output_nid generation:  0.06317591667175293
+local_in_edges_tensor generation:  0.16297054290771484
+mini_batch_src_global generation:  0.29289913177490234
+r_  generation:  2.6732304096221924
+local_output_nid generation:  0.06284689903259277
+local_in_edges_tensor generation:  0.15948963165283203
+mini_batch_src_global generation:  0.27344655990600586
+r_  generation:  2.6866049766540527
+local_output_nid generation:  0.06190061569213867
+local_in_edges_tensor generation:  0.2012312412261963
+mini_batch_src_global generation:  0.27013254165649414
+r_  generation:  2.631239175796509
+local_output_nid generation:  0.09174036979675293
+local_in_edges_tensor generation:  0.2122948169708252
+mini_batch_src_global generation:  0.27164363861083984
+r_  generation:  2.64601731300354
+local_output_nid generation:  0.06359267234802246
+local_in_edges_tensor generation:  0.1694939136505127
+mini_batch_src_global generation:  0.27399539947509766
+r_  generation:  2.658731698989868
+local_output_nid generation:  0.06281590461730957
+local_in_edges_tensor generation:  0.1606757640838623
+mini_batch_src_global generation:  0.27723121643066406
+r_  generation:  2.6278512477874756
+local_output_nid generation:  0.06285452842712402
+local_in_edges_tensor generation:  0.16469740867614746
+mini_batch_src_global generation:  0.28188109397888184
+r_  generation:  2.6701691150665283
+local_output_nid generation:  0.06214165687561035
+local_in_edges_tensor generation:  0.15574121475219727
+mini_batch_src_global generation:  0.27272891998291016
+r_  generation:  2.676629066467285
+local_output_nid generation:  0.06230020523071289
+local_in_edges_tensor generation:  0.20206761360168457
+mini_batch_src_global generation:  0.2858738899230957
+r_  generation:  2.6676928997039795
+local_output_nid generation:  0.07183647155761719
+local_in_edges_tensor generation:  0.21963977813720703
+mini_batch_src_global generation:  0.27459049224853516
+r_  generation:  2.6816275119781494
+local_output_nid generation:  0.07250523567199707
+local_in_edges_tensor generation:  0.16973090171813965
+mini_batch_src_global generation:  0.2738778591156006
+r_  generation:  2.654362201690674
+local_output_nid generation:  0.06253814697265625
+local_in_edges_tensor generation:  0.15883946418762207
+mini_batch_src_global generation:  0.27082133293151855
+r_  generation:  2.6137967109680176
+local_output_nid generation:  0.062387704849243164
+local_in_edges_tensor generation:  0.15688705444335938
+mini_batch_src_global generation:  0.27622294425964355
+r_  generation:  2.6495561599731445
+local_output_nid generation:  0.06240725517272949
+local_in_edges_tensor generation:  0.16150689125061035
+mini_batch_src_global generation:  0.2781703472137451
+r_  generation:  2.6740705966949463
+local_output_nid generation:  0.06291079521179199
+local_in_edges_tensor generation:  0.1560046672821045
+mini_batch_src_global generation:  0.27359914779663086
+r_  generation:  2.666632652282715
+local_output_nid generation:  0.0624544620513916
+local_in_edges_tensor generation:  0.2010178565979004
+mini_batch_src_global generation:  0.29326534271240234
+r_  generation:  2.652737855911255
+local_output_nid generation:  0.09057116508483887
+local_in_edges_tensor generation:  0.21125030517578125
+mini_batch_src_global generation:  0.2728714942932129
+r_  generation:  2.6688475608825684
+local_output_nid generation:  0.0631399154663086
+local_in_edges_tensor generation:  0.16864633560180664
+mini_batch_src_global generation:  0.2723119258880615
+r_  generation:  2.6496293544769287
+local_output_nid generation:  0.06304717063903809
+local_in_edges_tensor generation:  0.1613001823425293
+mini_batch_src_global generation:  0.2745044231414795
+r_  generation:  2.6453702449798584
+local_output_nid generation:  0.06251668930053711
+local_in_edges_tensor generation:  0.15895676612854004
+mini_batch_src_global generation:  0.27173376083374023
+r_  generation:  2.6393415927886963
+local_output_nid generation:  0.06287503242492676
+local_in_edges_tensor generation:  0.15627145767211914
+mini_batch_src_global generation:  0.27321696281433105
+r_  generation:  2.7024588584899902
+local_output_nid generation:  0.06242632865905762
+local_in_edges_tensor generation:  0.1976015567779541
+mini_batch_src_global generation:  0.27178144454956055
+r_  generation:  2.6911661624908447
+local_output_nid generation:  0.06218671798706055
+local_in_edges_tensor generation:  0.20677733421325684
+mini_batch_src_global generation:  0.27632665634155273
+r_  generation:  2.644866943359375
+local_output_nid generation:  0.09073901176452637
+local_in_edges_tensor generation:  0.1857752799987793
+mini_batch_src_global generation:  0.274141788482666
+r_  generation:  2.646106004714966
+local_output_nid generation:  0.06340169906616211
+local_in_edges_tensor generation:  0.16299176216125488
+mini_batch_src_global generation:  0.27079057693481445
+r_  generation:  2.6534619331359863
+local_output_nid generation:  0.06310439109802246
+local_in_edges_tensor generation:  0.1602470874786377
+mini_batch_src_global generation:  0.2765183448791504
+r_  generation:  2.655560255050659
+local_output_nid generation:  0.06303596496582031
+local_in_edges_tensor generation:  0.15943431854248047
+mini_batch_src_global generation:  0.28029298782348633
+r_  generation:  2.7182552814483643
+local_output_nid generation:  0.0621645450592041
+local_in_edges_tensor generation:  0.15852904319763184
+mini_batch_src_global generation:  0.27298784255981445
+r_  generation:  2.6517560482025146
+local_output_nid generation:  0.06229138374328613
+local_in_edges_tensor generation:  0.20082807540893555
+mini_batch_src_global generation:  0.2726740837097168
+r_  generation:  2.6520862579345703
+local_output_nid generation:  0.09149789810180664
+local_in_edges_tensor generation:  0.2120366096496582
+mini_batch_src_global generation:  0.272188663482666
+r_  generation:  2.6491880416870117
+local_output_nid generation:  0.06314897537231445
+local_in_edges_tensor generation:  0.16840338706970215
+mini_batch_src_global generation:  0.270688533782959
+r_  generation:  2.641300678253174
+local_output_nid generation:  0.06496047973632812
+local_in_edges_tensor generation:  0.15961289405822754
+mini_batch_src_global generation:  0.27400684356689453
+r_  generation:  2.6048080921173096
+local_output_nid generation:  0.06192588806152344
+local_in_edges_tensor generation:  0.15778326988220215
+mini_batch_src_global generation:  0.27117419242858887
+r_  generation:  2.6341207027435303
+local_output_nid generation:  0.06313729286193848
+local_in_edges_tensor generation:  0.1569535732269287
+mini_batch_src_global generation:  0.27515149116516113
+r_  generation:  2.6910462379455566
+local_output_nid generation:  0.0625312328338623
+local_in_edges_tensor generation:  0.15522122383117676
+mini_batch_src_global generation:  0.29715490341186523
+r_  generation:  2.6721694469451904
+local_output_nid generation:  0.0629112720489502
+local_in_edges_tensor generation:  0.2016007900238037
+mini_batch_src_global generation:  0.2731919288635254
+r_  generation:  2.6835625171661377
+local_output_nid generation:  0.10485363006591797
+local_in_edges_tensor generation:  0.2091827392578125
+mini_batch_src_global generation:  0.2746431827545166
+r_  generation:  2.64321231842041
+local_output_nid generation:  0.06343770027160645
+local_in_edges_tensor generation:  0.16788935661315918
+mini_batch_src_global generation:  0.2729988098144531
+r_  generation:  2.6383535861968994
+local_output_nid generation:  0.06298398971557617
+local_in_edges_tensor generation:  0.16192293167114258
+mini_batch_src_global generation:  0.2750523090362549
+r_  generation:  2.6478054523468018
+local_output_nid generation:  0.07558846473693848
+local_in_edges_tensor generation:  0.15845894813537598
+mini_batch_src_global generation:  0.27780961990356445
+r_  generation:  2.6786723136901855
+local_output_nid generation:  0.06253480911254883
+local_in_edges_tensor generation:  0.15578722953796387
+mini_batch_src_global generation:  0.296475887298584
+r_  generation:  2.6664135456085205
+local_output_nid generation:  0.06199026107788086
+local_in_edges_tensor generation:  0.20065021514892578
+mini_batch_src_global generation:  0.27675557136535645
+r_  generation:  2.6397578716278076
+local_output_nid generation:  0.1043243408203125
+local_in_edges_tensor generation:  0.20908498764038086
+mini_batch_src_global generation:  0.2712130546569824
+r_  generation:  2.6363494396209717
+local_output_nid generation:  0.06330204010009766
+local_in_edges_tensor generation:  0.1722583770751953
+mini_batch_src_global generation:  0.27074241638183594
+r_  generation:  2.6421761512756348
+local_output_nid generation:  0.06270956993103027
+local_in_edges_tensor generation:  0.1624751091003418
+mini_batch_src_global generation:  0.2730069160461426
+r_  generation:  2.66506028175354
+local_output_nid generation:  0.06296586990356445
+local_in_edges_tensor generation:  0.158233642578125
+mini_batch_src_global generation:  0.2793557643890381
+r_  generation:  2.706603765487671
+local_output_nid generation:  0.06310200691223145
+local_in_edges_tensor generation:  0.16261959075927734
+mini_batch_src_global generation:  0.2765514850616455
+r_  generation:  2.6977627277374268
+local_output_nid generation:  0.06271028518676758
+local_in_edges_tensor generation:  0.2338714599609375
+mini_batch_src_global generation:  0.2742280960083008
+r_  generation:  2.69152569770813
+local_output_nid generation:  0.0925290584564209
+local_in_edges_tensor generation:  0.17714929580688477
+mini_batch_src_global generation:  0.27394890785217285
+r_  generation:  2.649785041809082
+local_output_nid generation:  0.06329774856567383
+local_in_edges_tensor generation:  0.16597747802734375
+mini_batch_src_global generation:  0.271881103515625
+r_  generation:  2.6358582973480225
+local_output_nid generation:  0.06157279014587402
+local_in_edges_tensor generation:  0.15897607803344727
+mini_batch_src_global generation:  0.2717769145965576
+r_  generation:  2.641712188720703
+----------------------check_connections_block total spend ----------------------------- 234.496324300766
+generate_one_block  3.7521917819976807
+generate_one_block  3.9132771492004395
+generate_one_block  3.6684043407440186
+generate_one_block  3.3370649814605713
+generate_one_block  3.307993173599243
+generate_one_block  3.310600996017456
+generate_one_block  3.3549153804779053
+generate_one_block  3.5053844451904297
+generate_one_block  3.8169126510620117
+generate_one_block  3.4406542778015137
+generate_one_block  3.9930946826934814
+generate_one_block  3.763824462890625
+generate_one_block  3.447871446609497
+generate_one_block  3.7186105251312256
+generate_one_block  3.4390623569488525
+generate_one_block  3.3049683570861816
+generate_one_block  3.7548882961273193
+generate_one_block  3.3203115463256836
+generate_one_block  3.302868127822876
+generate_one_block  3.309220552444458
+generate_one_block  3.3208577632904053
+generate_one_block  3.3214733600616455
+generate_one_block  3.6375694274902344
+generate_one_block  3.4535679817199707
+generate_one_block  3.2914276123046875
+generate_one_block  3.3040037155151367
+generate_one_block  3.3145124912261963
+generate_one_block  3.8738558292388916
+generate_one_block  3.307366371154785
+generate_one_block  3.643561363220215
+generate_one_block  3.397221565246582
+generate_one_block  3.4776527881622314
+generate_one_block  3.748199701309204
+generate_one_block  3.4019482135772705
+generate_one_block  3.776683807373047
+generate_one_block  3.302530288696289
+generate_one_block  3.35780668258667
+generate_one_block  3.3463752269744873
+generate_one_block  3.7820866107940674
+generate_one_block  3.32655930519104
+generate_one_block  3.3376455307006836
+generate_one_block  3.323334217071533
+generate_one_block  3.3764891624450684
+generate_one_block  3.350417375564575
+generate_one_block  3.6613900661468506
+generate_one_block  3.294809103012085
+generate_one_block  3.3555071353912354
+generate_one_block  3.3127529621124268
+generate_one_block  3.3506035804748535
+generate_one_block  3.3701109886169434
+generate_one_block  3.488517999649048
+generate_one_block  3.932704210281372
+generate_one_block  3.7890560626983643
+generate_one_block  3.4953417778015137
+generate_one_block  3.7328267097473145
+generate_one_block  3.3417649269104004
+generate_one_block  3.325429677963257
+generate_one_block  3.371699094772339
+generate_one_block  3.765429735183716
+generate_one_block  3.3726248741149902
+generate_one_block  3.5370936393737793
+generate_one_block  3.7767434120178223
+generate_one_block  3.398031711578369
+generate_one_block  3.5221455097198486
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.1644060611724854
+gen group dst list time:  2.511258363723755
+time for parepare:  0.4757823944091797
+local_output_nid generation:  0.3996288776397705
+local_in_edges_tensor generation:  0.936302661895752
+mini_batch_src_global generation:  0.8110401630401611
+r_  generation:  10.391201496124268
+local_output_nid generation:  0.3988823890686035
+local_in_edges_tensor generation:  0.9210014343261719
+mini_batch_src_global generation:  1.0247726440429688
+r_  generation:  10.721598386764526
+local_output_nid generation:  0.4487016201019287
+local_in_edges_tensor generation:  0.8040223121643066
+mini_batch_src_global generation:  1.023014783859253
+r_  generation:  10.976760625839233
+local_output_nid generation:  0.398883581161499
+local_in_edges_tensor generation:  1.0126245021820068
+mini_batch_src_global generation:  1.0850188732147217
+r_  generation:  10.777939081192017
+local_output_nid generation:  0.43765807151794434
+local_in_edges_tensor generation:  0.7915120124816895
+mini_batch_src_global generation:  1.1286609172821045
+r_  generation:  11.059733629226685
+local_output_nid generation:  0.45743703842163086
+local_in_edges_tensor generation:  0.9066143035888672
+mini_batch_src_global generation:  1.0538363456726074
+r_  generation:  11.15040898323059
+local_output_nid generation:  0.41002345085144043
+local_in_edges_tensor generation:  0.922584056854248
+mini_batch_src_global generation:  1.1013998985290527
+r_  generation:  10.904913902282715
+local_output_nid generation:  0.45235490798950195
+local_in_edges_tensor generation:  0.7956364154815674
+mini_batch_src_global generation:  1.0672309398651123
+r_  generation:  11.29873275756836
+local_output_nid generation:  0.45499396324157715
+local_in_edges_tensor generation:  0.9272868633270264
+mini_batch_src_global generation:  1.0590322017669678
+r_  generation:  11.00986623764038
+local_output_nid generation:  0.4227159023284912
+local_in_edges_tensor generation:  0.7985448837280273
+mini_batch_src_global generation:  1.1796412467956543
+r_  generation:  11.039002180099487
+local_output_nid generation:  0.4489407539367676
+local_in_edges_tensor generation:  0.9201409816741943
+mini_batch_src_global generation:  1.0624415874481201
+r_  generation:  11.265559911727905
+local_output_nid generation:  0.41385912895202637
+local_in_edges_tensor generation:  0.9296128749847412
+mini_batch_src_global generation:  1.0812664031982422
+r_  generation:  10.734363079071045
+local_output_nid generation:  0.4368705749511719
+local_in_edges_tensor generation:  0.8011577129364014
+mini_batch_src_global generation:  1.1174931526184082
+r_  generation:  11.134219884872437
+local_output_nid generation:  0.463651180267334
+local_in_edges_tensor generation:  0.9186866283416748
+mini_batch_src_global generation:  1.0674638748168945
+r_  generation:  11.149975061416626
+local_output_nid generation:  0.4148731231689453
+local_in_edges_tensor generation:  0.9245073795318604
+mini_batch_src_global generation:  1.1389448642730713
+r_  generation:  10.99300765991211
+local_output_nid generation:  0.45639801025390625
+local_in_edges_tensor generation:  0.802666187286377
+mini_batch_src_global generation:  1.0753676891326904
+r_  generation:  11.36031699180603
+local_output_nid generation:  0.40830397605895996
+local_in_edges_tensor generation:  0.9270579814910889
+mini_batch_src_global generation:  1.1229891777038574
+r_  generation:  10.906596660614014
+local_output_nid generation:  0.4377617835998535
+local_in_edges_tensor generation:  0.7985827922821045
+mini_batch_src_global generation:  1.236630916595459
+r_  generation:  10.937564611434937
+local_output_nid generation:  0.45116400718688965
+local_in_edges_tensor generation:  0.9100723266601562
+mini_batch_src_global generation:  1.060117244720459
+r_  generation:  11.188758373260498
+local_output_nid generation:  0.4243645668029785
+local_in_edges_tensor generation:  0.9423739910125732
+mini_batch_src_global generation:  1.1189460754394531
+r_  generation:  10.803242921829224
+local_output_nid generation:  0.43071866035461426
+local_in_edges_tensor generation:  0.8133432865142822
+mini_batch_src_global generation:  1.1112804412841797
+r_  generation:  11.195150375366211
+local_output_nid generation:  0.4530942440032959
+local_in_edges_tensor generation:  0.9138975143432617
+mini_batch_src_global generation:  1.0616955757141113
+r_  generation:  11.211196184158325
+local_output_nid generation:  0.4165828227996826
+local_in_edges_tensor generation:  0.9309468269348145
+mini_batch_src_global generation:  1.1166508197784424
+r_  generation:  11.044977188110352
+local_output_nid generation:  0.4559633731842041
+local_in_edges_tensor generation:  0.8083148002624512
+mini_batch_src_global generation:  1.129316806793213
+r_  generation:  11.293884038925171
+local_output_nid generation:  0.45802903175354004
+local_in_edges_tensor generation:  0.9159858226776123
+mini_batch_src_global generation:  1.0562162399291992
+r_  generation:  11.012372493743896
+local_output_nid generation:  0.40918684005737305
+local_in_edges_tensor generation:  0.8600635528564453
+mini_batch_src_global generation:  1.128586769104004
+r_  generation:  10.922789573669434
+local_output_nid generation:  0.4492323398590088
+local_in_edges_tensor generation:  0.863051176071167
+mini_batch_src_global generation:  1.0609230995178223
+r_  generation:  11.34670376777649
+local_output_nid generation:  0.4247608184814453
+local_in_edges_tensor generation:  0.9482998847961426
+mini_batch_src_global generation:  1.0795378684997559
+r_  generation:  10.922760725021362
+local_output_nid generation:  0.42241811752319336
+local_in_edges_tensor generation:  0.8005750179290771
+mini_batch_src_global generation:  1.2438275814056396
+r_  generation:  11.067237615585327
+local_output_nid generation:  0.44962406158447266
+local_in_edges_tensor generation:  0.9175257682800293
+mini_batch_src_global generation:  1.0579359531402588
+r_  generation:  11.365527629852295
+local_output_nid generation:  0.4239964485168457
+local_in_edges_tensor generation:  0.9442873001098633
+mini_batch_src_global generation:  1.0624885559082031
+r_  generation:  10.943476676940918
+local_output_nid generation:  0.4253697395324707
+local_in_edges_tensor generation:  0.808140754699707
+mini_batch_src_global generation:  1.2254106998443604
+r_  generation:  10.922715187072754
+local_output_nid generation:  0.44864535331726074
+local_in_edges_tensor generation:  0.9265213012695312
+mini_batch_src_global generation:  1.0621771812438965
+r_  generation:  11.295215368270874
+local_output_nid generation:  0.4181790351867676
+local_in_edges_tensor generation:  0.928030252456665
+mini_batch_src_global generation:  1.0886106491088867
+r_  generation:  10.880286931991577
+local_output_nid generation:  0.4299342632293701
+local_in_edges_tensor generation:  0.7980825901031494
+mini_batch_src_global generation:  1.2548351287841797
+r_  generation:  10.96755576133728
+local_output_nid generation:  0.4465627670288086
+local_in_edges_tensor generation:  0.9154024124145508
+mini_batch_src_global generation:  1.0553131103515625
+r_  generation:  11.244093894958496
+local_output_nid generation:  0.4130418300628662
+local_in_edges_tensor generation:  0.9389142990112305
+mini_batch_src_global generation:  1.1060240268707275
+r_  generation:  10.964698791503906
+local_output_nid generation:  0.43461012840270996
+local_in_edges_tensor generation:  0.8021888732910156
+mini_batch_src_global generation:  1.2400364875793457
+r_  generation:  11.035616397857666
+local_output_nid generation:  0.44828057289123535
+local_in_edges_tensor generation:  0.9212203025817871
+mini_batch_src_global generation:  1.0674688816070557
+r_  generation:  11.299222707748413
+local_output_nid generation:  0.41971421241760254
+local_in_edges_tensor generation:  0.9301009178161621
+mini_batch_src_global generation:  1.114445686340332
+r_  generation:  10.95696473121643
+local_output_nid generation:  0.43337297439575195
+local_in_edges_tensor generation:  0.8044378757476807
+mini_batch_src_global generation:  1.2441213130950928
+r_  generation:  10.964907884597778
+local_output_nid generation:  0.44705796241760254
+local_in_edges_tensor generation:  0.9183664321899414
+mini_batch_src_global generation:  1.0582709312438965
+r_  generation:  11.29694938659668
+local_output_nid generation:  0.4190850257873535
+local_in_edges_tensor generation:  0.944277286529541
+mini_batch_src_global generation:  1.073514461517334
+r_  generation:  10.952574729919434
+local_output_nid generation:  0.42766761779785156
+local_in_edges_tensor generation:  0.7995452880859375
+mini_batch_src_global generation:  1.226323127746582
+r_  generation:  10.99989628791809
+local_output_nid generation:  0.44647836685180664
+local_in_edges_tensor generation:  0.9154131412506104
+mini_batch_src_global generation:  1.0557527542114258
+r_  generation:  11.212926626205444
+local_output_nid generation:  0.4122018814086914
+local_in_edges_tensor generation:  0.9183371067047119
+mini_batch_src_global generation:  1.0924150943756104
+r_  generation:  10.764662027359009
+local_output_nid generation:  0.4423062801361084
+local_in_edges_tensor generation:  0.8000352382659912
+mini_batch_src_global generation:  1.1991453170776367
+r_  generation:  11.170297145843506
+local_output_nid generation:  0.45064449310302734
+local_in_edges_tensor generation:  0.9130551815032959
+mini_batch_src_global generation:  1.0524990558624268
+r_  generation:  11.145490407943726
+local_output_nid generation:  0.40948057174682617
+local_in_edges_tensor generation:  0.9229085445404053
+mini_batch_src_global generation:  1.0858006477355957
+r_  generation:  10.940636157989502
+local_output_nid generation:  0.45186495780944824
+local_in_edges_tensor generation:  0.7968935966491699
+mini_batch_src_global generation:  1.0620036125183105
+r_  generation:  11.185989141464233
+local_output_nid generation:  0.41492199897766113
+local_in_edges_tensor generation:  0.9400572776794434
+mini_batch_src_global generation:  1.0930473804473877
+r_  generation:  10.895334005355835
+local_output_nid generation:  0.43737292289733887
+local_in_edges_tensor generation:  0.807133674621582
+mini_batch_src_global generation:  1.1176459789276123
+r_  generation:  11.2282133102417
+local_output_nid generation:  0.4476032257080078
+local_in_edges_tensor generation:  0.9160943031311035
+mini_batch_src_global generation:  1.0555839538574219
+r_  generation:  11.05481219291687
+local_output_nid generation:  0.40602970123291016
+local_in_edges_tensor generation:  0.8016934394836426
+mini_batch_src_global generation:  1.1538453102111816
+r_  generation:  10.943204641342163
+local_output_nid generation:  0.4513871669769287
+local_in_edges_tensor generation:  0.9198431968688965
+mini_batch_src_global generation:  1.1407463550567627
+r_  generation:  11.161984205245972
+local_output_nid generation:  0.43311429023742676
+local_in_edges_tensor generation:  0.9359235763549805
+mini_batch_src_global generation:  1.0910868644714355
+r_  generation:  10.91282606124878
+local_output_nid generation:  0.4247770309448242
+local_in_edges_tensor generation:  0.7951340675354004
+mini_batch_src_global generation:  1.1847612857818604
+r_  generation:  11.02342700958252
+local_output_nid generation:  0.4501824378967285
+local_in_edges_tensor generation:  4.43218469619751
+mini_batch_src_global generation:  1.0669560432434082
+r_  generation:  11.2305006980896
+local_output_nid generation:  0.4048340320587158
+local_in_edges_tensor generation:  0.9167020320892334
+mini_batch_src_global generation:  1.0654504299163818
+r_  generation:  10.899412631988525
+local_output_nid generation:  0.453566312789917
+local_in_edges_tensor generation:  0.7990570068359375
+mini_batch_src_global generation:  1.063941478729248
+r_  generation:  11.306806325912476
+local_output_nid generation:  0.41582298278808594
+local_in_edges_tensor generation:  0.9436185359954834
+mini_batch_src_global generation:  1.1055562496185303
+r_  generation:  10.959697246551514
+local_output_nid generation:  0.4413774013519287
+local_in_edges_tensor generation:  0.8000245094299316
+mini_batch_src_global generation:  1.2145657539367676
+r_  generation:  12.264324188232422
+local_output_nid generation:  0.4614849090576172
+local_in_edges_tensor generation:  0.9980611801147461
+mini_batch_src_global generation:  1.348083257675171
+r_  generation:  11.079762935638428
+local_output_nid generation:  0.4370255470275879
+local_in_edges_tensor generation:  0.8718564510345459
+mini_batch_src_global generation:  1.120595932006836
+r_  generation:  11.219919919967651
+----------------------check_connections_block total spend ----------------------------- 991.2618973255157
+generate_one_block  15.33916449546814
+generate_one_block  15.130907773971558
+generate_one_block  14.615841627120972
+generate_one_block  15.247338056564331
+generate_one_block  14.931786060333252
+generate_one_block  14.598534107208252
+generate_one_block  15.268452405929565
+generate_one_block  15.040287733078003
+generate_one_block  14.618954420089722
+generate_one_block  15.22880744934082
+generate_one_block  15.062867641448975
+generate_one_block  14.512234687805176
+generate_one_block  15.707461833953857
+generate_one_block  15.063395261764526
+generate_one_block  14.682007312774658
+generate_one_block  15.276090145111084
+generate_one_block  15.031881332397461
+generate_one_block  14.577630996704102
+generate_one_block  15.132016897201538
+generate_one_block  14.90314769744873
+generate_one_block  14.587466478347778
+generate_one_block  15.158939123153687
+generate_one_block  15.031755208969116
+generate_one_block  14.720917463302612
+generate_one_block  15.019819259643555
+generate_one_block  15.203689813613892
+generate_one_block  14.539138793945312
+generate_one_block  15.098730325698853
+generate_one_block  14.910496711730957
+generate_one_block  14.519111633300781
+generate_one_block  15.035991430282593
+generate_one_block  14.987796068191528
+generate_one_block  14.531036376953125
+generate_one_block  15.072633266448975
+generate_one_block  14.982331275939941
+generate_one_block  14.498319149017334
+generate_one_block  15.10270357131958
+generate_one_block  15.091283321380615
+generate_one_block  14.841289281845093
+generate_one_block  15.097361326217651
+generate_one_block  15.031162738800049
+generate_one_block  14.89924693107605
+generate_one_block  14.76002287864685
+generate_one_block  15.113926649093628
+generate_one_block  14.79615569114685
+generate_one_block  14.429956912994385
+generate_one_block  15.09603500366211
+generate_one_block  15.032866716384888
+generate_one_block  15.038532257080078
+generate_one_block  14.677366495132446
+generate_one_block  15.07438325881958
+generate_one_block  15.311059951782227
+generate_one_block  14.512174606323242
+generate_one_block  15.084758043289185
+generate_one_block  15.125176429748535
+generate_one_block  14.876588582992554
+generate_one_block  14.588317155838013
+generate_one_block  15.144564151763916
+generate_one_block  15.073325872421265
+generate_one_block  14.936242818832397
+generate_one_block  14.86400032043457
+generate_one_block  15.10658574104309
+generate_one_block  15.03626298904419
+generate_one_block  14.462951183319092
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 2.0242919921875 GB
+    Memory Allocated: 4.4345855712890625e-05  GigaBytes
+Max Memory Allocated: 4.4345855712890625e-05  GigaBytes
+
+connection checking time:  1225.7582216262817
+block generation total time  1179.8011302947998
+average batch blocks generation time:  18.434392660856247
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 3.0848388671875 GB
+    Memory Allocated: 0.9932680130004883  GigaBytes
+Max Memory Allocated: 0.9932680130004883  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 4.7703857421875 GB
+    Memory Allocated: 1.6388988494873047  GigaBytes
+Max Memory Allocated: 2.070195198059082  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6024169921875 GB
+    Memory Allocated: 0.9936375617980957  GigaBytes
+Max Memory Allocated: 2.3687963485717773  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6043701171875 GB
+    Memory Allocated: 1.6400761604309082  GigaBytes
+Max Memory Allocated: 2.3687963485717773  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9874429702758789  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6277880668640137  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9925408363342285  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6370220184326172  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9905295372009277  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6314029693603516  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.988304615020752  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6279034614562988  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9940328598022461  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6391921043395996  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9936366081237793  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6392340660095215  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9909963607788086  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6324644088745117  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9919657707214355  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6363787651062012  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9952926635742188  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6412110328674316  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.984586238861084  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6199398040771484  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9951667785644531  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6401853561401367  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 0.9953374862670898  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 6.6063232421875 GB
+    Memory Allocated: 1.6416730880737305  GigaBytes
+Max Memory Allocated: 2.3739495277404785  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 7.3582763671875 GB
+    Memory Allocated: 0.9957675933837891  GigaBytes
+Max Memory Allocated: 2.375  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 7.3582763671875 GB
+    Memory Allocated: 1.6424641609191895  GigaBytes
+Max Memory Allocated: 2.375  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9951348304748535  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6401381492614746  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9954872131347656  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6413874626159668  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.99017333984375  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6307616233825684  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.989570140838623  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6289820671081543  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9899349212646484  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6290664672851562  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9898219108581543  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6308674812316895  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9901275634765625  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6323442459106445  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9955234527587891  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6424384117126465  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9952983856201172  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6414499282836914  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9855818748474121  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6220808029174805  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9949836730957031  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6393446922302246  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9880795478820801  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6274948120117188  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9911899566650391  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6325297355651855  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9900264739990234  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6305217742919922  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9891562461853027  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6285195350646973  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9875288009643555  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.626528263092041  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9933748245239258  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.638824462890625  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9889287948608398  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6286940574645996  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9894962310791016  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.629948616027832  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9883904457092285  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6275324821472168  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9883356094360352  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.627026081085205  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9935922622680664  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6382675170898438  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9929685592651367  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6383113861083984  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9921822547912598  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6371979713439941  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.993779182434082  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6396188735961914  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9891986846923828  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6282424926757812  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9853997230529785  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6232237815856934  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9906582832336426  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6313228607177734  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9900674819946289  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6284370422363281  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9846992492675781  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.620084285736084  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9853358268737793  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6200981140136719  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9932093620300293  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6386442184448242  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9868907928466797  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6242156028747559  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9913067817687988  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6369776725769043  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.987642765045166  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6276988983154297  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9857449531555176  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6229267120361328  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9949607849121094  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6396265029907227  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9863667488098145  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.624281406402588  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9890656471252441  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6291446685791016  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9899630546569824  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.628103256225586  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9892325401306152  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.63020658493042  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9901385307312012  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6300115585327148  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9930815696716309  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.637272834777832  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9926214218139648  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6327252388000488  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9926414489746094  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6392631530761719  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9954080581665039  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.641737461090088  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9865684509277344  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6236538887023926  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9948196411132812  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6386613845825195  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.985835075378418  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6197013854980469  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.28284356370568275 |0.2267157956957817 |0.014429900795221329 |0.00014234334230422974 |0.0060515329241752625 |0.0029828548431396484 |
+----------------------------------------------------------pseudo_mini_loss sum 8.282448768615723
+ Run 0| Epoch 0 |
+Number of nodes for computation during this epoch:  215773951
+Number of first layer input nodes during this epoch:  128386636
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.4832749366760254  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.6658070087432861
+random selection method range initialization spend 0.013864994049072266
+time for parepare:  0.43778204917907715
+local_output_nid generation:  0.002079486846923828
+local_in_edges_tensor generation:  0.026802539825439453
+mini_batch_src_global generation:  0.007886886596679688
+r_  generation:  0.08357548713684082
+local_output_nid generation:  0.002116680145263672
+local_in_edges_tensor generation:  0.0025339126586914062
+mini_batch_src_global generation:  0.008545875549316406
+r_  generation:  0.09084105491638184
+local_output_nid generation:  0.0021190643310546875
+local_in_edges_tensor generation:  0.002481698989868164
+mini_batch_src_global generation:  0.0051021575927734375
+r_  generation:  0.09392333030700684
+local_output_nid generation:  0.0021135807037353516
+local_in_edges_tensor generation:  0.0024826526641845703
+mini_batch_src_global generation:  0.0052127838134765625
+r_  generation:  0.09779787063598633
+local_output_nid generation:  0.002115488052368164
+local_in_edges_tensor generation:  0.0025358200073242188
+mini_batch_src_global generation:  0.00517725944519043
+r_  generation:  0.09870672225952148
+local_output_nid generation:  0.002122163772583008
+local_in_edges_tensor generation:  0.0024459362030029297
+mini_batch_src_global generation:  0.0056154727935791016
+r_  generation:  0.10012555122375488
+local_output_nid generation:  0.002112150192260742
+local_in_edges_tensor generation:  0.002513408660888672
+mini_batch_src_global generation:  0.005839347839355469
+r_  generation:  0.10132431983947754
+local_output_nid generation:  0.0021131038665771484
+local_in_edges_tensor generation:  0.0023620128631591797
+mini_batch_src_global generation:  0.005940437316894531
+r_  generation:  0.10287117958068848
+local_output_nid generation:  0.002122640609741211
+local_in_edges_tensor generation:  0.002513408660888672
+mini_batch_src_global generation:  0.006143331527709961
+r_  generation:  0.10659527778625488
+local_output_nid generation:  0.0021216869354248047
+local_in_edges_tensor generation:  0.002379894256591797
+mini_batch_src_global generation:  0.008264780044555664
+r_  generation:  0.10040426254272461
+local_output_nid generation:  0.0021545886993408203
+local_in_edges_tensor generation:  0.0031614303588867188
+mini_batch_src_global generation:  0.008281707763671875
+r_  generation:  0.10865473747253418
+local_output_nid generation:  0.0021305084228515625
+local_in_edges_tensor generation:  0.002536296844482422
+mini_batch_src_global generation:  0.007146596908569336
+r_  generation:  0.10963821411132812
+local_output_nid generation:  0.0021355152130126953
+local_in_edges_tensor generation:  0.002488374710083008
+mini_batch_src_global generation:  0.0073888301849365234
+r_  generation:  0.10965132713317871
+local_output_nid generation:  0.0021088123321533203
+local_in_edges_tensor generation:  0.0025076866149902344
+mini_batch_src_global generation:  0.01287531852722168
+r_  generation:  0.11832404136657715
+local_output_nid generation:  0.0021343231201171875
+local_in_edges_tensor generation:  0.0025644302368164062
+mini_batch_src_global generation:  0.00860905647277832
+r_  generation:  0.11353063583374023
+local_output_nid generation:  0.0021064281463623047
+local_in_edges_tensor generation:  0.0025124549865722656
+mini_batch_src_global generation:  0.007841825485229492
+r_  generation:  0.11669278144836426
+local_output_nid generation:  0.002125263214111328
+local_in_edges_tensor generation:  0.0025146007537841797
+mini_batch_src_global generation:  0.008241415023803711
+r_  generation:  0.11630606651306152
+local_output_nid generation:  0.0021255016326904297
+local_in_edges_tensor generation:  0.0024976730346679688
+mini_batch_src_global generation:  0.008118152618408203
+r_  generation:  0.1159675121307373
+local_output_nid generation:  0.0021216869354248047
+local_in_edges_tensor generation:  0.002441883087158203
+mini_batch_src_global generation:  0.008198976516723633
+r_  generation:  0.11709141731262207
+local_output_nid generation:  0.0021283626556396484
+local_in_edges_tensor generation:  0.00246429443359375
+mini_batch_src_global generation:  0.008329153060913086
+r_  generation:  0.11552596092224121
+local_output_nid generation:  0.002141237258911133
+local_in_edges_tensor generation:  0.0024373531341552734
+mini_batch_src_global generation:  0.008124828338623047
+r_  generation:  0.1153249740600586
+local_output_nid generation:  0.0021173954010009766
+local_in_edges_tensor generation:  0.002526998519897461
+mini_batch_src_global generation:  0.00850534439086914
+r_  generation:  0.12148213386535645
+local_output_nid generation:  0.003148794174194336
+local_in_edges_tensor generation:  0.002723217010498047
+mini_batch_src_global generation:  0.008378982543945312
+r_  generation:  0.12130403518676758
+local_output_nid generation:  0.002131223678588867
+local_in_edges_tensor generation:  0.002476930618286133
+mini_batch_src_global generation:  0.008418083190917969
+r_  generation:  0.11969280242919922
+local_output_nid generation:  0.0021376609802246094
+local_in_edges_tensor generation:  0.002508401870727539
+mini_batch_src_global generation:  0.008699417114257812
+r_  generation:  0.11663460731506348
+local_output_nid generation:  0.002139568328857422
+local_in_edges_tensor generation:  0.002405405044555664
+mini_batch_src_global generation:  0.008439064025878906
+r_  generation:  0.12187623977661133
+local_output_nid generation:  0.0021293163299560547
+local_in_edges_tensor generation:  0.002512216567993164
+mini_batch_src_global generation:  0.008682012557983398
+r_  generation:  0.12192296981811523
+local_output_nid generation:  0.0021414756774902344
+local_in_edges_tensor generation:  0.0025322437286376953
+mini_batch_src_global generation:  0.008436203002929688
+r_  generation:  0.12610936164855957
+local_output_nid generation:  0.0021414756774902344
+local_in_edges_tensor generation:  0.0034322738647460938
+mini_batch_src_global generation:  0.008423805236816406
+r_  generation:  0.11747121810913086
+local_output_nid generation:  0.0021390914916992188
+local_in_edges_tensor generation:  0.0024979114532470703
+mini_batch_src_global generation:  0.008941173553466797
+r_  generation:  0.12716960906982422
+local_output_nid generation:  0.002134084701538086
+local_in_edges_tensor generation:  0.0023605823516845703
+mini_batch_src_global generation:  0.008301973342895508
+r_  generation:  0.11661124229431152
+local_output_nid generation:  0.0021414756774902344
+local_in_edges_tensor generation:  0.0024459362030029297
+mini_batch_src_global generation:  0.008654594421386719
+r_  generation:  0.11988639831542969
+local_output_nid generation:  0.0021533966064453125
+local_in_edges_tensor generation:  0.002480745315551758
+mini_batch_src_global generation:  0.008670806884765625
+r_  generation:  0.12351846694946289
+local_output_nid generation:  0.002140522003173828
+local_in_edges_tensor generation:  0.0030167102813720703
+mini_batch_src_global generation:  0.008635282516479492
+r_  generation:  0.11935806274414062
+local_output_nid generation:  0.002133607864379883
+local_in_edges_tensor generation:  0.0025072097778320312
+mini_batch_src_global generation:  0.00907135009765625
+r_  generation:  0.11959266662597656
+local_output_nid generation:  0.002119302749633789
+local_in_edges_tensor generation:  0.0023956298828125
+mini_batch_src_global generation:  0.008621931076049805
+r_  generation:  0.13030433654785156
+local_output_nid generation:  0.0021271705627441406
+local_in_edges_tensor generation:  0.0025186538696289062
+mini_batch_src_global generation:  0.008806705474853516
+r_  generation:  0.1356501579284668
+local_output_nid generation:  0.0021321773529052734
+local_in_edges_tensor generation:  0.056165218353271484
+mini_batch_src_global generation:  0.008561134338378906
+r_  generation:  0.12822294235229492
+local_output_nid generation:  0.0021898746490478516
+local_in_edges_tensor generation:  0.0025663375854492188
+mini_batch_src_global generation:  0.008489131927490234
+r_  generation:  0.1293809413909912
+local_output_nid generation:  0.002371072769165039
+local_in_edges_tensor generation:  0.0032591819763183594
+mini_batch_src_global generation:  0.009817838668823242
+r_  generation:  0.12694787979125977
+local_output_nid generation:  0.0021903514862060547
+local_in_edges_tensor generation:  0.002477407455444336
+mini_batch_src_global generation:  0.008594274520874023
+r_  generation:  0.12635278701782227
+local_output_nid generation:  0.002178668975830078
+local_in_edges_tensor generation:  0.002527952194213867
+mini_batch_src_global generation:  0.008741140365600586
+r_  generation:  0.11184835433959961
+local_output_nid generation:  0.0021729469299316406
+local_in_edges_tensor generation:  0.002471923828125
+mini_batch_src_global generation:  0.00891423225402832
+r_  generation:  0.12089204788208008
+local_output_nid generation:  0.00217437744140625
+local_in_edges_tensor generation:  0.002466917037963867
+mini_batch_src_global generation:  0.008534908294677734
+r_  generation:  0.12545251846313477
+local_output_nid generation:  0.0022101402282714844
+local_in_edges_tensor generation:  0.0031430721282958984
+mini_batch_src_global generation:  0.008929014205932617
+r_  generation:  0.1197671890258789
+local_output_nid generation:  0.0021796226501464844
+local_in_edges_tensor generation:  0.002468585968017578
+mini_batch_src_global generation:  0.008569717407226562
+r_  generation:  0.12662720680236816
+local_output_nid generation:  0.002203702926635742
+local_in_edges_tensor generation:  0.0025615692138671875
+mini_batch_src_global generation:  0.008584737777709961
+r_  generation:  0.12368106842041016
+local_output_nid generation:  0.0021674633026123047
+local_in_edges_tensor generation:  0.002519845962524414
+mini_batch_src_global generation:  0.008904695510864258
+r_  generation:  0.12892508506774902
+local_output_nid generation:  0.002171754837036133
+local_in_edges_tensor generation:  0.002523660659790039
+mini_batch_src_global generation:  0.00840139389038086
+r_  generation:  0.15953755378723145
+local_output_nid generation:  0.0021772384643554688
+local_in_edges_tensor generation:  0.0028896331787109375
+mini_batch_src_global generation:  0.008816957473754883
+r_  generation:  0.11841034889221191
+local_output_nid generation:  0.0021772384643554688
+local_in_edges_tensor generation:  0.002496004104614258
+mini_batch_src_global generation:  0.00851583480834961
+r_  generation:  0.1237337589263916
+local_output_nid generation:  0.0030341148376464844
+local_in_edges_tensor generation:  0.0025370121002197266
+mini_batch_src_global generation:  0.02574014663696289
+r_  generation:  0.12706851959228516
+local_output_nid generation:  0.0023193359375
+local_in_edges_tensor generation:  0.002444028854370117
+mini_batch_src_global generation:  0.008903741836547852
+r_  generation:  0.1249847412109375
+local_output_nid generation:  0.0022165775299072266
+local_in_edges_tensor generation:  0.0024640560150146484
+mini_batch_src_global generation:  0.00871729850769043
+r_  generation:  0.1237797737121582
+local_output_nid generation:  0.002180814743041992
+local_in_edges_tensor generation:  0.0024530887603759766
+mini_batch_src_global generation:  0.008619308471679688
+r_  generation:  0.12108945846557617
+local_output_nid generation:  0.002176046371459961
+local_in_edges_tensor generation:  0.0025043487548828125
+mini_batch_src_global generation:  0.008654594421386719
+r_  generation:  0.12632155418395996
+local_output_nid generation:  0.0021834373474121094
+local_in_edges_tensor generation:  0.002481698989868164
+mini_batch_src_global generation:  0.008703231811523438
+r_  generation:  0.12344026565551758
+local_output_nid generation:  0.002180814743041992
+local_in_edges_tensor generation:  0.002473115921020508
+mini_batch_src_global generation:  0.008835792541503906
+r_  generation:  0.12359166145324707
+local_output_nid generation:  0.00218963623046875
+local_in_edges_tensor generation:  0.0024497509002685547
+mini_batch_src_global generation:  0.012226104736328125
+r_  generation:  0.1250901222229004
+local_output_nid generation:  0.0021715164184570312
+local_in_edges_tensor generation:  0.0024383068084716797
+mini_batch_src_global generation:  0.008709192276000977
+r_  generation:  0.12820768356323242
+local_output_nid generation:  0.002190828323364258
+local_in_edges_tensor generation:  0.008289575576782227
+mini_batch_src_global generation:  0.008839607238769531
+r_  generation:  0.12259602546691895
+local_output_nid generation:  0.003391265869140625
+local_in_edges_tensor generation:  0.002483367919921875
+mini_batch_src_global generation:  0.008762836456298828
+r_  generation:  0.12151050567626953
+local_output_nid generation:  0.0023462772369384766
+local_in_edges_tensor generation:  0.0024919509887695312
+mini_batch_src_global generation:  0.013895034790039062
+r_  generation:  0.12161397933959961
+local_output_nid generation:  0.0021195411682128906
+local_in_edges_tensor generation:  0.0026106834411621094
+mini_batch_src_global generation:  0.008396148681640625
+r_  generation:  0.10392332077026367
+----------------------check_connections_block total spend ----------------------------- 10.400205135345459
+generate_one_block  0.34261178970336914
+generate_one_block  0.2059633731842041
+generate_one_block  0.15823078155517578
+generate_one_block  0.15164542198181152
+generate_one_block  0.1347792148590088
+generate_one_block  0.13113856315612793
+generate_one_block  0.13980841636657715
+generate_one_block  0.12873291969299316
+generate_one_block  0.12571358680725098
+generate_one_block  0.1262364387512207
+generate_one_block  0.1254885196685791
+generate_one_block  0.1288928985595703
+generate_one_block  0.1267375946044922
+generate_one_block  0.12644147872924805
+generate_one_block  0.13251900672912598
+generate_one_block  0.12885808944702148
+generate_one_block  0.12633919715881348
+generate_one_block  0.12897920608520508
+generate_one_block  0.12592411041259766
+generate_one_block  0.1261603832244873
+generate_one_block  0.12512588500976562
+generate_one_block  0.12861251831054688
+generate_one_block  0.12660908699035645
+generate_one_block  0.1282508373260498
+generate_one_block  0.12523651123046875
+generate_one_block  0.13851284980773926
+generate_one_block  0.13041377067565918
+generate_one_block  0.12678980827331543
+generate_one_block  0.1308741569519043
+generate_one_block  0.13126158714294434
+generate_one_block  0.12430286407470703
+generate_one_block  0.1314847469329834
+generate_one_block  0.125746488571167
+generate_one_block  0.12547731399536133
+generate_one_block  0.12981152534484863
+generate_one_block  0.12674927711486816
+generate_one_block  0.13448667526245117
+generate_one_block  0.12941384315490723
+generate_one_block  0.12525296211242676
+generate_one_block  0.1304020881652832
+generate_one_block  0.1275026798248291
+generate_one_block  0.12931299209594727
+generate_one_block  0.13025259971618652
+generate_one_block  0.12571501731872559
+generate_one_block  0.1314549446105957
+generate_one_block  0.13042163848876953
+generate_one_block  0.12446212768554688
+generate_one_block  0.1321852207183838
+generate_one_block  0.12656259536743164
+generate_one_block  0.14040470123291016
+generate_one_block  0.13234782218933105
+generate_one_block  0.12448954582214355
+generate_one_block  0.12544965744018555
+generate_one_block  0.1285696029663086
+generate_one_block  0.1252460479736328
+generate_one_block  0.1269078254699707
+generate_one_block  0.13034844398498535
+generate_one_block  0.12714838981628418
+generate_one_block  0.12966203689575195
+generate_one_block  0.12560224533081055
+generate_one_block  0.12718892097473145
+generate_one_block  0.13427734375
+generate_one_block  0.1274416446685791
+generate_one_block  0.12926602363586426
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.310997486114502
+gen group dst list time:  0.40165257453918457
+time for parepare:  0.47220778465270996
+local_output_nid generation:  0.06521940231323242
+local_in_edges_tensor generation:  0.25757765769958496
+mini_batch_src_global generation:  0.18526983261108398
+r_  generation:  2.31091046333313
+local_output_nid generation:  0.08071708679199219
+local_in_edges_tensor generation:  0.1640794277191162
+mini_batch_src_global generation:  0.23598504066467285
+r_  generation:  2.3891000747680664
+local_output_nid generation:  0.08023405075073242
+local_in_edges_tensor generation:  0.15909123420715332
+mini_batch_src_global generation:  0.22498154640197754
+r_  generation:  2.4369144439697266
+local_output_nid generation:  0.06932568550109863
+local_in_edges_tensor generation:  0.15655040740966797
+mini_batch_src_global generation:  0.23627972602844238
+r_  generation:  2.5340492725372314
+local_output_nid generation:  0.06543397903442383
+local_in_edges_tensor generation:  0.21645450592041016
+mini_batch_src_global generation:  0.2830188274383545
+r_  generation:  2.6956164836883545
+local_output_nid generation:  0.08406567573547363
+local_in_edges_tensor generation:  0.2327287197113037
+mini_batch_src_global generation:  0.25905871391296387
+r_  generation:  2.6066813468933105
+local_output_nid generation:  0.07449102401733398
+local_in_edges_tensor generation:  0.18382668495178223
+mini_batch_src_global generation:  0.27068471908569336
+r_  generation:  2.624387502670288
+local_output_nid generation:  0.06612610816955566
+local_in_edges_tensor generation:  0.16717815399169922
+mini_batch_src_global generation:  0.26236820220947266
+r_  generation:  2.63750958442688
+local_output_nid generation:  0.06959414482116699
+local_in_edges_tensor generation:  0.3775358200073242
+mini_batch_src_global generation:  0.27692651748657227
+r_  generation:  2.7138702869415283
+local_output_nid generation:  0.08311653137207031
+local_in_edges_tensor generation:  0.1984233856201172
+mini_batch_src_global generation:  0.26421141624450684
+r_  generation:  2.632416248321533
+local_output_nid generation:  0.0774374008178711
+local_in_edges_tensor generation:  0.17382121086120605
+mini_batch_src_global generation:  0.27039670944213867
+r_  generation:  2.6395626068115234
+local_output_nid generation:  0.06257295608520508
+local_in_edges_tensor generation:  0.17774677276611328
+mini_batch_src_global generation:  0.2751760482788086
+r_  generation:  2.7368738651275635
+local_output_nid generation:  0.07157611846923828
+local_in_edges_tensor generation:  0.2544372081756592
+mini_batch_src_global generation:  0.30380797386169434
+r_  generation:  2.664980411529541
+local_output_nid generation:  0.08784008026123047
+local_in_edges_tensor generation:  0.18866372108459473
+mini_batch_src_global generation:  0.2718973159790039
+r_  generation:  2.695241928100586
+local_output_nid generation:  0.0679934024810791
+local_in_edges_tensor generation:  0.16685009002685547
+mini_batch_src_global generation:  0.2819387912750244
+r_  generation:  2.720743179321289
+local_output_nid generation:  0.06291961669921875
+local_in_edges_tensor generation:  0.210801362991333
+mini_batch_src_global generation:  0.2830233573913574
+r_  generation:  2.8059396743774414
+local_output_nid generation:  0.08342576026916504
+local_in_edges_tensor generation:  0.22991085052490234
+mini_batch_src_global generation:  0.27364134788513184
+r_  generation:  2.6790645122528076
+local_output_nid generation:  0.07760071754455566
+local_in_edges_tensor generation:  0.17841219902038574
+mini_batch_src_global generation:  0.28688621520996094
+r_  generation:  2.6855297088623047
+local_output_nid generation:  0.06461024284362793
+local_in_edges_tensor generation:  0.16370892524719238
+mini_batch_src_global generation:  0.28161120414733887
+r_  generation:  2.734257459640503
+local_output_nid generation:  0.06536746025085449
+local_in_edges_tensor generation:  0.24753975868225098
+mini_batch_src_global generation:  0.3080942630767822
+r_  generation:  2.6969728469848633
+local_output_nid generation:  0.09088373184204102
+local_in_edges_tensor generation:  0.180586576461792
+mini_batch_src_global generation:  0.2726874351501465
+r_  generation:  2.6790411472320557
+local_output_nid generation:  0.06747221946716309
+local_in_edges_tensor generation:  0.16617083549499512
+mini_batch_src_global generation:  0.2801065444946289
+r_  generation:  2.7031803131103516
+local_output_nid generation:  0.0625298023223877
+local_in_edges_tensor generation:  0.1669168472290039
+mini_batch_src_global generation:  0.29109692573547363
+r_  generation:  2.7990634441375732
+local_output_nid generation:  0.09723329544067383
+local_in_edges_tensor generation:  0.2654304504394531
+mini_batch_src_global generation:  0.27843475341796875
+r_  generation:  2.688432216644287
+local_output_nid generation:  0.07274389266967773
+local_in_edges_tensor generation:  0.18148374557495117
+mini_batch_src_global generation:  0.29026055335998535
+r_  generation:  2.663577079772949
+local_output_nid generation:  0.06351208686828613
+local_in_edges_tensor generation:  0.16887259483337402
+mini_batch_src_global generation:  0.2756633758544922
+r_  generation:  2.714681625366211
+local_output_nid generation:  0.06938695907592773
+local_in_edges_tensor generation:  0.255704402923584
+mini_batch_src_global generation:  0.2819035053253174
+r_  generation:  2.7851595878601074
+local_output_nid generation:  0.08785820007324219
+local_in_edges_tensor generation:  0.18016481399536133
+mini_batch_src_global generation:  0.2778937816619873
+r_  generation:  2.7200732231140137
+local_output_nid generation:  0.0764620304107666
+local_in_edges_tensor generation:  0.1667954921722412
+mini_batch_src_global generation:  0.2829616069793701
+r_  generation:  2.6819417476654053
+local_output_nid generation:  0.062233924865722656
+local_in_edges_tensor generation:  0.16049599647521973
+mini_batch_src_global generation:  0.2861905097961426
+r_  generation:  2.7181084156036377
+local_output_nid generation:  0.06240653991699219
+local_in_edges_tensor generation:  0.2580718994140625
+mini_batch_src_global generation:  0.316394567489624
+r_  generation:  2.6559319496154785
+local_output_nid generation:  0.08428478240966797
+local_in_edges_tensor generation:  0.1854259967803955
+mini_batch_src_global generation:  0.2758634090423584
+r_  generation:  2.6898694038391113
+local_output_nid generation:  0.06366419792175293
+local_in_edges_tensor generation:  0.1682736873626709
+mini_batch_src_global generation:  0.2766542434692383
+r_  generation:  2.69478178024292
+local_output_nid generation:  0.062479496002197266
+local_in_edges_tensor generation:  0.16221284866333008
+mini_batch_src_global generation:  0.2748894691467285
+r_  generation:  2.8191678524017334
+local_output_nid generation:  0.08318638801574707
+local_in_edges_tensor generation:  0.25809288024902344
+mini_batch_src_global generation:  0.27364253997802734
+r_  generation:  2.6903014183044434
+local_output_nid generation:  0.07638072967529297
+local_in_edges_tensor generation:  0.18550443649291992
+mini_batch_src_global generation:  0.29116177558898926
+r_  generation:  2.700456142425537
+local_output_nid generation:  0.06364035606384277
+local_in_edges_tensor generation:  0.16832947731018066
+mini_batch_src_global generation:  0.27529215812683105
+r_  generation:  2.71120023727417
+local_output_nid generation:  0.06930065155029297
+local_in_edges_tensor generation:  0.2523221969604492
+mini_batch_src_global generation:  0.27995777130126953
+r_  generation:  2.7921054363250732
+local_output_nid generation:  0.08704185485839844
+local_in_edges_tensor generation:  0.17794513702392578
+mini_batch_src_global generation:  0.272261381149292
+r_  generation:  2.706155300140381
+local_output_nid generation:  0.07847881317138672
+local_in_edges_tensor generation:  0.172346830368042
+mini_batch_src_global generation:  0.28212952613830566
+r_  generation:  2.6799368858337402
+local_output_nid generation:  0.06685853004455566
+local_in_edges_tensor generation:  0.16353940963745117
+mini_batch_src_global generation:  0.276700496673584
+r_  generation:  2.753350257873535
+local_output_nid generation:  0.06162905693054199
+local_in_edges_tensor generation:  0.24808049201965332
+mini_batch_src_global generation:  0.3135831356048584
+r_  generation:  2.6970105171203613
+local_output_nid generation:  0.09621715545654297
+local_in_edges_tensor generation:  0.1790764331817627
+mini_batch_src_global generation:  0.27593207359313965
+r_  generation:  2.7448580265045166
+local_output_nid generation:  0.06395745277404785
+local_in_edges_tensor generation:  0.17116332054138184
+mini_batch_src_global generation:  0.27658843994140625
+r_  generation:  2.6798648834228516
+local_output_nid generation:  0.06282186508178711
+local_in_edges_tensor generation:  0.17308425903320312
+mini_batch_src_global generation:  0.28020763397216797
+r_  generation:  2.7819550037384033
+local_output_nid generation:  0.0808413028717041
+local_in_edges_tensor generation:  0.25395727157592773
+mini_batch_src_global generation:  0.2914736270904541
+r_  generation:  2.71492862701416
+local_output_nid generation:  0.08529901504516602
+local_in_edges_tensor generation:  0.176544189453125
+mini_batch_src_global generation:  0.2918837070465088
+r_  generation:  2.643991708755493
+local_output_nid generation:  0.06294965744018555
+local_in_edges_tensor generation:  0.16744160652160645
+mini_batch_src_global generation:  0.28784847259521484
+r_  generation:  2.6969144344329834
+local_output_nid generation:  0.06643533706665039
+local_in_edges_tensor generation:  0.2172694206237793
+mini_batch_src_global generation:  0.2806839942932129
+r_  generation:  2.7934789657592773
+local_output_nid generation:  0.08294367790222168
+local_in_edges_tensor generation:  0.22803068161010742
+mini_batch_src_global generation:  0.27411723136901855
+r_  generation:  2.7004809379577637
+local_output_nid generation:  0.07238602638244629
+local_in_edges_tensor generation:  0.17459344863891602
+mini_batch_src_global generation:  0.28655099868774414
+r_  generation:  2.6864328384399414
+local_output_nid generation:  0.062000274658203125
+local_in_edges_tensor generation:  0.16201329231262207
+mini_batch_src_global generation:  0.2765321731567383
+r_  generation:  2.761181116104126
+local_output_nid generation:  0.07209467887878418
+local_in_edges_tensor generation:  0.25836730003356934
+mini_batch_src_global generation:  0.2787635326385498
+r_  generation:  2.743323564529419
+local_output_nid generation:  0.0862119197845459
+local_in_edges_tensor generation:  0.18671178817749023
+mini_batch_src_global generation:  0.27635836601257324
+r_  generation:  2.684006690979004
+local_output_nid generation:  0.0770711898803711
+local_in_edges_tensor generation:  0.16716313362121582
+mini_batch_src_global generation:  0.27530813217163086
+r_  generation:  2.648902177810669
+local_output_nid generation:  0.06418156623840332
+local_in_edges_tensor generation:  0.16016006469726562
+mini_batch_src_global generation:  0.2757456302642822
+r_  generation:  2.7036449909210205
+local_output_nid generation:  0.06212615966796875
+local_in_edges_tensor generation:  0.2497730255126953
+mini_batch_src_global generation:  0.32254648208618164
+r_  generation:  2.6812336444854736
+local_output_nid generation:  0.08167219161987305
+local_in_edges_tensor generation:  0.18292593955993652
+mini_batch_src_global generation:  0.2801682949066162
+r_  generation:  2.7135355472564697
+local_output_nid generation:  0.06667280197143555
+local_in_edges_tensor generation:  0.16265201568603516
+mini_batch_src_global generation:  0.2788865566253662
+r_  generation:  2.6616830825805664
+local_output_nid generation:  0.06631612777709961
+local_in_edges_tensor generation:  0.15707635879516602
+mini_batch_src_global generation:  0.2781057357788086
+r_  generation:  2.75887131690979
+local_output_nid generation:  0.06154656410217285
+local_in_edges_tensor generation:  0.2575232982635498
+mini_batch_src_global generation:  0.3116462230682373
+r_  generation:  2.679816246032715
+local_output_nid generation:  0.08356451988220215
+local_in_edges_tensor generation:  0.18366122245788574
+mini_batch_src_global generation:  0.28563833236694336
+r_  generation:  2.691209077835083
+local_output_nid generation:  0.06307244300842285
+local_in_edges_tensor generation:  0.1677861213684082
+mini_batch_src_global generation:  0.28009605407714844
+r_  generation:  2.6806750297546387
+local_output_nid generation:  0.06311702728271484
+local_in_edges_tensor generation:  0.1529068946838379
+mini_batch_src_global generation:  0.2777128219604492
+r_  generation:  2.747683048248291
+----------------------check_connections_block total spend ----------------------------- 240.19346475601196
+generate_one_block  3.7834885120391846
+generate_one_block  3.363624095916748
+generate_one_block  3.33821702003479
+generate_one_block  4.022841215133667
+generate_one_block  3.800353765487671
+generate_one_block  3.377211332321167
+generate_one_block  3.4144744873046875
+generate_one_block  3.4441230297088623
+generate_one_block  3.738246440887451
+generate_one_block  3.3860483169555664
+generate_one_block  3.3719356060028076
+generate_one_block  3.396111488342285
+generate_one_block  3.3980109691619873
+generate_one_block  3.8203177452087402
+generate_one_block  3.423100471496582
+generate_one_block  3.4162793159484863
+generate_one_block  3.478391647338867
+generate_one_block  3.80706787109375
+generate_one_block  3.400655508041382
+generate_one_block  3.341958999633789
+generate_one_block  3.426572799682617
+generate_one_block  3.829315423965454
+generate_one_block  3.375645875930786
+generate_one_block  3.4089760780334473
+generate_one_block  3.370511531829834
+generate_one_block  3.4457926750183105
+generate_one_block  3.7769711017608643
+generate_one_block  3.4188289642333984
+generate_one_block  3.4093480110168457
+generate_one_block  3.473219871520996
+generate_one_block  3.750361442565918
+generate_one_block  3.3827455043792725
+generate_one_block  3.3698959350585938
+generate_one_block  3.3686699867248535
+generate_one_block  3.407597780227661
+generate_one_block  3.7662360668182373
+generate_one_block  3.400433301925659
+generate_one_block  3.363353729248047
+generate_one_block  3.426295518875122
+generate_one_block  3.654890298843384
+generate_one_block  3.545861005783081
+generate_one_block  3.363720417022705
+generate_one_block  3.459864377975464
+generate_one_block  3.4030416011810303
+generate_one_block  3.707710027694702
+generate_one_block  3.422788619995117
+generate_one_block  3.337207078933716
+generate_one_block  3.4047257900238037
+generate_one_block  3.3944778442382812
+generate_one_block  3.407360076904297
+generate_one_block  3.788760185241699
+generate_one_block  3.3707668781280518
+generate_one_block  3.4058163166046143
+generate_one_block  3.367117166519165
+generate_one_block  3.3857922554016113
+generate_one_block  3.7974677085876465
+generate_one_block  3.3812224864959717
+generate_one_block  3.378458023071289
+generate_one_block  3.4009101390838623
+generate_one_block  3.416217088699341
+generate_one_block  3.7592382431030273
+generate_one_block  3.3725507259368896
+generate_one_block  3.394771099090576
+generate_one_block  3.3211898803710938
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.248523712158203
+gen group dst list time:  2.6090245246887207
+time for parepare:  0.4799058437347412
+local_output_nid generation:  0.4087662696838379
+local_in_edges_tensor generation:  1.0954434871673584
+mini_batch_src_global generation:  0.8576374053955078
+r_  generation:  10.626337766647339
+local_output_nid generation:  0.44857192039489746
+local_in_edges_tensor generation:  1.076930284500122
+mini_batch_src_global generation:  1.2909650802612305
+r_  generation:  11.88455080986023
+local_output_nid generation:  0.4454817771911621
+local_in_edges_tensor generation:  1.1138544082641602
+mini_batch_src_global generation:  1.2029428482055664
+r_  generation:  11.636672258377075
+local_output_nid generation:  0.46312737464904785
+local_in_edges_tensor generation:  1.0975146293640137
+mini_batch_src_global generation:  1.2860751152038574
+r_  generation:  12.188594818115234
+local_output_nid generation:  0.4592010974884033
+local_in_edges_tensor generation:  0.9384381771087646
+mini_batch_src_global generation:  1.3289620876312256
+r_  generation:  12.567515134811401
+local_output_nid generation:  0.46509480476379395
+local_in_edges_tensor generation:  1.0608758926391602
+mini_batch_src_global generation:  1.324291467666626
+r_  generation:  11.678088903427124
+local_output_nid generation:  0.45527029037475586
+local_in_edges_tensor generation:  0.9547543525695801
+mini_batch_src_global generation:  1.5681850910186768
+r_  generation:  13.495930910110474
+local_output_nid generation:  0.4768812656402588
+local_in_edges_tensor generation:  1.062922716140747
+mini_batch_src_global generation:  1.547452688217163
+r_  generation:  12.151095867156982
+local_output_nid generation:  0.45868349075317383
+local_in_edges_tensor generation:  1.1061506271362305
+mini_batch_src_global generation:  1.5339837074279785
+r_  generation:  13.590059757232666
+local_output_nid generation:  0.45763158798217773
+local_in_edges_tensor generation:  1.1265952587127686
+mini_batch_src_global generation:  1.4094107151031494
+r_  generation:  13.676848888397217
+local_output_nid generation:  0.48258161544799805
+local_in_edges_tensor generation:  1.1091101169586182
+mini_batch_src_global generation:  1.3269362449645996
+r_  generation:  13.849054336547852
+local_output_nid generation:  0.4432971477508545
+local_in_edges_tensor generation:  1.139235258102417
+mini_batch_src_global generation:  1.393239974975586
+r_  generation:  13.943090200424194
+local_output_nid generation:  0.4552633762359619
+local_in_edges_tensor generation:  1.1565871238708496
+mini_batch_src_global generation:  1.3485217094421387
+r_  generation:  13.1739661693573
+local_output_nid generation:  0.8002159595489502
+local_in_edges_tensor generation:  1.0995147228240967
+mini_batch_src_global generation:  1.3092982769012451
+r_  generation:  11.66799283027649
+local_output_nid generation:  0.553642988204956
+local_in_edges_tensor generation:  0.9444644451141357
+mini_batch_src_global generation:  1.3241841793060303
+r_  generation:  11.708227396011353
+local_output_nid generation:  0.4957294464111328
+local_in_edges_tensor generation:  1.4346625804901123
+mini_batch_src_global generation:  1.1293718814849854
+r_  generation:  11.747456789016724
+local_output_nid generation:  0.47448301315307617
+local_in_edges_tensor generation:  0.9864335060119629
+mini_batch_src_global generation:  1.1377055644989014
+r_  generation:  11.681943416595459
+local_output_nid generation:  0.5154054164886475
+local_in_edges_tensor generation:  0.9651579856872559
+mini_batch_src_global generation:  1.1355035305023193
+r_  generation:  11.733400583267212
+local_output_nid generation:  0.521630048751831
+local_in_edges_tensor generation:  0.9543759822845459
+mini_batch_src_global generation:  1.131481647491455
+r_  generation:  11.607357263565063
+local_output_nid generation:  0.5092606544494629
+local_in_edges_tensor generation:  0.9547970294952393
+mini_batch_src_global generation:  1.2425355911254883
+r_  generation:  11.393890142440796
+local_output_nid generation:  0.5429141521453857
+local_in_edges_tensor generation:  0.8450908660888672
+mini_batch_src_global generation:  1.0930047035217285
+r_  generation:  11.521049976348877
+local_output_nid generation:  0.4984140396118164
+local_in_edges_tensor generation:  0.9778733253479004
+mini_batch_src_global generation:  1.1067774295806885
+r_  generation:  11.56867790222168
+local_output_nid generation:  0.5196480751037598
+local_in_edges_tensor generation:  0.980811357498169
+mini_batch_src_global generation:  1.1145598888397217
+r_  generation:  11.749565362930298
+local_output_nid generation:  0.5227072238922119
+local_in_edges_tensor generation:  0.9490537643432617
+mini_batch_src_global generation:  1.1338846683502197
+r_  generation:  11.524022340774536
+local_output_nid generation:  0.5083601474761963
+local_in_edges_tensor generation:  0.8356764316558838
+mini_batch_src_global generation:  1.2704787254333496
+r_  generation:  11.250550031661987
+local_output_nid generation:  0.533193826675415
+local_in_edges_tensor generation:  0.9756412506103516
+mini_batch_src_global generation:  1.1470017433166504
+r_  generation:  11.514552354812622
+local_output_nid generation:  0.4961404800415039
+local_in_edges_tensor generation:  0.986706018447876
+mini_batch_src_global generation:  1.1064186096191406
+r_  generation:  11.716050148010254
+local_output_nid generation:  0.526186466217041
+local_in_edges_tensor generation:  0.9676196575164795
+mini_batch_src_global generation:  1.122896671295166
+r_  generation:  11.610608100891113
+local_output_nid generation:  0.5095539093017578
+local_in_edges_tensor generation:  0.8379626274108887
+mini_batch_src_global generation:  1.2716364860534668
+r_  generation:  11.429913520812988
+local_output_nid generation:  0.5175621509552002
+local_in_edges_tensor generation:  0.9717583656311035
+mini_batch_src_global generation:  1.1195523738861084
+r_  generation:  11.50324559211731
+local_output_nid generation:  0.4876103401184082
+local_in_edges_tensor generation:  0.9931640625
+mini_batch_src_global generation:  1.1280810832977295
+r_  generation:  11.566019058227539
+local_output_nid generation:  0.523489236831665
+local_in_edges_tensor generation:  0.9782042503356934
+mini_batch_src_global generation:  1.1298625469207764
+r_  generation:  11.836236000061035
+local_output_nid generation:  0.5180108547210693
+local_in_edges_tensor generation:  0.9454700946807861
+mini_batch_src_global generation:  1.1236169338226318
+r_  generation:  11.560616970062256
+local_output_nid generation:  0.5179102420806885
+local_in_edges_tensor generation:  0.834395170211792
+mini_batch_src_global generation:  1.2694861888885498
+r_  generation:  11.558305501937866
+local_output_nid generation:  0.5477645397186279
+local_in_edges_tensor generation:  0.9592180252075195
+mini_batch_src_global generation:  1.144425630569458
+r_  generation:  11.576257944107056
+local_output_nid generation:  0.49264025688171387
+local_in_edges_tensor generation:  0.9804050922393799
+mini_batch_src_global generation:  1.1244938373565674
+r_  generation:  11.606019735336304
+local_output_nid generation:  0.5134634971618652
+local_in_edges_tensor generation:  0.9877617359161377
+mini_batch_src_global generation:  1.0895614624023438
+r_  generation:  11.60675573348999
+local_output_nid generation:  0.5178995132446289
+local_in_edges_tensor generation:  0.9521462917327881
+mini_batch_src_global generation:  1.1202375888824463
+r_  generation:  11.701668739318848
+local_output_nid generation:  0.523080587387085
+local_in_edges_tensor generation:  0.9567117691040039
+mini_batch_src_global generation:  1.1617906093597412
+r_  generation:  11.683235168457031
+local_output_nid generation:  0.5429158210754395
+local_in_edges_tensor generation:  0.8467614650726318
+mini_batch_src_global generation:  1.2708840370178223
+r_  generation:  11.505157470703125
+local_output_nid generation:  0.5572271347045898
+local_in_edges_tensor generation:  0.985468864440918
+mini_batch_src_global generation:  1.1250085830688477
+r_  generation:  11.860212087631226
+local_output_nid generation:  0.5029697418212891
+local_in_edges_tensor generation:  0.9963910579681396
+mini_batch_src_global generation:  1.1092748641967773
+r_  generation:  11.634311199188232
+local_output_nid generation:  0.5316867828369141
+local_in_edges_tensor generation:  0.9719603061676025
+mini_batch_src_global generation:  1.1299207210540771
+r_  generation:  11.914945363998413
+local_output_nid generation:  0.519193172454834
+local_in_edges_tensor generation:  0.9457688331604004
+mini_batch_src_global generation:  1.1183900833129883
+r_  generation:  11.607120513916016
+local_output_nid generation:  0.5235147476196289
+local_in_edges_tensor generation:  0.8323009014129639
+mini_batch_src_global generation:  1.2260589599609375
+r_  generation:  11.679904460906982
+local_output_nid generation:  0.5511825084686279
+local_in_edges_tensor generation:  0.9671978950500488
+mini_batch_src_global generation:  1.1274685859680176
+r_  generation:  11.823964595794678
+local_output_nid generation:  0.4948139190673828
+local_in_edges_tensor generation:  1.010505199432373
+mini_batch_src_global generation:  1.1055774688720703
+r_  generation:  11.56880807876587
+local_output_nid generation:  0.5230400562286377
+local_in_edges_tensor generation:  0.9796962738037109
+mini_batch_src_global generation:  1.131042718887329
+r_  generation:  11.85116958618164
+local_output_nid generation:  0.5242230892181396
+local_in_edges_tensor generation:  0.9548606872558594
+mini_batch_src_global generation:  1.1227076053619385
+r_  generation:  11.551697254180908
+local_output_nid generation:  0.5166020393371582
+local_in_edges_tensor generation:  0.8294270038604736
+mini_batch_src_global generation:  1.2619919776916504
+r_  generation:  11.362250089645386
+local_output_nid generation:  0.5433523654937744
+local_in_edges_tensor generation:  0.9575471878051758
+mini_batch_src_global generation:  1.1452274322509766
+r_  generation:  11.492966890335083
+local_output_nid generation:  0.4902663230895996
+local_in_edges_tensor generation:  0.9825446605682373
+mini_batch_src_global generation:  1.1207003593444824
+r_  generation:  11.571401834487915
+local_output_nid generation:  0.5114541053771973
+local_in_edges_tensor generation:  0.9773976802825928
+mini_batch_src_global generation:  1.1118004322052002
+r_  generation:  11.700462818145752
+local_output_nid generation:  0.5181601047515869
+local_in_edges_tensor generation:  0.9447219371795654
+mini_batch_src_global generation:  1.1183910369873047
+r_  generation:  11.58558702468872
+local_output_nid generation:  0.5043127536773682
+local_in_edges_tensor generation:  0.8260009288787842
+mini_batch_src_global generation:  1.2449922561645508
+r_  generation:  11.335484504699707
+local_output_nid generation:  0.5228500366210938
+local_in_edges_tensor generation:  0.9561643600463867
+mini_batch_src_global generation:  1.1526014804840088
+r_  generation:  11.51008677482605
+local_output_nid generation:  0.5181684494018555
+local_in_edges_tensor generation:  1.003709316253662
+mini_batch_src_global generation:  1.1542584896087646
+r_  generation:  11.665851354598999
+local_output_nid generation:  0.5125739574432373
+local_in_edges_tensor generation:  0.9965381622314453
+mini_batch_src_global generation:  1.1036136150360107
+r_  generation:  11.694296836853027
+local_output_nid generation:  0.5142662525177002
+local_in_edges_tensor generation:  0.9392602443695068
+mini_batch_src_global generation:  1.1095969676971436
+r_  generation:  11.465963125228882
+local_output_nid generation:  0.5120446681976318
+local_in_edges_tensor generation:  0.8221349716186523
+mini_batch_src_global generation:  1.241164207458496
+r_  generation:  11.377485990524292
+local_output_nid generation:  0.5261592864990234
+local_in_edges_tensor generation:  0.9628589153289795
+mini_batch_src_global generation:  1.1355013847351074
+r_  generation:  11.422358274459839
+local_output_nid generation:  0.5210325717926025
+local_in_edges_tensor generation:  0.9875526428222656
+mini_batch_src_global generation:  1.1628639698028564
+r_  generation:  11.531434535980225
+local_output_nid generation:  0.510167121887207
+local_in_edges_tensor generation:  0.9870686531066895
+mini_batch_src_global generation:  1.1013908386230469
+r_  generation:  11.69979453086853
+local_output_nid generation:  0.5141286849975586
+local_in_edges_tensor generation:  0.9377987384796143
+mini_batch_src_global generation:  1.11324143409729
+r_  generation:  11.45260763168335
+----------------------check_connections_block total spend ----------------------------- 1059.112251996994
+generate_one_block  16.791876316070557
+generate_one_block  20.698673009872437
+generate_one_block  14.982717037200928
+generate_one_block  15.30013108253479
+generate_one_block  15.346370935440063
+generate_one_block  15.394734144210815
+generate_one_block  15.334685564041138
+generate_one_block  15.168614387512207
+generate_one_block  15.408770561218262
+generate_one_block  15.191810369491577
+generate_one_block  15.25246548652649
+generate_one_block  14.97484302520752
+generate_one_block  15.617920160293579
+generate_one_block  15.391072750091553
+generate_one_block  15.620625257492065
+generate_one_block  15.331084489822388
+generate_one_block  15.050809860229492
+generate_one_block  15.437742710113525
+generate_one_block  15.26488208770752
+generate_one_block  15.085524320602417
+generate_one_block  15.131206512451172
+generate_one_block  15.243978500366211
+generate_one_block  15.47534465789795
+generate_one_block  15.326061487197876
+generate_one_block  15.27521562576294
+generate_one_block  14.932874202728271
+generate_one_block  15.637659549713135
+generate_one_block  15.742663383483887
+generate_one_block  15.34479546546936
+generate_one_block  15.257159948348999
+generate_one_block  15.065074682235718
+generate_one_block  15.61371660232544
+generate_one_block  15.327261924743652
+generate_one_block  15.227134466171265
+generate_one_block  15.285205364227295
+generate_one_block  15.151766538619995
+generate_one_block  15.454097986221313
+generate_one_block  15.279775142669678
+generate_one_block  15.312002420425415
+generate_one_block  15.370876789093018
+generate_one_block  16.19429898262024
+generate_one_block  15.628888130187988
+generate_one_block  15.711511373519897
+generate_one_block  15.476457118988037
+generate_one_block  15.345512390136719
+generate_one_block  15.398037195205688
+generate_one_block  15.300878524780273
+generate_one_block  15.733391284942627
+generate_one_block  15.722690105438232
+generate_one_block  15.314123630523682
+generate_one_block  15.584263563156128
+generate_one_block  15.286718845367432
+generate_one_block  15.674161195755005
+generate_one_block  15.950611352920532
+generate_one_block  15.454357147216797
+generate_one_block  15.390539646148682
+generate_one_block  15.295714378356934
+generate_one_block  15.768724918365479
+generate_one_block  15.584537267684937
+generate_one_block  15.547040700912476
+generate_one_block  15.39358115196228
+generate_one_block  15.570242643356323
+generate_one_block  15.12305474281311
+generate_one_block  15.696404457092285
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.4832749366760254  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+connection checking time:  1299.305716753006
+block generation total time  1215.5801203250885
+average batch blocks generation time:  18.993439380079508
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9881725311279297  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.626002311706543  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9902887344360352  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.6314005851745605  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9881167411804199  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 1.625223159790039  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1102294921875 GB
+    Memory Allocated: 0.9972877502441406  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1121826171875 GB
+    Memory Allocated: 1.6444802284240723  GigaBytes
+Max Memory Allocated: 2.375885009765625  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9914541244506836  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6322088241577148  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9926128387451172  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.637838363647461  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9933571815490723  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.638953685760498  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9932570457458496  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6382803916931152  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9892888069152832  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.627725601196289  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9846353530883789  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6210637092590332  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9922904968261719  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6318445205688477  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.993232250213623  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6376190185546875  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.994969367980957  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.639312744140625  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9926557540893555  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.637650489807129  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9964780807495117  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.646223545074463  GigaBytes
+Max Memory Allocated: 2.3783798217773438  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9953718185424805  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6410322189331055  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9919219017028809  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.633110523223877  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9861550331115723  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6241235733032227  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9894199371337891  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6324400901794434  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9869489669799805  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6235532760620117  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9876446723937988  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6257615089416504  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9860401153564453  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.626904010772705  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9913911819458008  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6318163871765137  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9937319755554199  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6390199661254883  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.988128662109375  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6271276473999023  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9874725341796875  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6292247772216797  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9926290512084961  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6376070976257324  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9947285652160645  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.641787052154541  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9900517463684082  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6334943771362305  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9839167594909668  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.619424819946289  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9880547523498535  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6265296936035156  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.994166374206543  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6399660110473633  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9899487495422363  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6305537223815918  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9906549453735352  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6318731307983398  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.986504077911377  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6242523193359375  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9894919395446777  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.630387306213379  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9882535934448242  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6279501914978027  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9879260063171387  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6251931190490723  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9952735900878906  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6404895782470703  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9873862266540527  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6288871765136719  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9968361854553223  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6455483436584473  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.986269474029541  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6225666999816895  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.993992805480957  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6400108337402344  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9896130561828613  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6301817893981934  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9882030487060547  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6280250549316406  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9891571998596191  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6302099227905273  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.988126277923584  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6245698928833008  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9960722923278809  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6418962478637695  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9955806732177734  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6429738998413086  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9881844520568848  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6293935775756836  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9944968223571777  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6406583786010742  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9930939674377441  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6375250816345215  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9905729293823242  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.632194995880127  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9935421943664551  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6386737823486328  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9872665405273438  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6242280006408691  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 0.9909391403198242  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.1141357421875 GB
+    Memory Allocated: 1.6309642791748047  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 0.9975953102111816  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 1.6446657180786133  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 0.9955039024353027  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+Using backend: pytorch
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 1.6415762901306152  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 0.9883761405944824  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 1.6265888214111328  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 0.9893679618835449  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 1.62886381149292  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 0.9883952140808105  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 1.6262788772583008  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 0.9932112693786621  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 1.6389398574829102  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 0.988703727722168  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 1.62833833694458  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 0.988189697265625  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+-----------------------------------------batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 8.8680419921875 GB
+    Memory Allocated: 1.6232037544250488  GigaBytes
+Max Memory Allocated: 2.3809218406677246  GigaBytes
+
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.21261436492204666 |0.20743636414408684 |0.004275675863027573 |0.0001431293785572052 |0.004883699119091034 |0.0012917518615722656 |
+----------------------------------------------------------pseudo_mini_loss sum 6.00830602645874
+Total (block generation + training)time/epoch 2623.2218475341797
+Training time/epoch 1648457399.580083
+Training time without block to device /epoch 1648457386.3041556
+Training time without total dataloading part /epoch 0.5966520309448242
+load block tensor time/epoch 13.607319355010986
+block to device time/epoch 13.275927305221558
+input features size transfer per epoch 8.58306884765625e-06
+blocks size to device per epoch 5.7220458984375e-06
+ Run 0| Epoch 1 |
+Number of nodes for computation during this epoch:  215802270
+Number of first layer input nodes during this epoch:  128384924

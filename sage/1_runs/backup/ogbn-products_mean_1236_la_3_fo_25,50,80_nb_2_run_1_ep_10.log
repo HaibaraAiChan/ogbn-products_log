@@ -1,0 +1,724 @@
+Using backend: pytorch
+main start at this time 1646803051.1612003
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 2.0242919921875 GB
+    Memory Allocated: 0.00010251998901367188  GigaBytes
+Max Memory Allocated: 0.00010251998901367188  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.7134130001068115
+range selection method range initialization spend 0.028839826583862305
+time for parepare:  0.38303184509277344
+local_output_nid generation:  0.02636551856994629
+local_in_edges_tensor generation:  0.14241671562194824
+mini_batch_src_global generation:  0.2274167537689209
+r_  generation:  3.264570713043213
+local_output_nid generation:  0.027220726013183594
+local_in_edges_tensor generation:  0.1125640869140625
+mini_batch_src_global generation:  0.28723764419555664
+r_  generation:  3.358703136444092
+----------------------check_connections_block total spend ----------------------------- 8.858473062515259
+generate_one_block  9.371915578842163
+generate_one_block  4.167847156524658
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.9478230476379395
+gen group dst list time:  0.07596158981323242
+time for parepare:  0.45961523056030273
+local_output_nid generation:  0.20365548133850098
+local_in_edges_tensor generation:  1.0526049137115479
+mini_batch_src_global generation:  1.6586878299713135
+r_  generation:  20.116596698760986
+local_output_nid generation:  0.41412806510925293
+local_in_edges_tensor generation:  1.2631425857543945
+mini_batch_src_global generation:  2.1055400371551514
+r_  generation:  20.621387481689453
+----------------------check_connections_block total spend ----------------------------- 55.2613959312439
+generate_one_block  28.116241216659546
+generate_one_block  27.858999490737915
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.150822639465332
+gen group dst list time:  0.16924810409545898
+time for parepare:  0.46967077255249023
+local_output_nid generation:  0.38246965408325195
+local_in_edges_tensor generation:  1.0510790348052979
+mini_batch_src_global generation:  1.3714964389801025
+r_  generation:  18.642431259155273
+local_output_nid generation:  0.7204463481903076
+local_in_edges_tensor generation:  1.4100453853607178
+mini_batch_src_global generation:  1.8496334552764893
+r_  generation:  18.332181453704834
+----------------------check_connections_block total spend ----------------------------- 50.93809747695923
+generate_one_block  24.25469207763672
+generate_one_block  23.929319620132446
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 2.0242919921875 GB
+    Memory Allocated: 0.00010251998901367188  GigaBytes
+Max Memory Allocated: 0.00010251998901367188  GigaBytes
+
+connection checking time:  106.19949340820312
+block generation total time  104.15925240516663
+average batch blocks generation time:  52.07962620258331
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.35034632682800293 |1.085257887840271 |0.4033539295196533 |0.0001933574676513672 |0.0632091760635376 |0.002012968063354492 |
+----------------------------------------------------------pseudo_mini_loss sum 8.752933502197266
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 13.49it/s] 16%|█▌        | 4/25 [00:00<00:01, 15.01it/s] 24%|██▍       | 6/25 [00:00<00:01, 15.69it/s] 32%|███▏      | 8/25 [00:00<00:01, 16.56it/s] 40%|████      | 10/25 [00:00<00:00, 17.05it/s] 48%|████▊     | 12/25 [00:00<00:00, 17.43it/s] 56%|█████▌    | 14/25 [00:00<00:00, 17.70it/s] 64%|██████▍   | 16/25 [00:00<00:00, 17.76it/s] 72%|███████▏  | 18/25 [00:01<00:00, 17.94it/s] 80%|████████  | 20/25 [00:01<00:00, 18.07it/s] 88%|████████▊ | 22/25 [00:01<00:00, 18.12it/s] 96%|█████████▌| 24/25 [00:01<00:00, 18.21it/s]100%|██████████| 25/25 [00:01<00:00, 17.73it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.49it/s]  8%|▊         | 2/25 [00:00<00:04,  5.54it/s] 12%|█▏        | 3/25 [00:00<00:03,  5.53it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.54it/s] 20%|██        | 5/25 [00:00<00:03,  5.54it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.54it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.46it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.40it/s] 36%|███▌      | 9/25 [00:01<00:03,  5.30it/s] 40%|████      | 10/25 [00:01<00:02,  5.31it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.27it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.18it/s] 52%|█████▏    | 13/25 [00:02<00:02,  4.78it/s] 56%|█████▌    | 14/25 [00:02<00:02,  4.52it/s] 60%|██████    | 15/25 [00:02<00:02,  4.47it/s] 64%|██████▍   | 16/25 [00:03<00:01,  4.66it/s] 68%|██████▊   | 17/25 [00:03<00:01,  4.83it/s] 72%|███████▏  | 18/25 [00:03<00:01,  4.96it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.08it/s] 80%|████████  | 20/25 [00:03<00:00,  5.15it/s] 84%|████████▍ | 21/25 [00:04<00:00,  5.19it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.24it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.27it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.28it/s]100%|██████████| 25/25 [00:04<00:00,  5.84it/s]100%|██████████| 25/25 [00:04<00:00,  5.22it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  4.92it/s]  8%|▊         | 2/25 [00:00<00:04,  5.13it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.17it/s] 16%|█▌        | 4/25 [00:00<00:04,  5.19it/s] 20%|██        | 5/25 [00:00<00:03,  5.21it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.20it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.22it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.21it/s] 36%|███▌      | 9/25 [00:01<00:03,  5.22it/s] 40%|████      | 10/25 [00:01<00:02,  5.19it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.20it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.22it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.19it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.20it/s] 60%|██████    | 15/25 [00:02<00:01,  5.16it/s] 64%|██████▍   | 16/25 [00:03<00:01,  5.15it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.17it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.22it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.25it/s] 80%|████████  | 20/25 [00:03<00:00,  5.23it/s] 84%|████████▍ | 21/25 [00:04<00:00,  5.26it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.23it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.16it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.11it/s]100%|██████████| 25/25 [00:04<00:00,  5.79it/s]100%|██████████| 25/25 [00:04<00:00,  5.26it/s]
+Run 00 | Epoch 00000 | Loss 8.7529 | Train 0.0328 | Val 0.0313 | Test 0.0274
+Number of nodes during this epoch:  4560196
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 19.9266357421875 GB
+    Memory Allocated: 3.0896005630493164  GigaBytes
+Max Memory Allocated: 10.872366428375244  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.6884779930114746
+range selection method range initialization spend 0.028146982192993164
+time for parepare:  0.38332176208496094
+local_output_nid generation:  0.02767181396484375
+local_in_edges_tensor generation:  0.14954829216003418
+mini_batch_src_global generation:  0.23519611358642578
+r_  generation:  3.3816609382629395
+local_output_nid generation:  0.030562162399291992
+local_in_edges_tensor generation:  0.1342942714691162
+mini_batch_src_global generation:  0.2860586643218994
+r_  generation:  3.581454277038574
+----------------------check_connections_block total spend ----------------------------- 9.345638036727905
+generate_one_block  4.700570106506348
+generate_one_block  4.61017107963562
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.7913787364959717
+gen group dst list time:  0.07761096954345703
+time for parepare:  0.4725465774536133
+local_output_nid generation:  0.20434355735778809
+local_in_edges_tensor generation:  1.0395710468292236
+mini_batch_src_global generation:  1.7024362087249756
+r_  generation:  20.935393810272217
+local_output_nid generation:  0.4453697204589844
+local_in_edges_tensor generation:  1.675842046737671
+mini_batch_src_global generation:  2.3357274532318115
+r_  generation:  20.96520733833313
+----------------------check_connections_block total spend ----------------------------- 57.66368222236633
+generate_one_block  29.35908007621765
+generate_one_block  29.35438060760498
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.1362595558166504
+gen group dst list time:  0.1638321876525879
+time for parepare:  0.4664318561553955
+local_output_nid generation:  0.3708376884460449
+local_in_edges_tensor generation:  1.039027452468872
+mini_batch_src_global generation:  1.426483392715454
+r_  generation:  18.799070596694946
+local_output_nid generation:  0.7307443618774414
+local_in_edges_tensor generation:  1.5074174404144287
+mini_batch_src_global generation:  1.9254908561706543
+r_  generation:  18.44794774055481
+----------------------check_connections_block total spend ----------------------------- 51.43903660774231
+generate_one_block  23.873061656951904
+generate_one_block  24.174879550933838
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 19.9266357421875 GB
+    Memory Allocated: 3.0896005630493164  GigaBytes
+Max Memory Allocated: 10.872366428375244  GigaBytes
+
+connection checking time:  109.10271883010864
+block generation total time  106.76140189170837
+average batch blocks generation time:  53.38070094585419
+block dataloader generation time/epoch 255.05028772354126
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.4085019826889038 |0.8990150690078735 |0.010507583618164062 |0.00013363361358642578 |0.07479476928710938 |0.002994060516357422 |
+----------------------------------------------------------pseudo_mini_loss sum 5.091635704040527
+Total (block generation + training)time/epoch 257.985543012619
+Training time/epoch 2.9350900650024414
+Training time without block to device /epoch 1.1370599269866943
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 15.91it/s] 16%|█▌        | 4/25 [00:00<00:01, 16.53it/s] 24%|██▍       | 6/25 [00:00<00:01, 17.30it/s] 32%|███▏      | 8/25 [00:00<00:00, 17.72it/s] 40%|████      | 10/25 [00:00<00:00, 17.94it/s] 48%|████▊     | 12/25 [00:00<00:00, 18.10it/s] 56%|█████▌    | 14/25 [00:00<00:00, 17.92it/s] 64%|██████▍   | 16/25 [00:00<00:00, 17.44it/s] 72%|███████▏  | 18/25 [00:01<00:00, 17.48it/s] 80%|████████  | 20/25 [00:01<00:00, 17.16it/s] 88%|████████▊ | 22/25 [00:01<00:00, 17.60it/s] 96%|█████████▌| 24/25 [00:01<00:00, 17.88it/s]100%|██████████| 25/25 [00:01<00:00, 17.86it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.55it/s]  8%|▊         | 2/25 [00:00<00:04,  5.55it/s] 12%|█▏        | 3/25 [00:00<00:03,  5.58it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.60it/s] 20%|██        | 5/25 [00:00<00:03,  5.76it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.87it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.89it/s] 32%|███▏      | 8/25 [00:01<00:02,  5.79it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.73it/s] 40%|████      | 10/25 [00:01<00:02,  5.62it/s] 44%|████▍     | 11/25 [00:01<00:02,  5.62it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.82it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.91it/s] 56%|█████▌    | 14/25 [00:02<00:01,  5.70it/s] 60%|██████    | 15/25 [00:02<00:01,  5.65it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.65it/s] 68%|██████▊   | 17/25 [00:02<00:01,  5.64it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.82it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.86it/s] 80%|████████  | 20/25 [00:03<00:00,  5.75it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.64it/s] 88%|████████▊ | 22/25 [00:03<00:00,  5.57it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.55it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.54it/s]100%|██████████| 25/25 [00:04<00:00,  6.14it/s]100%|██████████| 25/25 [00:04<00:00,  5.75it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.41it/s]  8%|▊         | 2/25 [00:00<00:03,  5.82it/s] 12%|█▏        | 3/25 [00:00<00:03,  5.62it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.57it/s] 20%|██        | 5/25 [00:00<00:03,  5.49it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.48it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.50it/s] 32%|███▏      | 8/25 [00:01<00:02,  5.68it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.63it/s] 40%|████      | 10/25 [00:01<00:02,  5.21it/s] 44%|████▍     | 11/25 [00:02<00:02,  4.93it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.00it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.13it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.34it/s] 60%|██████    | 15/25 [00:02<00:01,  5.38it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.39it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.39it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.42it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.59it/s] 80%|████████  | 20/25 [00:03<00:00,  5.72it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.69it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.73it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.74it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.69it/s]100%|██████████| 25/25 [00:04<00:00,  6.32it/s]100%|██████████| 25/25 [00:04<00:00,  5.56it/s]
+Run 00 | Epoch 00001 | Loss 5.0916 | Train 0.0898 | Val 0.0850 | Test 0.0654
+Number of nodes during this epoch:  4560481
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.090301990509033  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.6669542789459229
+range selection method range initialization spend 0.03330278396606445
+time for parepare:  0.3857307434082031
+local_output_nid generation:  0.025992870330810547
+local_in_edges_tensor generation:  0.10626912117004395
+mini_batch_src_global generation:  0.22772002220153809
+r_  generation:  3.3758091926574707
+local_output_nid generation:  0.03117966651916504
+local_in_edges_tensor generation:  0.1361219882965088
+mini_batch_src_global generation:  0.2856588363647461
+r_  generation:  3.449902296066284
+----------------------check_connections_block total spend ----------------------------- 9.092977523803711
+generate_one_block  4.493762016296387
+generate_one_block  4.118402481079102
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.6992969512939453
+gen group dst list time:  0.07669210433959961
+time for parepare:  0.461414098739624
+local_output_nid generation:  0.22202301025390625
+local_in_edges_tensor generation:  1.0837626457214355
+mini_batch_src_global generation:  1.6637566089630127
+r_  generation:  20.213757753372192
+local_output_nid generation:  0.45070338249206543
+local_in_edges_tensor generation:  1.2078869342803955
+mini_batch_src_global generation:  2.179600954055786
+r_  generation:  20.57176423072815
+----------------------check_connections_block total spend ----------------------------- 55.43019652366638
+generate_one_block  27.931070804595947
+generate_one_block  27.813748121261597
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.07686710357666
+gen group dst list time:  0.16897201538085938
+time for parepare:  0.46542811393737793
+local_output_nid generation:  0.4153170585632324
+local_in_edges_tensor generation:  1.1046490669250488
+mini_batch_src_global generation:  1.3484983444213867
+r_  generation:  18.26876449584961
+local_output_nid generation:  0.70623779296875
+local_in_edges_tensor generation:  1.5170013904571533
+mini_batch_src_global generation:  1.8742237091064453
+r_  generation:  18.10645604133606
+----------------------check_connections_block total spend ----------------------------- 50.58052134513855
+generate_one_block  23.465519666671753
+generate_one_block  23.93856453895569
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.090301990509033  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+connection checking time:  106.01071786880493
+block generation total time  103.14890313148499
+average batch blocks generation time:  51.57445156574249
+block dataloader generation time/epoch 250.98550534248352
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.3936196565628052 |0.742850661277771 |0.003945589065551758 |0.0001304149627685547 |0.07657194137573242 |0.0029497146606445312 |
+----------------------------------------------------------pseudo_mini_loss sum 3.6972360610961914
+Total (block generation + training)time/epoch 253.81350684165955
+Training time/epoch 2.7205710411071777
+Training time without block to device /epoch 1.2348697185516357
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 16.03it/s] 16%|█▌        | 4/25 [00:00<00:01, 16.80it/s] 24%|██▍       | 6/25 [00:00<00:01, 17.25it/s] 32%|███▏      | 8/25 [00:00<00:00, 17.24it/s] 40%|████      | 10/25 [00:00<00:00, 17.24it/s] 48%|████▊     | 12/25 [00:00<00:00, 17.21it/s] 56%|█████▌    | 14/25 [00:00<00:00, 17.31it/s] 64%|██████▍   | 16/25 [00:00<00:00, 17.21it/s] 72%|███████▏  | 18/25 [00:01<00:00, 17.53it/s] 80%|████████  | 20/25 [00:01<00:00, 17.77it/s] 88%|████████▊ | 22/25 [00:01<00:00, 17.94it/s] 96%|█████████▌| 24/25 [00:01<00:00, 18.11it/s]100%|██████████| 25/25 [00:01<00:00, 17.79it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.51it/s]  8%|▊         | 2/25 [00:00<00:04,  5.51it/s] 12%|█▏        | 3/25 [00:00<00:03,  5.51it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.49it/s] 20%|██        | 5/25 [00:00<00:03,  5.51it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.51it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.52it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.49it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.50it/s] 40%|████      | 10/25 [00:01<00:02,  5.50it/s] 44%|████▍     | 11/25 [00:01<00:02,  5.51it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.38it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.38it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.43it/s] 60%|██████    | 15/25 [00:02<00:01,  5.44it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.46it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.48it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.46it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.45it/s] 80%|████████  | 20/25 [00:03<00:00,  5.42it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.43it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.42it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.42it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.43it/s]100%|██████████| 25/25 [00:04<00:00,  6.04it/s]100%|██████████| 25/25 [00:04<00:00,  5.53it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.28it/s]  8%|▊         | 2/25 [00:00<00:04,  5.30it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.30it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.32it/s] 20%|██        | 5/25 [00:00<00:03,  5.26it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.06it/s] 28%|██▊       | 7/25 [00:01<00:03,  4.55it/s] 32%|███▏      | 8/25 [00:01<00:03,  4.59it/s] 36%|███▌      | 9/25 [00:01<00:03,  4.73it/s] 40%|████      | 10/25 [00:02<00:03,  4.88it/s] 44%|████▍     | 11/25 [00:02<00:02,  4.99it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.06it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.15it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.17it/s] 60%|██████    | 15/25 [00:02<00:01,  5.18it/s] 64%|██████▍   | 16/25 [00:03<00:01,  5.02it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.09it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.13it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.19it/s] 80%|████████  | 20/25 [00:03<00:00,  5.22it/s] 84%|████████▍ | 21/25 [00:04<00:00,  5.23it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.24it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.24it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.25it/s]100%|██████████| 25/25 [00:04<00:00,  5.89it/s]100%|██████████| 25/25 [00:04<00:00,  5.18it/s]
+Run 00 | Epoch 00002 | Loss 3.6972 | Train 0.2008 | Val 0.1902 | Test 0.1405
+Number of nodes during this epoch:  4561256
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.089407444000244  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.6836695671081543
+range selection method range initialization spend 0.03012681007385254
+time for parepare:  0.3513309955596924
+local_output_nid generation:  0.025368690490722656
+local_in_edges_tensor generation:  0.08788824081420898
+mini_batch_src_global generation:  0.2105262279510498
+r_  generation:  3.176583766937256
+local_output_nid generation:  0.026865720748901367
+local_in_edges_tensor generation:  0.11141133308410645
+mini_batch_src_global generation:  0.28490447998046875
+r_  generation:  3.3693201541900635
+----------------------check_connections_block total spend ----------------------------- 8.642407417297363
+generate_one_block  4.442293643951416
+generate_one_block  4.483274221420288
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.804994821548462
+gen group dst list time:  0.0770256519317627
+time for parepare:  0.43113279342651367
+local_output_nid generation:  0.2163689136505127
+local_in_edges_tensor generation:  1.0517914295196533
+mini_batch_src_global generation:  1.733515739440918
+r_  generation:  20.520137786865234
+local_output_nid generation:  0.4395413398742676
+local_in_edges_tensor generation:  1.3847715854644775
+mini_batch_src_global generation:  2.321676254272461
+r_  generation:  20.608891010284424
+----------------------check_connections_block total spend ----------------------------- 56.20181679725647
+generate_one_block  27.766496658325195
+generate_one_block  27.78518509864807
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.1483123302459717
+gen group dst list time:  0.18874788284301758
+time for parepare:  0.4754631519317627
+local_output_nid generation:  0.3831450939178467
+local_in_edges_tensor generation:  1.0337553024291992
+mini_batch_src_global generation:  1.3577265739440918
+r_  generation:  18.48712658882141
+local_output_nid generation:  0.7743754386901855
+local_in_edges_tensor generation:  1.4111406803131104
+mini_batch_src_global generation:  1.8750104904174805
+r_  generation:  18.194379329681396
+----------------------check_connections_block total spend ----------------------------- 50.68880367279053
+generate_one_block  23.9008686542511
+generate_one_block  24.12520670890808
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.089407444000244  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+connection checking time:  106.890620470047
+block generation total time  103.57775712013245
+average batch blocks generation time:  51.78887856006622
+block dataloader generation time/epoch 250.0635041395823
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.42169952392578125 |0.7906910181045532 |0.004018664360046387 |0.00013136863708496094 |0.005189180374145508 |0.002891063690185547 |
+----------------------------------------------------------pseudo_mini_loss sum 3.109595775604248
+Total (block generation + training)time/epoch 252.85878252983093
+Training time/epoch 2.729673147201538
+Training time without block to device /epoch 1.1482911109924316
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 16.08it/s] 16%|█▌        | 4/25 [00:00<00:01, 16.97it/s] 24%|██▍       | 6/25 [00:00<00:01, 17.32it/s] 32%|███▏      | 8/25 [00:00<00:00, 17.35it/s] 40%|████      | 10/25 [00:00<00:00, 17.73it/s] 48%|████▊     | 12/25 [00:00<00:00, 17.99it/s] 56%|█████▌    | 14/25 [00:00<00:00, 18.19it/s] 64%|██████▍   | 16/25 [00:00<00:00, 17.71it/s] 72%|███████▏  | 18/25 [00:01<00:00, 17.48it/s] 80%|████████  | 20/25 [00:01<00:00, 17.75it/s] 88%|████████▊ | 22/25 [00:01<00:00, 17.77it/s] 96%|█████████▌| 24/25 [00:01<00:00, 18.02it/s]100%|██████████| 25/25 [00:01<00:00, 17.97it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.39it/s]  8%|▊         | 2/25 [00:00<00:04,  5.47it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.49it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.49it/s] 20%|██        | 5/25 [00:00<00:03,  5.51it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.43it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.42it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.41it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.42it/s] 40%|████      | 10/25 [00:01<00:02,  5.46it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.47it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.47it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.49it/s] 56%|█████▌    | 14/25 [00:02<00:01,  5.50it/s] 60%|██████    | 15/25 [00:02<00:01,  5.51it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.51it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.52it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.51it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.51it/s] 80%|████████  | 20/25 [00:03<00:00,  5.49it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.50it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.51it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.51it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.52it/s]100%|██████████| 25/25 [00:04<00:00,  6.12it/s]100%|██████████| 25/25 [00:04<00:00,  5.56it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.23it/s]  8%|▊         | 2/25 [00:00<00:04,  5.33it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.39it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.41it/s] 20%|██        | 5/25 [00:00<00:03,  5.33it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.11it/s] 28%|██▊       | 7/25 [00:01<00:03,  4.73it/s] 32%|███▏      | 8/25 [00:01<00:03,  4.76it/s] 36%|███▌      | 9/25 [00:01<00:03,  4.87it/s] 40%|████      | 10/25 [00:01<00:03,  4.97it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.02it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.27it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.29it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.21it/s] 60%|██████    | 15/25 [00:02<00:01,  5.26it/s] 64%|██████▍   | 16/25 [00:03<00:01,  5.29it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.30it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.28it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.28it/s] 80%|████████  | 20/25 [00:03<00:00,  5.30it/s] 84%|████████▍ | 21/25 [00:04<00:00,  5.33it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.34it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.57it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.71it/s]100%|██████████| 25/25 [00:04<00:00,  6.49it/s]100%|██████████| 25/25 [00:04<00:00,  5.36it/s]
+Run 00 | Epoch 00003 | Loss 3.1096 | Train 0.2883 | Val 0.2739 | Test 0.2005
+Number of nodes during this epoch:  4560537
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.0896244049072266  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.6701486110687256
+range selection method range initialization spend 0.030291080474853516
+time for parepare:  0.36791467666625977
+local_output_nid generation:  0.027368783950805664
+local_in_edges_tensor generation:  0.08954238891601562
+mini_batch_src_global generation:  0.2293412685394287
+r_  generation:  3.3448774814605713
+local_output_nid generation:  0.0286865234375
+local_in_edges_tensor generation:  0.11443209648132324
+mini_batch_src_global generation:  0.2799232006072998
+r_  generation:  3.3797836303710938
+----------------------check_connections_block total spend ----------------------------- 8.94149661064148
+generate_one_block  4.5371222496032715
+generate_one_block  4.368540048599243
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.820918560028076
+gen group dst list time:  0.08602738380432129
+time for parepare:  0.47348570823669434
+local_output_nid generation:  0.21739864349365234
+local_in_edges_tensor generation:  1.097316026687622
+mini_batch_src_global generation:  1.6816284656524658
+r_  generation:  20.60962986946106
+local_output_nid generation:  0.4411640167236328
+local_in_edges_tensor generation:  1.426408290863037
+mini_batch_src_global generation:  2.339177131652832
+r_  generation:  20.576711893081665
+----------------------check_connections_block total spend ----------------------------- 56.273566484451294
+generate_one_block  27.790224075317383
+generate_one_block  27.814249277114868
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.139613389968872
+gen group dst list time:  0.168959379196167
+time for parepare:  0.4580698013305664
+local_output_nid generation:  0.3985741138458252
+local_in_edges_tensor generation:  1.1244847774505615
+mini_batch_src_global generation:  1.3534467220306396
+r_  generation:  18.682780981063843
+local_output_nid generation:  0.7243361473083496
+local_in_edges_tensor generation:  1.471717357635498
+mini_batch_src_global generation:  1.8252062797546387
+r_  generation:  18.33460807800293
+----------------------check_connections_block total spend ----------------------------- 51.104392290115356
+generate_one_block  23.63012957572937
+generate_one_block  24.054863929748535
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.0896244049072266  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+connection checking time:  107.37795877456665
+block generation total time  103.28946685791016
+average batch blocks generation time:  51.64473342895508
+block dataloader generation time/epoch 249.81702756881714
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.4398019313812256 |0.8839684724807739 |0.004439949989318848 |0.00014865398406982422 |0.005326628684997559 |0.002846956253051758 |
+----------------------------------------------------------pseudo_mini_loss sum 2.6778345108032227
+Total (block generation + training)time/epoch 252.6538883447647
+Training time/epoch 2.9614479541778564
+Training time without block to device /epoch 1.1935110092163086
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 15.99it/s] 16%|█▌        | 4/25 [00:00<00:01, 17.20it/s] 24%|██▍       | 6/25 [00:00<00:01, 17.68it/s] 32%|███▏      | 8/25 [00:00<00:00, 17.85it/s] 40%|████      | 10/25 [00:00<00:00, 18.10it/s] 48%|████▊     | 12/25 [00:00<00:00, 18.21it/s] 56%|█████▌    | 14/25 [00:00<00:00, 18.36it/s] 64%|██████▍   | 16/25 [00:00<00:00, 18.45it/s] 72%|███████▏  | 18/25 [00:00<00:00, 18.46it/s] 80%|████████  | 20/25 [00:01<00:00, 18.46it/s] 88%|████████▊ | 22/25 [00:01<00:00, 18.48it/s] 96%|█████████▌| 24/25 [00:01<00:00, 18.50it/s]100%|██████████| 25/25 [00:01<00:00, 18.47it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.37it/s]  8%|▊         | 2/25 [00:00<00:04,  5.40it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.37it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.40it/s] 20%|██        | 5/25 [00:00<00:03,  5.33it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.31it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.31it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.31it/s] 36%|███▌      | 9/25 [00:01<00:03,  5.30it/s] 40%|████      | 10/25 [00:01<00:02,  5.32it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.35it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.36it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.34it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.37it/s] 60%|██████    | 15/25 [00:02<00:01,  5.35it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.37it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.35it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.30it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.29it/s] 80%|████████  | 20/25 [00:03<00:00,  5.28it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.31it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.31it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.33it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.33it/s]100%|██████████| 25/25 [00:04<00:00,  6.00it/s]100%|██████████| 25/25 [00:04<00:00,  5.41it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.27it/s]  8%|▊         | 2/25 [00:00<00:04,  5.28it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.26it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.26it/s] 20%|██        | 5/25 [00:00<00:03,  5.28it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.27it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.29it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.27it/s] 36%|███▌      | 9/25 [00:01<00:03,  5.20it/s] 40%|████      | 10/25 [00:01<00:02,  5.19it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.05it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.11it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.18it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.20it/s] 60%|██████    | 15/25 [00:02<00:01,  5.23it/s] 64%|██████▍   | 16/25 [00:03<00:01,  5.08it/s] 68%|██████▊   | 17/25 [00:03<00:01,  4.93it/s] 72%|███████▏  | 18/25 [00:03<00:01,  4.84it/s] 76%|███████▌  | 19/25 [00:03<00:01,  4.86it/s] 80%|████████  | 20/25 [00:03<00:01,  4.98it/s] 84%|████████▍ | 21/25 [00:04<00:00,  5.07it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.13it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.18it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.25it/s]100%|██████████| 25/25 [00:04<00:00,  5.90it/s]100%|██████████| 25/25 [00:04<00:00,  5.23it/s]
+Run 00 | Epoch 00004 | Loss 2.6778 | Train 0.3473 | Val 0.3291 | Test 0.2402
+Number of nodes during this epoch:  4559773
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.090266227722168  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.671168327331543
+range selection method range initialization spend 0.030231952667236328
+time for parepare:  0.3379216194152832
+local_output_nid generation:  0.02590799331665039
+local_in_edges_tensor generation:  0.08761835098266602
+mini_batch_src_global generation:  0.2265031337738037
+r_  generation:  3.191321849822998
+local_output_nid generation:  0.026388168334960938
+local_in_edges_tensor generation:  0.11568427085876465
+mini_batch_src_global generation:  0.2842385768890381
+r_  generation:  3.382720470428467
+----------------------check_connections_block total spend ----------------------------- 8.68661117553711
+generate_one_block  4.4680163860321045
+generate_one_block  4.317317485809326
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.850250720977783
+gen group dst list time:  0.0779566764831543
+time for parepare:  0.4272894859313965
+local_output_nid generation:  0.21251678466796875
+local_in_edges_tensor generation:  1.0230717658996582
+mini_batch_src_global generation:  1.7034995555877686
+r_  generation:  20.636883974075317
+local_output_nid generation:  0.44966602325439453
+local_in_edges_tensor generation:  1.4009554386138916
+mini_batch_src_global generation:  2.347142219543457
+r_  generation:  20.714998722076416
+----------------------check_connections_block total spend ----------------------------- 56.544549226760864
+generate_one_block  27.936081171035767
+generate_one_block  27.78752827644348
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.0873472690582275
+gen group dst list time:  0.1728835105895996
+time for parepare:  0.46042704582214355
+local_output_nid generation:  0.40915703773498535
+local_in_edges_tensor generation:  1.0368530750274658
+mini_batch_src_global generation:  1.344883918762207
+r_  generation:  18.296279191970825
+local_output_nid generation:  0.7075023651123047
+local_in_edges_tensor generation:  1.3885767459869385
+mini_batch_src_global generation:  1.9031188488006592
+r_  generation:  18.185378551483154
+----------------------check_connections_block total spend ----------------------------- 50.21512985229492
+generate_one_block  23.48768401145935
+generate_one_block  24.107680559158325
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.090266227722168  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+connection checking time:  106.75967907905579
+block generation total time  103.31897401809692
+average batch blocks generation time:  51.65948700904846
+block dataloader generation time/epoch 249.38362951278685
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.44909942150115967 |0.7672038078308105 |0.0040482282638549805 |0.00013828277587890625 |0.0052443742752075195 |0.0031023025512695312 |
+----------------------------------------------------------pseudo_mini_loss sum 2.384448528289795
+Total (block generation + training)time/epoch 252.2020197868347
+Training time/epoch 2.744349479675293
+Training time without block to device /epoch 1.2099418640136719
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 15.29it/s] 16%|█▌        | 4/25 [00:00<00:01, 16.96it/s] 24%|██▍       | 6/25 [00:00<00:01, 17.47it/s] 32%|███▏      | 8/25 [00:00<00:00, 17.88it/s] 40%|████      | 10/25 [00:00<00:00, 18.10it/s] 48%|████▊     | 12/25 [00:00<00:00, 18.28it/s] 56%|█████▌    | 14/25 [00:00<00:00, 18.28it/s] 64%|██████▍   | 16/25 [00:00<00:00, 18.20it/s] 72%|███████▏  | 18/25 [00:01<00:00, 18.35it/s] 80%|████████  | 20/25 [00:01<00:00, 18.40it/s] 88%|████████▊ | 22/25 [00:01<00:00, 18.45it/s] 96%|█████████▌| 24/25 [00:01<00:00, 18.48it/s]100%|██████████| 25/25 [00:01<00:00, 18.40it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.34it/s]  8%|▊         | 2/25 [00:00<00:04,  5.40it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.43it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.43it/s] 20%|██        | 5/25 [00:00<00:03,  5.40it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.42it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.40it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.41it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.41it/s] 40%|████      | 10/25 [00:01<00:02,  5.39it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.41it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.39it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.40it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.40it/s] 60%|██████    | 15/25 [00:02<00:01,  5.39it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.33it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.36it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.35it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.36it/s] 80%|████████  | 20/25 [00:03<00:00,  5.35it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.34it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.34it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.33it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.36it/s]100%|██████████| 25/25 [00:04<00:00,  6.02it/s]100%|██████████| 25/25 [00:04<00:00,  5.46it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.15it/s]  8%|▊         | 2/25 [00:00<00:04,  5.27it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.28it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.27it/s] 20%|██        | 5/25 [00:00<00:03,  5.27it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.30it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.31it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.28it/s] 36%|███▌      | 9/25 [00:01<00:03,  5.27it/s] 40%|████      | 10/25 [00:01<00:02,  5.30it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.29it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.27it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.29it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.30it/s] 60%|██████    | 15/25 [00:02<00:01,  5.31it/s] 64%|██████▍   | 16/25 [00:03<00:01,  5.30it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.30it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.31it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.31it/s] 80%|████████  | 20/25 [00:03<00:00,  5.32it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.32it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.30it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.30it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.27it/s]100%|██████████| 25/25 [00:04<00:00,  5.92it/s]100%|██████████| 25/25 [00:04<00:00,  5.37it/s]
+Run 00 | Epoch 00005 | Loss 2.3844 | Train 0.3868 | Val 0.3688 | Test 0.2687
+Number of nodes during this epoch:  4560768
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.0906848907470703  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.5759518146514893
+range selection method range initialization spend 0.030797243118286133
+time for parepare:  0.3396310806274414
+local_output_nid generation:  0.025733232498168945
+local_in_edges_tensor generation:  0.0949697494506836
+mini_batch_src_global generation:  0.22643470764160156
+r_  generation:  3.1684274673461914
+local_output_nid generation:  0.026608943939208984
+local_in_edges_tensor generation:  0.10330843925476074
+mini_batch_src_global generation:  0.28084897994995117
+r_  generation:  3.3266007900238037
+----------------------check_connections_block total spend ----------------------------- 8.573040246963501
+generate_one_block  4.031014442443848
+generate_one_block  4.027576446533203
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.74491286277771
+gen group dst list time:  0.07439088821411133
+time for parepare:  0.4221689701080322
+local_output_nid generation:  0.20733022689819336
+local_in_edges_tensor generation:  1.0338232517242432
+mini_batch_src_global generation:  1.684765338897705
+r_  generation:  20.246349573135376
+local_output_nid generation:  0.43995094299316406
+local_in_edges_tensor generation:  1.3876063823699951
+mini_batch_src_global generation:  2.38238263130188
+r_  generation:  20.36609125137329
+----------------------check_connections_block total spend ----------------------------- 55.48198938369751
+generate_one_block  27.75123691558838
+generate_one_block  27.763643980026245
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.1743109226226807
+gen group dst list time:  0.1685633659362793
+time for parepare:  0.44971489906311035
+local_output_nid generation:  0.37997007369995117
+local_in_edges_tensor generation:  1.0236976146697998
+mini_batch_src_global generation:  1.3466784954071045
+r_  generation:  18.25411605834961
+local_output_nid generation:  0.6983354091644287
+local_in_edges_tensor generation:  1.349860668182373
+mini_batch_src_global generation:  1.9252612590789795
+r_  generation:  18.09450125694275
+----------------------check_connections_block total spend ----------------------------- 49.91969323158264
+generate_one_block  23.55620813369751
+generate_one_block  24.033380270004272
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.0906848907470703  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+connection checking time:  105.40168261528015
+block generation total time  103.1044692993164
+average batch blocks generation time:  51.5522346496582
+block dataloader generation time/epoch 248.65266180038452
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.4329342842102051 |0.9006304740905762 |0.004057884216308594 |0.00013256072998046875 |0.0053441524505615234 |0.003153085708618164 |
+----------------------------------------------------------pseudo_mini_loss sum 2.154465436935425
+Total (block generation + training)time/epoch 251.4991739988327
+Training time/epoch 2.986962080001831
+Training time without block to device /epoch 1.1857011318206787
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 15.61it/s] 16%|█▌        | 4/25 [00:00<00:01, 16.47it/s] 24%|██▍       | 6/25 [00:00<00:01, 17.33it/s] 32%|███▏      | 8/25 [00:00<00:00, 17.85it/s] 40%|████      | 10/25 [00:00<00:00, 18.06it/s] 48%|████▊     | 12/25 [00:00<00:00, 18.12it/s] 56%|█████▌    | 14/25 [00:00<00:00, 18.33it/s] 64%|██████▍   | 16/25 [00:00<00:00, 18.41it/s] 72%|███████▏  | 18/25 [00:01<00:00, 18.07it/s] 80%|████████  | 20/25 [00:01<00:00, 18.06it/s] 88%|████████▊ | 22/25 [00:01<00:00, 18.22it/s] 96%|█████████▌| 24/25 [00:01<00:00, 18.33it/s]100%|██████████| 25/25 [00:01<00:00, 18.28it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.40it/s]  8%|▊         | 2/25 [00:00<00:04,  5.47it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.48it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.48it/s] 20%|██        | 5/25 [00:00<00:03,  5.45it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.67it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.81it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.55it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.42it/s] 40%|████      | 10/25 [00:01<00:02,  5.42it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.39it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.50it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.47it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.39it/s] 60%|██████    | 15/25 [00:02<00:01,  5.40it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.38it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.37it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.36it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.27it/s] 80%|████████  | 20/25 [00:03<00:00,  5.02it/s] 84%|████████▍ | 21/25 [00:03<00:00,  4.78it/s] 88%|████████▊ | 22/25 [00:04<00:00,  4.68it/s] 92%|█████████▏| 23/25 [00:04<00:00,  4.83it/s] 96%|█████████▌| 24/25 [00:04<00:00,  4.96it/s]100%|██████████| 25/25 [00:04<00:00,  5.58it/s]100%|██████████| 25/25 [00:04<00:00,  5.34it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.18it/s]  8%|▊         | 2/25 [00:00<00:04,  5.21it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.18it/s] 16%|█▌        | 4/25 [00:00<00:04,  5.22it/s] 20%|██        | 5/25 [00:00<00:03,  5.26it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.25it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.24it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.19it/s] 36%|███▌      | 9/25 [00:01<00:03,  5.23it/s] 40%|████      | 10/25 [00:01<00:02,  5.27it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.28it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.30it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.30it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.24it/s] 60%|██████    | 15/25 [00:02<00:01,  5.17it/s] 64%|██████▍   | 16/25 [00:03<00:01,  5.18it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.20it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.11it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.18it/s] 80%|████████  | 20/25 [00:03<00:00,  5.21it/s] 84%|████████▍ | 21/25 [00:04<00:00,  5.23it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.27it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.28it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.31it/s]100%|██████████| 25/25 [00:04<00:00,  5.93it/s]100%|██████████| 25/25 [00:04<00:00,  5.31it/s]
+Run 00 | Epoch 00006 | Loss 2.1545 | Train 0.4169 | Val 0.3968 | Test 0.2907
+Number of nodes during this epoch:  4559127
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.087416172027588  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.7556419372558594
+range selection method range initialization spend 0.031905412673950195
+time for parepare:  0.3442375659942627
+local_output_nid generation:  0.026072263717651367
+local_in_edges_tensor generation:  0.09295892715454102
+mini_batch_src_global generation:  0.22569990158081055
+r_  generation:  3.400585174560547
+local_output_nid generation:  0.028769731521606445
+local_in_edges_tensor generation:  0.1366264820098877
+mini_batch_src_global generation:  0.29685306549072266
+r_  generation:  3.4320547580718994
+----------------------check_connections_block total spend ----------------------------- 9.064563989639282
+generate_one_block  4.483882427215576
+generate_one_block  4.112709999084473
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.9004218578338623
+gen group dst list time:  0.1076192855834961
+time for parepare:  0.4485299587249756
+local_output_nid generation:  0.22014904022216797
+local_in_edges_tensor generation:  1.1381473541259766
+mini_batch_src_global generation:  1.7098228931427002
+r_  generation:  20.850815296173096
+local_output_nid generation:  0.4385192394256592
+local_in_edges_tensor generation:  1.406275749206543
+mini_batch_src_global generation:  2.2657222747802734
+r_  generation:  20.68730068206787
+----------------------check_connections_block total spend ----------------------------- 56.494060039520264
+generate_one_block  27.805612564086914
+generate_one_block  27.712965726852417
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.1333889961242676
+gen group dst list time:  0.17791962623596191
+time for parepare:  0.4855518341064453
+local_output_nid generation:  0.44321274757385254
+local_in_edges_tensor generation:  1.0219495296478271
+mini_batch_src_global generation:  1.3309996128082275
+r_  generation:  18.113919973373413
+local_output_nid generation:  0.7138254642486572
+local_in_edges_tensor generation:  1.4475514888763428
+mini_batch_src_global generation:  1.932509422302246
+r_  generation:  18.646178722381592
+----------------------check_connections_block total spend ----------------------------- 50.66470670700073
+generate_one_block  23.755057096481323
+generate_one_block  24.264649152755737
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.087416172027588  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+connection checking time:  107.158766746521
+block generation total time  103.53828454017639
+average batch blocks generation time:  51.769142270088196
+block dataloader generation time/epoch 248.66584822109766
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.43131792545318604 |0.9199173450469971 |0.0039980411529541016 |0.00013196468353271484 |0.005226612091064453 |0.002931356430053711 |
+----------------------------------------------------------pseudo_mini_loss sum 1.979468822479248
+Total (block generation + training)time/epoch 251.5362345491137
+Training time/epoch 3.0134739875793457
+Training time without block to device /epoch 1.1736392974853516
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 16.39it/s] 16%|█▌        | 4/25 [00:00<00:01, 17.40it/s] 24%|██▍       | 6/25 [00:00<00:01, 17.84it/s] 32%|███▏      | 8/25 [00:00<00:00, 18.10it/s] 40%|████      | 10/25 [00:00<00:00, 18.13it/s] 48%|████▊     | 12/25 [00:00<00:00, 18.26it/s] 56%|█████▌    | 14/25 [00:00<00:00, 18.33it/s] 64%|██████▍   | 16/25 [00:00<00:00, 18.38it/s] 72%|███████▏  | 18/25 [00:00<00:00, 18.49it/s] 80%|████████  | 20/25 [00:01<00:00, 18.39it/s] 88%|████████▊ | 22/25 [00:01<00:00, 18.48it/s] 96%|█████████▌| 24/25 [00:01<00:00, 18.53it/s]100%|██████████| 25/25 [00:01<00:00, 18.54it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.26it/s]  8%|▊         | 2/25 [00:00<00:04,  5.35it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.39it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.44it/s] 20%|██        | 5/25 [00:00<00:03,  5.44it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.43it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.44it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.42it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.43it/s] 40%|████      | 10/25 [00:01<00:02,  5.42it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.43it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.45it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.45it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.46it/s] 60%|██████    | 15/25 [00:02<00:01,  5.40it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.41it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.39it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.42it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.44it/s] 80%|████████  | 20/25 [00:03<00:00,  5.43it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.42it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.42it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.39it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.40it/s]100%|██████████| 25/25 [00:04<00:00,  6.08it/s]100%|██████████| 25/25 [00:04<00:00,  5.50it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.29it/s]  8%|▊         | 2/25 [00:00<00:04,  5.31it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.31it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.33it/s] 20%|██        | 5/25 [00:00<00:03,  5.34it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.34it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.33it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.34it/s] 36%|███▌      | 9/25 [00:01<00:03,  5.33it/s] 40%|████      | 10/25 [00:01<00:02,  5.34it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.34it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.34it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.35it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.33it/s] 60%|██████    | 15/25 [00:02<00:01,  5.34it/s] 64%|██████▍   | 16/25 [00:03<00:01,  5.33it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.31it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.33it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.34it/s] 80%|████████  | 20/25 [00:03<00:00,  5.32it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.32it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.33it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.34it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.33it/s]100%|██████████| 25/25 [00:04<00:00,  5.97it/s]100%|██████████| 25/25 [00:04<00:00,  5.41it/s]
+Run 00 | Epoch 00007 | Loss 1.9795 | Train 0.4394 | Val 0.4203 | Test 0.3090
+Number of nodes during this epoch:  4560653
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.089301109313965  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.5472915172576904
+range selection method range initialization spend 0.030815839767456055
+time for parepare:  0.34955596923828125
+local_output_nid generation:  0.02617788314819336
+local_in_edges_tensor generation:  0.0879058837890625
+mini_batch_src_global generation:  0.2262434959411621
+r_  generation:  3.2530529499053955
+local_output_nid generation:  0.03199505805969238
+local_in_edges_tensor generation:  0.13821649551391602
+mini_batch_src_global generation:  0.28719329833984375
+r_  generation:  3.470947027206421
+----------------------check_connections_block total spend ----------------------------- 8.894747972488403
+generate_one_block  4.485004663467407
+generate_one_block  4.271898508071899
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.88663649559021
+gen group dst list time:  0.08909726142883301
+time for parepare:  0.47988057136535645
+local_output_nid generation:  0.2210254669189453
+local_in_edges_tensor generation:  1.1334302425384521
+mini_batch_src_global generation:  1.7366127967834473
+r_  generation:  21.032508611679077
+local_output_nid generation:  0.4614427089691162
+local_in_edges_tensor generation:  1.474259376525879
+mini_batch_src_global generation:  2.252580165863037
+r_  generation:  20.86396837234497
+----------------------check_connections_block total spend ----------------------------- 57.01011347770691
+generate_one_block  27.94219946861267
+generate_one_block  28.18123459815979
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.078301191329956
+gen group dst list time:  0.16903352737426758
+time for parepare:  0.4553415775299072
+local_output_nid generation:  0.3746662139892578
+local_in_edges_tensor generation:  1.027503490447998
+mini_batch_src_global generation:  1.3374779224395752
+r_  generation:  17.616113424301147
+local_output_nid generation:  0.6537504196166992
+local_in_edges_tensor generation:  1.3310811519622803
+mini_batch_src_global generation:  1.7798130512237549
+r_  generation:  17.814138650894165
+----------------------check_connections_block total spend ----------------------------- 48.7816858291626
+generate_one_block  23.467879056930542
+generate_one_block  24.02318286895752
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.089301109313965  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+connection checking time:  105.7917993068695
+block generation total time  103.61449599266052
+average batch blocks generation time:  51.80724799633026
+block dataloader generation time/epoch 248.45717871189117
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.4321087598800659 |0.9108978509902954 |0.004019618034362793 |0.00013065338134765625 |0.005238175392150879 |0.0018575191497802734 |
+----------------------------------------------------------pseudo_mini_loss sum 1.8356084823608398
+Total (block generation + training)time/epoch 251.34335869550705
+Training time/epoch 2.9965755939483643
+Training time without block to device /epoch 1.1747798919677734
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 16.47it/s] 16%|█▌        | 4/25 [00:00<00:01, 17.41it/s] 24%|██▍       | 6/25 [00:00<00:01, 17.85it/s] 32%|███▏      | 8/25 [00:00<00:00, 17.87it/s] 40%|████      | 10/25 [00:00<00:00, 18.15it/s] 48%|████▊     | 12/25 [00:00<00:00, 18.16it/s] 56%|█████▌    | 14/25 [00:00<00:00, 18.32it/s] 64%|██████▍   | 16/25 [00:00<00:00, 18.17it/s] 72%|███████▏  | 18/25 [00:00<00:00, 18.35it/s] 80%|████████  | 20/25 [00:01<00:00, 18.40it/s] 88%|████████▊ | 22/25 [00:01<00:00, 18.45it/s] 96%|█████████▌| 24/25 [00:01<00:00, 18.54it/s]100%|██████████| 25/25 [00:01<00:00, 18.53it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.46it/s]  8%|▊         | 2/25 [00:00<00:04,  5.50it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.49it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.49it/s] 20%|██        | 5/25 [00:00<00:03,  5.50it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.47it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.46it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.47it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.48it/s] 40%|████      | 10/25 [00:01<00:02,  5.46it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.47it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.48it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.46it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.44it/s] 60%|██████    | 15/25 [00:02<00:01,  5.44it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.45it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.46it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.43it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.44it/s] 80%|████████  | 20/25 [00:03<00:00,  5.44it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.44it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.42it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.42it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.42it/s]100%|██████████| 25/25 [00:04<00:00,  6.10it/s]100%|██████████| 25/25 [00:04<00:00,  5.53it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  5.23it/s]  8%|▊         | 2/25 [00:00<00:04,  5.34it/s] 12%|█▏        | 3/25 [00:00<00:04,  5.34it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.36it/s] 20%|██        | 5/25 [00:00<00:03,  5.34it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.36it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.34it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.37it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.34it/s] 40%|████      | 10/25 [00:01<00:02,  5.35it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.36it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.37it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.35it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.35it/s] 60%|██████    | 15/25 [00:02<00:01,  5.35it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.33it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.35it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.34it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.35it/s] 80%|████████  | 20/25 [00:03<00:00,  5.35it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.36it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.32it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.31it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.32it/s]100%|██████████| 25/25 [00:04<00:00,  5.98it/s]100%|██████████| 25/25 [00:04<00:00,  5.42it/s]
+Run 00 | Epoch 00008 | Loss 1.8356 | Train 0.4570 | Val 0.4391 | Test 0.3243
+Number of nodes during this epoch:  4560990
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.089357852935791  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.5944898128509521
+range selection method range initialization spend 0.03139662742614746
+time for parepare:  0.34717607498168945
+local_output_nid generation:  0.025214672088623047
+local_in_edges_tensor generation:  0.08589458465576172
+mini_batch_src_global generation:  0.21482539176940918
+r_  generation:  3.168200969696045
+local_output_nid generation:  0.026385068893432617
+local_in_edges_tensor generation:  0.09713602066040039
+mini_batch_src_global generation:  0.2812178134918213
+r_  generation:  3.3452932834625244
+----------------------check_connections_block total spend ----------------------------- 8.57823657989502
+generate_one_block  3.9527013301849365
+generate_one_block  4.026132822036743
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.6944894790649414
+gen group dst list time:  0.07521748542785645
+time for parepare:  0.4166679382324219
+local_output_nid generation:  0.2044975757598877
+local_in_edges_tensor generation:  1.0591330528259277
+mini_batch_src_global generation:  1.694887399673462
+r_  generation:  21.34542465209961
+local_output_nid generation:  0.4486124515533447
+local_in_edges_tensor generation:  1.4284050464630127
+mini_batch_src_global generation:  2.3696227073669434
+r_  generation:  20.754608869552612
+----------------------check_connections_block total spend ----------------------------- 57.20248556137085
+generate_one_block  27.90278172492981
+generate_one_block  27.835808992385864
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 2.1501474380493164
+gen group dst list time:  0.16884684562683105
+time for parepare:  0.45865345001220703
+local_output_nid generation:  0.40908312797546387
+local_in_edges_tensor generation:  1.0281219482421875
+mini_batch_src_global generation:  1.3343429565429688
+r_  generation:  18.08834171295166
+local_output_nid generation:  0.703812837600708
+local_in_edges_tensor generation:  1.3688790798187256
+mini_batch_src_global generation:  1.9632782936096191
+r_  generation:  18.124160289764404
+----------------------check_connections_block total spend ----------------------------- 49.943657875061035
+generate_one_block  23.495595693588257
+generate_one_block  24.073150157928467
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 20.8485107421875 GB
+    Memory Allocated: 3.089357852935791  GigaBytes
+Max Memory Allocated: 10.879212379455566  GigaBytes
+
+connection checking time:  107.14614343643188
+block generation total time  103.3073365688324
+average batch blocks generation time:  51.6536682844162
+block dataloader generation time/epoch 248.27606903182135
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.42635905742645264 |0.9324191808700562 |0.004019260406494141 |0.0001354217529296875 |0.0051021575927734375 |0.003126382827758789 |
+----------------------------------------------------------pseudo_mini_loss sum 1.7164087295532227
+Total (block generation + training)time/epoch 251.17798717816672
+Training time/epoch 3.027665853500366
+Training time without block to device /epoch 1.162827491760254
+  0%|          | 0/25 [00:00<?, ?it/s]  8%|▊         | 2/25 [00:00<00:01, 16.56it/s] 16%|█▌        | 4/25 [00:00<00:01, 17.43it/s] 24%|██▍       | 6/25 [00:00<00:01, 17.91it/s] 32%|███▏      | 8/25 [00:00<00:00, 18.17it/s] 40%|████      | 10/25 [00:00<00:00, 18.33it/s] 48%|████▊     | 12/25 [00:00<00:00, 18.26it/s] 56%|█████▌    | 14/25 [00:00<00:00, 18.39it/s] 64%|██████▍   | 16/25 [00:00<00:00, 18.20it/s] 72%|███████▏  | 18/25 [00:00<00:00, 18.38it/s] 80%|████████  | 20/25 [00:01<00:00, 18.42it/s] 88%|████████▊ | 22/25 [00:01<00:00, 18.49it/s] 96%|█████████▌| 24/25 [00:01<00:00, 18.58it/s]100%|██████████| 25/25 [00:01<00:00, 18.56it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  6.00it/s]  8%|▊         | 2/25 [00:00<00:04,  5.66it/s] 12%|█▏        | 3/25 [00:00<00:03,  5.57it/s] 16%|█▌        | 4/25 [00:00<00:03,  5.48it/s] 20%|██        | 5/25 [00:00<00:03,  5.46it/s] 24%|██▍       | 6/25 [00:01<00:03,  5.46it/s] 28%|██▊       | 7/25 [00:01<00:03,  5.43it/s] 32%|███▏      | 8/25 [00:01<00:03,  5.44it/s] 36%|███▌      | 9/25 [00:01<00:02,  5.44it/s] 40%|████      | 10/25 [00:01<00:02,  5.46it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.40it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.41it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.40it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.39it/s] 60%|██████    | 15/25 [00:02<00:01,  5.40it/s] 64%|██████▍   | 16/25 [00:02<00:01,  5.36it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.34it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.26it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.24it/s] 80%|████████  | 20/25 [00:03<00:00,  5.24it/s] 84%|████████▍ | 21/25 [00:03<00:00,  5.27it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.27it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.31it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.31it/s]100%|██████████| 25/25 [00:04<00:00,  5.90it/s]100%|██████████| 25/25 [00:04<00:00,  5.45it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:04,  4.91it/s]  8%|▊         | 2/25 [00:00<00:04,  5.03it/s] 12%|█▏        | 3/25 [00:00<00:05,  4.38it/s] 16%|█▌        | 4/25 [00:00<00:04,  4.37it/s] 20%|██        | 5/25 [00:01<00:04,  4.54it/s] 24%|██▍       | 6/25 [00:01<00:04,  4.72it/s] 28%|██▊       | 7/25 [00:01<00:03,  4.83it/s] 32%|███▏      | 8/25 [00:01<00:03,  4.92it/s] 36%|███▌      | 9/25 [00:01<00:03,  5.02it/s] 40%|████      | 10/25 [00:02<00:02,  5.09it/s] 44%|████▍     | 11/25 [00:02<00:02,  5.15it/s] 48%|████▊     | 12/25 [00:02<00:02,  5.14it/s] 52%|█████▏    | 13/25 [00:02<00:02,  5.15it/s] 56%|█████▌    | 14/25 [00:02<00:02,  5.16it/s] 60%|██████    | 15/25 [00:03<00:01,  5.14it/s] 64%|██████▍   | 16/25 [00:03<00:01,  5.14it/s] 68%|██████▊   | 17/25 [00:03<00:01,  5.13it/s] 72%|███████▏  | 18/25 [00:03<00:01,  5.17it/s] 76%|███████▌  | 19/25 [00:03<00:01,  5.17it/s] 80%|████████  | 20/25 [00:03<00:00,  5.17it/s] 84%|████████▍ | 21/25 [00:04<00:00,  5.20it/s] 88%|████████▊ | 22/25 [00:04<00:00,  5.24it/s] 92%|█████████▏| 23/25 [00:04<00:00,  5.26it/s] 96%|█████████▌| 24/25 [00:04<00:00,  5.24it/s]100%|██████████| 25/25 [00:04<00:00,  5.87it/s]100%|██████████| 25/25 [00:04<00:00,  5.12it/s]
+Run 00 | Epoch 00009 | Loss 1.7164 | Train 0.4722 | Val 0.4550 | Test 0.3375
+Number of nodes during this epoch:  4559755
+The number of model layers:  3
+Run 01:
+Highest Train: 47.22
+Highest Valid: 45.50
+  Final Train: 47.22
+   Final Test: 33.75
+The number of model layers:  3
+All runs:
+Highest Train: 47.22 ± nan
+Highest Valid: 45.50 ± nan
+  Final Train: 47.22 ± nan
+   Final Test: 33.75 ± nan

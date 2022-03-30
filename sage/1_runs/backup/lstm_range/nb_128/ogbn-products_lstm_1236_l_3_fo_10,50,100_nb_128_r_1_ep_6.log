@@ -1,0 +1,1969 @@
+main start at this time 1647772600.9671357
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+in feats:  100
+----------------------------------------before generate_dataloader_block 
+ Nvidia-smi: 3.0311279296875 GB
+    Memory Allocated: 0.0006527900695800781  GigaBytes
+Max Memory Allocated: 0.0006527900695800781  GigaBytes
+
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.7507364749908447
+range selection method range initialization spend 0.0410916805267334
+time for parepare:  0.3902547359466553
+local_output_nid generation:  0.0005218982696533203
+local_in_edges_tensor generation:  0.03152298927307129
+mini_batch_src_global generation:  0.004552364349365234
+r_  generation:  0.045226097106933594
+local_output_nid generation:  0.0005655288696289062
+local_in_edges_tensor generation:  0.0009822845458984375
+mini_batch_src_global generation:  0.005041360855102539
+r_  generation:  0.047573089599609375
+local_output_nid generation:  0.0005071163177490234
+local_in_edges_tensor generation:  0.0009641647338867188
+mini_batch_src_global generation:  0.0027768611907958984
+r_  generation:  0.046946048736572266
+local_output_nid generation:  0.0005605220794677734
+local_in_edges_tensor generation:  0.0009565353393554688
+mini_batch_src_global generation:  0.002762317657470703
+r_  generation:  0.047688961029052734
+local_output_nid generation:  0.0005118846893310547
+local_in_edges_tensor generation:  0.0009927749633789062
+mini_batch_src_global generation:  0.0027806758880615234
+r_  generation:  0.04805254936218262
+local_output_nid generation:  0.0005137920379638672
+local_in_edges_tensor generation:  0.0010275840759277344
+mini_batch_src_global generation:  0.002786397933959961
+r_  generation:  0.04864859580993652
+local_output_nid generation:  0.0005109310150146484
+local_in_edges_tensor generation:  0.0010976791381835938
+mini_batch_src_global generation:  0.0028715133666992188
+r_  generation:  0.04970598220825195
+local_output_nid generation:  0.0005218982696533203
+local_in_edges_tensor generation:  0.0009677410125732422
+mini_batch_src_global generation:  0.0028667449951171875
+r_  generation:  0.04913663864135742
+local_output_nid generation:  0.0005242824554443359
+local_in_edges_tensor generation:  0.0009989738464355469
+mini_batch_src_global generation:  0.002990245819091797
+r_  generation:  0.04946732521057129
+local_output_nid generation:  0.0005233287811279297
+local_in_edges_tensor generation:  0.0010313987731933594
+mini_batch_src_global generation:  0.0030727386474609375
+r_  generation:  0.05018734931945801
+local_output_nid generation:  0.0005152225494384766
+local_in_edges_tensor generation:  0.0010364055633544922
+mini_batch_src_global generation:  0.0031142234802246094
+r_  generation:  0.05094122886657715
+local_output_nid generation:  0.000553131103515625
+local_in_edges_tensor generation:  0.0010368824005126953
+mini_batch_src_global generation:  0.0030565261840820312
+r_  generation:  0.05048012733459473
+local_output_nid generation:  0.0005254745483398438
+local_in_edges_tensor generation:  0.001012563705444336
+mini_batch_src_global generation:  0.003317117691040039
+r_  generation:  0.05103731155395508
+local_output_nid generation:  0.0005354881286621094
+local_in_edges_tensor generation:  0.0010118484497070312
+mini_batch_src_global generation:  0.003309488296508789
+r_  generation:  0.05103445053100586
+local_output_nid generation:  0.000507354736328125
+local_in_edges_tensor generation:  0.0010218620300292969
+mini_batch_src_global generation:  0.003387451171875
+r_  generation:  0.052100181579589844
+local_output_nid generation:  0.00051116943359375
+local_in_edges_tensor generation:  0.0010428428649902344
+mini_batch_src_global generation:  0.003337383270263672
+r_  generation:  0.053008079528808594
+local_output_nid generation:  0.0005152225494384766
+local_in_edges_tensor generation:  0.0011982917785644531
+mini_batch_src_global generation:  0.003591299057006836
+r_  generation:  0.05238604545593262
+local_output_nid generation:  0.0005156993865966797
+local_in_edges_tensor generation:  0.0010843276977539062
+mini_batch_src_global generation:  0.003493070602416992
+r_  generation:  0.052452802658081055
+local_output_nid generation:  0.0005071163177490234
+local_in_edges_tensor generation:  0.001138925552368164
+mini_batch_src_global generation:  0.003612995147705078
+r_  generation:  0.0543818473815918
+local_output_nid generation:  0.0005075931549072266
+local_in_edges_tensor generation:  0.0011546611785888672
+mini_batch_src_global generation:  0.003671884536743164
+r_  generation:  0.05336570739746094
+local_output_nid generation:  0.0005109310150146484
+local_in_edges_tensor generation:  0.0011434555053710938
+mini_batch_src_global generation:  0.003743410110473633
+r_  generation:  0.05396223068237305
+local_output_nid generation:  0.0005106925964355469
+local_in_edges_tensor generation:  0.0011851787567138672
+mini_batch_src_global generation:  0.003688812255859375
+r_  generation:  0.0561065673828125
+local_output_nid generation:  0.0005164146423339844
+local_in_edges_tensor generation:  0.0016508102416992188
+mini_batch_src_global generation:  0.0038094520568847656
+r_  generation:  0.05493617057800293
+local_output_nid generation:  0.0005369186401367188
+local_in_edges_tensor generation:  0.0011916160583496094
+mini_batch_src_global generation:  0.003812551498413086
+r_  generation:  0.05477738380432129
+local_output_nid generation:  0.0005152225494384766
+local_in_edges_tensor generation:  0.02282571792602539
+mini_batch_src_global generation:  0.0035448074340820312
+r_  generation:  0.05404067039489746
+local_output_nid generation:  0.0005142688751220703
+local_in_edges_tensor generation:  0.0011522769927978516
+mini_batch_src_global generation:  0.0037946701049804688
+r_  generation:  0.0550539493560791
+local_output_nid generation:  0.0005190372467041016
+local_in_edges_tensor generation:  0.0011649131774902344
+mini_batch_src_global generation:  0.0038945674896240234
+r_  generation:  0.055441856384277344
+local_output_nid generation:  0.0005128383636474609
+local_in_edges_tensor generation:  0.001683950424194336
+mini_batch_src_global generation:  0.003809690475463867
+r_  generation:  0.05507826805114746
+local_output_nid generation:  0.0005023479461669922
+local_in_edges_tensor generation:  0.0011553764343261719
+mini_batch_src_global generation:  0.003841876983642578
+r_  generation:  0.053929805755615234
+local_output_nid generation:  0.0005252361297607422
+local_in_edges_tensor generation:  0.001188039779663086
+mini_batch_src_global generation:  0.0038881301879882812
+r_  generation:  0.05495572090148926
+local_output_nid generation:  0.0005135536193847656
+local_in_edges_tensor generation:  0.0011701583862304688
+mini_batch_src_global generation:  0.0038650035858154297
+r_  generation:  0.05548977851867676
+local_output_nid generation:  0.0005180835723876953
+local_in_edges_tensor generation:  0.0011713504791259766
+mini_batch_src_global generation:  0.003915548324584961
+r_  generation:  0.05609130859375
+local_output_nid generation:  0.0005128383636474609
+local_in_edges_tensor generation:  0.0011086463928222656
+mini_batch_src_global generation:  0.0038788318634033203
+r_  generation:  0.05585074424743652
+local_output_nid generation:  0.0005190372467041016
+local_in_edges_tensor generation:  0.0010938644409179688
+mini_batch_src_global generation:  0.0038268566131591797
+r_  generation:  0.05513572692871094
+local_output_nid generation:  0.0005328655242919922
+local_in_edges_tensor generation:  0.0011029243469238281
+mini_batch_src_global generation:  0.003928661346435547
+r_  generation:  0.055197954177856445
+local_output_nid generation:  0.0005095005035400391
+local_in_edges_tensor generation:  0.0011563301086425781
+mini_batch_src_global generation:  0.0038421154022216797
+r_  generation:  0.05453753471374512
+local_output_nid generation:  0.0005147457122802734
+local_in_edges_tensor generation:  0.0011446475982666016
+mini_batch_src_global generation:  0.0038852691650390625
+r_  generation:  0.05827593803405762
+local_output_nid generation:  0.0005090236663818359
+local_in_edges_tensor generation:  0.0014128684997558594
+mini_batch_src_global generation:  0.003962993621826172
+r_  generation:  0.0554041862487793
+local_output_nid generation:  0.0005068778991699219
+local_in_edges_tensor generation:  0.001382589340209961
+mini_batch_src_global generation:  0.004024028778076172
+r_  generation:  0.06074833869934082
+local_output_nid generation:  0.0005011558532714844
+local_in_edges_tensor generation:  0.0013568401336669922
+mini_batch_src_global generation:  0.003991127014160156
+r_  generation:  0.06056332588195801
+local_output_nid generation:  0.000675201416015625
+local_in_edges_tensor generation:  0.0013461112976074219
+mini_batch_src_global generation:  0.004058361053466797
+r_  generation:  0.05752158164978027
+local_output_nid generation:  0.0005218982696533203
+local_in_edges_tensor generation:  0.0013194084167480469
+mini_batch_src_global generation:  0.0039904117584228516
+r_  generation:  0.05936479568481445
+local_output_nid generation:  0.0005235671997070312
+local_in_edges_tensor generation:  0.001382589340209961
+mini_batch_src_global generation:  0.003970623016357422
+r_  generation:  0.06022524833679199
+local_output_nid generation:  0.0005216598510742188
+local_in_edges_tensor generation:  0.0013272762298583984
+mini_batch_src_global generation:  0.00404810905456543
+r_  generation:  0.05620551109313965
+local_output_nid generation:  0.0005211830139160156
+local_in_edges_tensor generation:  0.0013463497161865234
+mini_batch_src_global generation:  0.004030942916870117
+r_  generation:  0.057381391525268555
+local_output_nid generation:  0.0005223751068115234
+local_in_edges_tensor generation:  0.0013625621795654297
+mini_batch_src_global generation:  0.004060506820678711
+r_  generation:  0.05575227737426758
+local_output_nid generation:  0.000530242919921875
+local_in_edges_tensor generation:  0.0013382434844970703
+mini_batch_src_global generation:  0.004058122634887695
+r_  generation:  0.056165218353271484
+local_output_nid generation:  0.0005328655242919922
+local_in_edges_tensor generation:  0.0013320446014404297
+mini_batch_src_global generation:  0.00403594970703125
+r_  generation:  0.056685686111450195
+local_output_nid generation:  0.0005216598510742188
+local_in_edges_tensor generation:  0.0013942718505859375
+mini_batch_src_global generation:  0.003923177719116211
+r_  generation:  0.0575556755065918
+local_output_nid generation:  0.0005254745483398438
+local_in_edges_tensor generation:  0.0012891292572021484
+mini_batch_src_global generation:  0.004060268402099609
+r_  generation:  0.05593991279602051
+local_output_nid generation:  0.0005242824554443359
+local_in_edges_tensor generation:  0.001354217529296875
+mini_batch_src_global generation:  0.004052639007568359
+r_  generation:  0.0550534725189209
+local_output_nid generation:  0.0005269050598144531
+local_in_edges_tensor generation:  0.0013115406036376953
+mini_batch_src_global generation:  0.008253335952758789
+r_  generation:  0.05653190612792969
+local_output_nid generation:  0.0005335807800292969
+local_in_edges_tensor generation:  0.0013289451599121094
+mini_batch_src_global generation:  0.004127979278564453
+r_  generation:  0.06164669990539551
+local_output_nid generation:  0.0005223751068115234
+local_in_edges_tensor generation:  0.0013990402221679688
+mini_batch_src_global generation:  0.004040718078613281
+r_  generation:  0.0689249038696289
+local_output_nid generation:  0.0005249977111816406
+local_in_edges_tensor generation:  0.0013692378997802734
+mini_batch_src_global generation:  0.004378318786621094
+r_  generation:  0.05853438377380371
+local_output_nid generation:  0.0005388259887695312
+local_in_edges_tensor generation:  0.0013055801391601562
+mini_batch_src_global generation:  0.004057884216308594
+r_  generation:  0.06121706962585449
+local_output_nid generation:  0.0005850791931152344
+local_in_edges_tensor generation:  0.0013306140899658203
+mini_batch_src_global generation:  0.004122257232666016
+r_  generation:  0.062452077865600586
+local_output_nid generation:  0.0005991458892822266
+local_in_edges_tensor generation:  0.001312255859375
+mini_batch_src_global generation:  0.004303932189941406
+r_  generation:  0.05653262138366699
+local_output_nid generation:  0.0007097721099853516
+local_in_edges_tensor generation:  0.0013506412506103516
+mini_batch_src_global generation:  0.005426645278930664
+r_  generation:  0.05515885353088379
+local_output_nid generation:  0.0006961822509765625
+local_in_edges_tensor generation:  0.0013871192932128906
+mini_batch_src_global generation:  0.004047393798828125
+r_  generation:  0.05683612823486328
+local_output_nid generation:  0.0005972385406494141
+local_in_edges_tensor generation:  0.0014910697937011719
+mini_batch_src_global generation:  0.004067659378051758
+r_  generation:  0.056984663009643555
+local_output_nid generation:  0.0005598068237304688
+local_in_edges_tensor generation:  0.0012998580932617188
+mini_batch_src_global generation:  0.004055023193359375
+r_  generation:  0.05645918846130371
+local_output_nid generation:  0.0005652904510498047
+local_in_edges_tensor generation:  0.0013484954833984375
+mini_batch_src_global generation:  0.00412297248840332
+r_  generation:  0.05679440498352051
+local_output_nid generation:  0.0005660057067871094
+local_in_edges_tensor generation:  0.0013186931610107422
+mini_batch_src_global generation:  0.0040705204010009766
+r_  generation:  0.05776071548461914
+local_output_nid generation:  0.0005631446838378906
+local_in_edges_tensor generation:  0.0012824535369873047
+mini_batch_src_global generation:  0.0040090084075927734
+r_  generation:  0.057027578353881836
+local_output_nid generation:  0.0005881786346435547
+local_in_edges_tensor generation:  0.0013303756713867188
+mini_batch_src_global generation:  0.0040302276611328125
+r_  generation:  0.055481672286987305
+local_output_nid generation:  0.0005526542663574219
+local_in_edges_tensor generation:  0.0013091564178466797
+mini_batch_src_global generation:  0.0041179656982421875
+r_  generation:  0.05768632888793945
+local_output_nid generation:  0.0005686283111572266
+local_in_edges_tensor generation:  0.0013039112091064453
+mini_batch_src_global generation:  0.004025459289550781
+r_  generation:  0.056678056716918945
+local_output_nid generation:  0.0005521774291992188
+local_in_edges_tensor generation:  0.0012979507446289062
+mini_batch_src_global generation:  0.004069805145263672
+r_  generation:  0.05606198310852051
+local_output_nid generation:  0.0005624294281005859
+local_in_edges_tensor generation:  0.0012581348419189453
+mini_batch_src_global generation:  0.003983974456787109
+r_  generation:  0.05698275566101074
+local_output_nid generation:  0.0005872249603271484
+local_in_edges_tensor generation:  0.0013222694396972656
+mini_batch_src_global generation:  0.004072427749633789
+r_  generation:  0.05513191223144531
+local_output_nid generation:  0.0005602836608886719
+local_in_edges_tensor generation:  0.0012924671173095703
+mini_batch_src_global generation:  0.004034519195556641
+r_  generation:  0.057062387466430664
+local_output_nid generation:  0.0005602836608886719
+local_in_edges_tensor generation:  0.0013072490692138672
+mini_batch_src_global generation:  0.004152774810791016
+r_  generation:  0.05821657180786133
+local_output_nid generation:  0.0005650520324707031
+local_in_edges_tensor generation:  0.0013725757598876953
+mini_batch_src_global generation:  0.004084587097167969
+r_  generation:  0.05539846420288086
+local_output_nid generation:  0.0005807876586914062
+local_in_edges_tensor generation:  0.008792638778686523
+mini_batch_src_global generation:  0.0038461685180664062
+r_  generation:  0.05612993240356445
+local_output_nid generation:  0.000591278076171875
+local_in_edges_tensor generation:  0.0013225078582763672
+mini_batch_src_global generation:  0.00420069694519043
+r_  generation:  0.05794715881347656
+local_output_nid generation:  0.0005550384521484375
+local_in_edges_tensor generation:  0.0012617111206054688
+mini_batch_src_global generation:  0.0039730072021484375
+r_  generation:  0.05657005310058594
+local_output_nid generation:  0.0005564689636230469
+local_in_edges_tensor generation:  0.0012731552124023438
+mini_batch_src_global generation:  0.004052162170410156
+r_  generation:  0.05708956718444824
+local_output_nid generation:  0.0005772113800048828
+local_in_edges_tensor generation:  0.0013556480407714844
+mini_batch_src_global generation:  0.00410008430480957
+r_  generation:  0.05771923065185547
+local_output_nid generation:  0.0005745887756347656
+local_in_edges_tensor generation:  0.0013532638549804688
+mini_batch_src_global generation:  0.004049777984619141
+r_  generation:  0.055850982666015625
+local_output_nid generation:  0.0005726814270019531
+local_in_edges_tensor generation:  0.0012989044189453125
+mini_batch_src_global generation:  0.0041961669921875
+r_  generation:  0.05884814262390137
+local_output_nid generation:  0.0005660057067871094
+local_in_edges_tensor generation:  0.0013136863708496094
+mini_batch_src_global generation:  0.00404667854309082
+r_  generation:  0.05831003189086914
+local_output_nid generation:  0.0005657672882080078
+local_in_edges_tensor generation:  0.001325368881225586
+mini_batch_src_global generation:  0.004052400588989258
+r_  generation:  0.05550551414489746
+local_output_nid generation:  0.0005664825439453125
+local_in_edges_tensor generation:  0.0013256072998046875
+mini_batch_src_global generation:  0.004117727279663086
+r_  generation:  0.05756640434265137
+local_output_nid generation:  0.0005755424499511719
+local_in_edges_tensor generation:  0.001325845718383789
+mini_batch_src_global generation:  0.004158735275268555
+r_  generation:  0.057999372482299805
+local_output_nid generation:  0.0005838871002197266
+local_in_edges_tensor generation:  0.0013096332550048828
+mini_batch_src_global generation:  0.004307270050048828
+r_  generation:  0.055989742279052734
+local_output_nid generation:  0.0005664825439453125
+local_in_edges_tensor generation:  0.0013670921325683594
+mini_batch_src_global generation:  0.004068851470947266
+r_  generation:  0.056536197662353516
+local_output_nid generation:  0.000576019287109375
+local_in_edges_tensor generation:  0.0013265609741210938
+mini_batch_src_global generation:  0.0042629241943359375
+r_  generation:  0.05736970901489258
+local_output_nid generation:  0.0005671977996826172
+local_in_edges_tensor generation:  0.001291513442993164
+mini_batch_src_global generation:  0.004154205322265625
+r_  generation:  0.05583333969116211
+local_output_nid generation:  0.0005805492401123047
+local_in_edges_tensor generation:  0.0013659000396728516
+mini_batch_src_global generation:  0.006151914596557617
+r_  generation:  0.05586647987365723
+local_output_nid generation:  0.0005655288696289062
+local_in_edges_tensor generation:  0.0013136863708496094
+mini_batch_src_global generation:  0.004271030426025391
+r_  generation:  0.057914018630981445
+local_output_nid generation:  0.0005640983581542969
+local_in_edges_tensor generation:  0.001325845718383789
+mini_batch_src_global generation:  0.004023313522338867
+r_  generation:  0.05515265464782715
+local_output_nid generation:  0.0005733966827392578
+local_in_edges_tensor generation:  0.0048503875732421875
+mini_batch_src_global generation:  0.00470280647277832
+r_  generation:  0.058156728744506836
+local_output_nid generation:  0.0005631446838378906
+local_in_edges_tensor generation:  0.0018210411071777344
+mini_batch_src_global generation:  0.004175901412963867
+r_  generation:  0.057744503021240234
+local_output_nid generation:  0.0005681514739990234
+local_in_edges_tensor generation:  0.001321554183959961
+mini_batch_src_global generation:  0.004205942153930664
+r_  generation:  0.060262441635131836
+local_output_nid generation:  0.0005707740783691406
+local_in_edges_tensor generation:  0.0013480186462402344
+mini_batch_src_global generation:  0.004135608673095703
+r_  generation:  0.05600094795227051
+local_output_nid generation:  0.0005817413330078125
+local_in_edges_tensor generation:  0.0014302730560302734
+mini_batch_src_global generation:  0.004122734069824219
+r_  generation:  0.05736589431762695
+local_output_nid generation:  0.0006058216094970703
+local_in_edges_tensor generation:  0.0014655590057373047
+mini_batch_src_global generation:  0.004180431365966797
+r_  generation:  0.059171199798583984
+local_output_nid generation:  0.0005891323089599609
+local_in_edges_tensor generation:  0.0014462471008300781
+mini_batch_src_global generation:  0.004202604293823242
+r_  generation:  0.05636405944824219
+local_output_nid generation:  0.0005717277526855469
+local_in_edges_tensor generation:  0.0014603137969970703
+mini_batch_src_global generation:  0.004111766815185547
+r_  generation:  0.05785107612609863
+local_output_nid generation:  0.0005645751953125
+local_in_edges_tensor generation:  0.0014026165008544922
+mini_batch_src_global generation:  0.0042171478271484375
+r_  generation:  0.06068015098571777
+local_output_nid generation:  0.0005788803100585938
+local_in_edges_tensor generation:  0.0013718605041503906
+mini_batch_src_global generation:  0.0041234493255615234
+r_  generation:  0.05584406852722168
+local_output_nid generation:  0.000579833984375
+local_in_edges_tensor generation:  0.0012869834899902344
+mini_batch_src_global generation:  0.0041277408599853516
+r_  generation:  0.05729365348815918
+local_output_nid generation:  0.0005688667297363281
+local_in_edges_tensor generation:  0.0013055801391601562
+mini_batch_src_global generation:  0.004259586334228516
+r_  generation:  0.05577802658081055
+local_output_nid generation:  0.0005667209625244141
+local_in_edges_tensor generation:  0.0013167858123779297
+mini_batch_src_global generation:  0.004061222076416016
+r_  generation:  0.05585527420043945
+local_output_nid generation:  0.0005602836608886719
+local_in_edges_tensor generation:  0.0013239383697509766
+mini_batch_src_global generation:  0.004115104675292969
+r_  generation:  0.05690574645996094
+local_output_nid generation:  0.0005822181701660156
+local_in_edges_tensor generation:  0.0013964176177978516
+mini_batch_src_global generation:  0.004126071929931641
+r_  generation:  0.05619502067565918
+local_output_nid generation:  0.0005695819854736328
+local_in_edges_tensor generation:  0.0014255046844482422
+mini_batch_src_global generation:  0.004017353057861328
+r_  generation:  0.05681800842285156
+local_output_nid generation:  0.0005786418914794922
+local_in_edges_tensor generation:  0.001432657241821289
+mini_batch_src_global generation:  0.00420689582824707
+r_  generation:  0.05573439598083496
+local_output_nid generation:  0.0007178783416748047
+local_in_edges_tensor generation:  0.001567840576171875
+mini_batch_src_global generation:  0.004183769226074219
+r_  generation:  0.05691218376159668
+local_output_nid generation:  0.0005636215209960938
+local_in_edges_tensor generation:  0.0014569759368896484
+mini_batch_src_global generation:  0.0042231082916259766
+r_  generation:  0.0589137077331543
+local_output_nid generation:  0.0005669593811035156
+local_in_edges_tensor generation:  0.0014638900756835938
+mini_batch_src_global generation:  0.004319906234741211
+r_  generation:  0.06053781509399414
+local_output_nid generation:  0.0005984306335449219
+local_in_edges_tensor generation:  0.0013151168823242188
+mini_batch_src_global generation:  0.004254579544067383
+r_  generation:  0.06042671203613281
+local_output_nid generation:  0.0005881786346435547
+local_in_edges_tensor generation:  0.0013310909271240234
+mini_batch_src_global generation:  0.004534482955932617
+r_  generation:  0.0705864429473877
+local_output_nid generation:  0.0005946159362792969
+local_in_edges_tensor generation:  0.0013492107391357422
+mini_batch_src_global generation:  0.004605531692504883
+r_  generation:  0.06638288497924805
+local_output_nid generation:  0.0005629062652587891
+local_in_edges_tensor generation:  0.0013053417205810547
+mini_batch_src_global generation:  0.004619121551513672
+r_  generation:  0.06443023681640625
+local_output_nid generation:  0.0005652904510498047
+local_in_edges_tensor generation:  0.0015859603881835938
+mini_batch_src_global generation:  0.004781961441040039
+r_  generation:  0.06576228141784668
+local_output_nid generation:  0.0005757808685302734
+local_in_edges_tensor generation:  0.0014281272888183594
+mini_batch_src_global generation:  0.0044062137603759766
+r_  generation:  0.06377863883972168
+local_output_nid generation:  0.0005650520324707031
+local_in_edges_tensor generation:  0.0014715194702148438
+mini_batch_src_global generation:  0.004562854766845703
+r_  generation:  0.06312704086303711
+local_output_nid generation:  0.0005848407745361328
+local_in_edges_tensor generation:  0.0014913082122802734
+mini_batch_src_global generation:  0.004567861557006836
+r_  generation:  0.06342935562133789
+local_output_nid generation:  0.0005872249603271484
+local_in_edges_tensor generation:  0.0015780925750732422
+mini_batch_src_global generation:  0.004470109939575195
+r_  generation:  0.06359124183654785
+local_output_nid generation:  0.0005681514739990234
+local_in_edges_tensor generation:  0.0015914440155029297
+mini_batch_src_global generation:  0.004375934600830078
+r_  generation:  0.056179046630859375
+local_output_nid generation:  0.0005769729614257812
+local_in_edges_tensor generation:  0.00145721435546875
+mini_batch_src_global generation:  0.004040718078613281
+r_  generation:  0.05676078796386719
+local_output_nid generation:  0.0005679130554199219
+local_in_edges_tensor generation:  0.00896310806274414
+mini_batch_src_global generation:  0.003962993621826172
+r_  generation:  0.05911540985107422
+local_output_nid generation:  0.0005686283111572266
+local_in_edges_tensor generation:  0.0013091564178466797
+mini_batch_src_global generation:  0.004286527633666992
+r_  generation:  0.05665707588195801
+local_output_nid generation:  0.0005667209625244141
+local_in_edges_tensor generation:  0.0012998580932617188
+mini_batch_src_global generation:  0.0041005611419677734
+r_  generation:  0.05704021453857422
+local_output_nid generation:  0.0005831718444824219
+local_in_edges_tensor generation:  0.0013043880462646484
+mini_batch_src_global generation:  0.004456281661987305
+r_  generation:  0.0583806037902832
+local_output_nid generation:  0.0005147457122802734
+local_in_edges_tensor generation:  0.0013005733489990234
+mini_batch_src_global generation:  0.0049479007720947266
+r_  generation:  0.05072307586669922
+----------------------check_connections_block total spend ----------------------------- 9.929057836532593
+generate_one_block  5.872429847717285
+generate_one_block  0.07302331924438477
+generate_one_block  0.07347917556762695
+generate_one_block  0.07326936721801758
+generate_one_block  0.07533812522888184
+generate_one_block  0.07421064376831055
+generate_one_block  0.07478690147399902
+generate_one_block  0.0740818977355957
+generate_one_block  0.07465267181396484
+generate_one_block  0.0735616683959961
+generate_one_block  0.0740056037902832
+generate_one_block  0.07633137702941895
+generate_one_block  0.07402253150939941
+generate_one_block  0.07369017601013184
+generate_one_block  0.07340812683105469
+generate_one_block  0.074737548828125
+generate_one_block  0.07436347007751465
+generate_one_block  0.07219147682189941
+generate_one_block  0.07449865341186523
+generate_one_block  0.07483506202697754
+generate_one_block  0.07618570327758789
+generate_one_block  0.0741586685180664
+generate_one_block  0.0748441219329834
+generate_one_block  0.0750434398651123
+generate_one_block  0.07277417182922363
+generate_one_block  0.07410120964050293
+generate_one_block  0.07431483268737793
+generate_one_block  0.07426190376281738
+generate_one_block  0.07534050941467285
+generate_one_block  0.07729315757751465
+generate_one_block  0.07484030723571777
+generate_one_block  0.1044154167175293
+generate_one_block  0.08701181411743164
+generate_one_block  0.0899815559387207
+generate_one_block  0.09196853637695312
+generate_one_block  0.08392524719238281
+generate_one_block  0.08171677589416504
+generate_one_block  0.07959961891174316
+generate_one_block  0.09922432899475098
+generate_one_block  0.08962464332580566
+generate_one_block  0.08291053771972656
+generate_one_block  0.08027768135070801
+generate_one_block  0.0769655704498291
+generate_one_block  0.08529138565063477
+generate_one_block  0.08492350578308105
+generate_one_block  0.08105850219726562
+generate_one_block  0.07810068130493164
+generate_one_block  0.0987548828125
+generate_one_block  0.09142160415649414
+generate_one_block  0.10036683082580566
+generate_one_block  0.09035301208496094
+generate_one_block  0.08301472663879395
+generate_one_block  0.08136224746704102
+generate_one_block  0.07922744750976562
+generate_one_block  0.0822134017944336
+generate_one_block  0.07522249221801758
+generate_one_block  0.09133148193359375
+generate_one_block  0.0879354476928711
+generate_one_block  0.08347225189208984
+generate_one_block  0.07939004898071289
+generate_one_block  0.07764792442321777
+generate_one_block  0.09099149703979492
+generate_one_block  0.09795808792114258
+generate_one_block  0.08056092262268066
+generate_one_block  0.07883834838867188
+generate_one_block  0.07692766189575195
+generate_one_block  0.07694554328918457
+generate_one_block  0.0750737190246582
+generate_one_block  0.0762336254119873
+generate_one_block  0.0736234188079834
+generate_one_block  0.07413864135742188
+generate_one_block  0.07484245300292969
+generate_one_block  0.0788872241973877
+generate_one_block  0.07445621490478516
+generate_one_block  0.07270359992980957
+generate_one_block  0.0759878158569336
+generate_one_block  0.07356929779052734
+generate_one_block  0.07452845573425293
+generate_one_block  0.07465004920959473
+generate_one_block  0.0736398696899414
+generate_one_block  0.07500219345092773
+generate_one_block  0.07452178001403809
+generate_one_block  0.0745241641998291
+generate_one_block  0.07711243629455566
+generate_one_block  0.07468342781066895
+generate_one_block  0.07501626014709473
+generate_one_block  0.07402801513671875
+generate_one_block  0.07884788513183594
+generate_one_block  0.08203125
+generate_one_block  0.07358193397521973
+generate_one_block  0.07506585121154785
+generate_one_block  0.07512879371643066
+generate_one_block  0.097503662109375
+generate_one_block  0.08786869049072266
+generate_one_block  0.09730219841003418
+generate_one_block  0.09006118774414062
+generate_one_block  0.08421182632446289
+generate_one_block  0.09771394729614258
+generate_one_block  0.07800745964050293
+generate_one_block  0.07807564735412598
+generate_one_block  0.07482671737670898
+generate_one_block  0.0789484977722168
+generate_one_block  0.07555031776428223
+generate_one_block  0.0753171443939209
+generate_one_block  0.07469606399536133
+generate_one_block  0.0855567455291748
+generate_one_block  0.08617901802062988
+generate_one_block  0.07538676261901855
+generate_one_block  0.07678103446960449
+generate_one_block  0.07758808135986328
+generate_one_block  0.07849454879760742
+generate_one_block  0.07628130912780762
+generate_one_block  0.07703924179077148
+generate_one_block  0.0784296989440918
+generate_one_block  0.07868313789367676
+generate_one_block  0.07703566551208496
+generate_one_block  0.07874345779418945
+generate_one_block  0.09276509284973145
+generate_one_block  0.07676339149475098
+generate_one_block  0.07714676856994629
+generate_one_block  0.07756400108337402
+generate_one_block  0.0782918930053711
+generate_one_block  0.08060455322265625
+generate_one_block  0.07566595077514648
+generate_one_block  0.08068561553955078
+generate_one_block  0.08178114891052246
+generate_one_block  0.1048593521118164
+generate_one_block  0.09657049179077148
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 2.651193857192993
+gen group dst list time:  0.445845365524292
+time for parepare:  0.47811245918273926
+local_output_nid generation:  0.02685093879699707
+local_in_edges_tensor generation:  0.2641875743865967
+mini_batch_src_global generation:  0.1611337661743164
+r_  generation:  1.8499460220336914
+local_output_nid generation:  0.030375957489013672
+local_in_edges_tensor generation:  0.1065211296081543
+mini_batch_src_global generation:  0.20979619026184082
+r_  generation:  1.967402696609497
+local_output_nid generation:  0.0306088924407959
+local_in_edges_tensor generation:  0.1864321231842041
+mini_batch_src_global generation:  0.19826531410217285
+r_  generation:  2.0728094577789307
+local_output_nid generation:  0.04419350624084473
+local_in_edges_tensor generation:  0.13622260093688965
+mini_batch_src_global generation:  0.20188498497009277
+r_  generation:  2.039618492126465
+local_output_nid generation:  0.03403043746948242
+local_in_edges_tensor generation:  0.12174749374389648
+mini_batch_src_global generation:  0.21064090728759766
+r_  generation:  2.1630709171295166
+local_output_nid generation:  0.037540435791015625
+local_in_edges_tensor generation:  0.18318700790405273
+mini_batch_src_global generation:  0.22839927673339844
+r_  generation:  2.1783018112182617
+local_output_nid generation:  0.04697895050048828
+local_in_edges_tensor generation:  0.13069963455200195
+mini_batch_src_global generation:  0.22400951385498047
+r_  generation:  2.1464524269104004
+local_output_nid generation:  0.035276174545288086
+local_in_edges_tensor generation:  0.1232454776763916
+mini_batch_src_global generation:  0.22278332710266113
+r_  generation:  2.080765724182129
+local_output_nid generation:  0.03599953651428223
+local_in_edges_tensor generation:  0.11966252326965332
+mini_batch_src_global generation:  0.22691583633422852
+r_  generation:  2.168567419052124
+local_output_nid generation:  0.03675103187561035
+local_in_edges_tensor generation:  0.12053894996643066
+mini_batch_src_global generation:  0.2338578701019287
+r_  generation:  2.138518810272217
+local_output_nid generation:  0.037016868591308594
+local_in_edges_tensor generation:  0.15315556526184082
+mini_batch_src_global generation:  0.245222806930542
+r_  generation:  2.2065341472625732
+local_output_nid generation:  0.04285573959350586
+local_in_edges_tensor generation:  0.1552736759185791
+mini_batch_src_global generation:  0.23053860664367676
+r_  generation:  2.1619277000427246
+local_output_nid generation:  0.04267764091491699
+local_in_edges_tensor generation:  0.1332840919494629
+mini_batch_src_global generation:  0.23416447639465332
+r_  generation:  2.191706895828247
+local_output_nid generation:  0.03786277770996094
+local_in_edges_tensor generation:  0.13322854042053223
+mini_batch_src_global generation:  0.23717761039733887
+r_  generation:  2.1546895503997803
+local_output_nid generation:  0.03782486915588379
+local_in_edges_tensor generation:  0.13089203834533691
+mini_batch_src_global generation:  0.23194193840026855
+r_  generation:  2.1621172428131104
+local_output_nid generation:  0.03826093673706055
+local_in_edges_tensor generation:  0.1319892406463623
+mini_batch_src_global generation:  0.24374961853027344
+r_  generation:  2.222320079803467
+local_output_nid generation:  0.03831911087036133
+local_in_edges_tensor generation:  0.13022232055664062
+mini_batch_src_global generation:  0.23531746864318848
+r_  generation:  2.208686113357544
+local_output_nid generation:  0.038244009017944336
+local_in_edges_tensor generation:  0.1936039924621582
+mini_batch_src_global generation:  0.23654699325561523
+r_  generation:  2.2047994136810303
+local_output_nid generation:  0.047061920166015625
+local_in_edges_tensor generation:  0.15097808837890625
+mini_batch_src_global generation:  0.23469161987304688
+r_  generation:  2.211726188659668
+local_output_nid generation:  0.044890642166137695
+local_in_edges_tensor generation:  0.13971185684204102
+mini_batch_src_global generation:  0.23939800262451172
+r_  generation:  2.1949880123138428
+local_output_nid generation:  0.03924560546875
+local_in_edges_tensor generation:  0.13560009002685547
+mini_batch_src_global generation:  0.23985767364501953
+r_  generation:  2.2077581882476807
+local_output_nid generation:  0.039032697677612305
+local_in_edges_tensor generation:  0.13284516334533691
+mini_batch_src_global generation:  0.23791742324829102
+r_  generation:  2.2057950496673584
+local_output_nid generation:  0.03938722610473633
+local_in_edges_tensor generation:  0.1290450096130371
+mini_batch_src_global generation:  0.24958562850952148
+r_  generation:  2.2248847484588623
+local_output_nid generation:  0.03949856758117676
+local_in_edges_tensor generation:  0.1233372688293457
+mini_batch_src_global generation:  0.23775458335876465
+r_  generation:  2.1989943981170654
+local_output_nid generation:  0.03893733024597168
+local_in_edges_tensor generation:  0.17353248596191406
+mini_batch_src_global generation:  0.23576569557189941
+r_  generation:  2.175175666809082
+local_output_nid generation:  0.0463101863861084
+local_in_edges_tensor generation:  0.17439651489257812
+mini_batch_src_global generation:  0.24035048484802246
+r_  generation:  2.233807325363159
+local_output_nid generation:  0.05354881286621094
+local_in_edges_tensor generation:  0.14134550094604492
+mini_batch_src_global generation:  0.23838353157043457
+r_  generation:  2.185523748397827
+local_output_nid generation:  0.039647579193115234
+local_in_edges_tensor generation:  0.13076043128967285
+mini_batch_src_global generation:  0.23771333694458008
+r_  generation:  2.1634323596954346
+local_output_nid generation:  0.03958415985107422
+local_in_edges_tensor generation:  0.1272270679473877
+mini_batch_src_global generation:  0.23778390884399414
+r_  generation:  2.1608831882476807
+local_output_nid generation:  0.04175734519958496
+local_in_edges_tensor generation:  0.12586164474487305
+mini_batch_src_global generation:  0.23820257186889648
+r_  generation:  2.199566602706909
+local_output_nid generation:  0.039460182189941406
+local_in_edges_tensor generation:  0.12475824356079102
+mini_batch_src_global generation:  0.24400854110717773
+r_  generation:  2.196319818496704
+local_output_nid generation:  0.03989887237548828
+local_in_edges_tensor generation:  0.12384605407714844
+mini_batch_src_global generation:  0.23840999603271484
+r_  generation:  2.2038869857788086
+local_output_nid generation:  0.03982234001159668
+local_in_edges_tensor generation:  0.2040266990661621
+mini_batch_src_global generation:  0.2371838092803955
+r_  generation:  2.1876862049102783
+local_output_nid generation:  0.04784440994262695
+local_in_edges_tensor generation:  0.15932369232177734
+mini_batch_src_global generation:  0.2572019100189209
+r_  generation:  2.236881732940674
+local_output_nid generation:  0.05489635467529297
+local_in_edges_tensor generation:  0.13657808303833008
+mini_batch_src_global generation:  0.2357006072998047
+r_  generation:  2.2230112552642822
+local_output_nid generation:  0.04211831092834473
+local_in_edges_tensor generation:  0.11774349212646484
+mini_batch_src_global generation:  0.23759150505065918
+r_  generation:  2.2719223499298096
+local_output_nid generation:  0.042314767837524414
+local_in_edges_tensor generation:  0.2019493579864502
+mini_batch_src_global generation:  0.24927496910095215
+r_  generation:  2.2273447513580322
+local_output_nid generation:  0.05874371528625488
+local_in_edges_tensor generation:  0.1490168571472168
+mini_batch_src_global generation:  0.23794198036193848
+r_  generation:  2.192652940750122
+local_output_nid generation:  0.04091382026672363
+local_in_edges_tensor generation:  0.14998936653137207
+mini_batch_src_global generation:  0.2453014850616455
+r_  generation:  2.2824182510375977
+local_output_nid generation:  0.04083895683288574
+local_in_edges_tensor generation:  0.17215633392333984
+mini_batch_src_global generation:  0.2532074451446533
+r_  generation:  2.2965142726898193
+local_output_nid generation:  0.06374001502990723
+local_in_edges_tensor generation:  0.17827534675598145
+mini_batch_src_global generation:  0.23912668228149414
+r_  generation:  2.1914634704589844
+local_output_nid generation:  0.040437936782836914
+local_in_edges_tensor generation:  0.14508390426635742
+mini_batch_src_global generation:  0.23813629150390625
+r_  generation:  2.200838327407837
+local_output_nid generation:  0.04038095474243164
+local_in_edges_tensor generation:  0.13312196731567383
+mini_batch_src_global generation:  0.23667430877685547
+r_  generation:  2.167487144470215
+local_output_nid generation:  0.04092693328857422
+local_in_edges_tensor generation:  0.1328585147857666
+mini_batch_src_global generation:  0.23958539962768555
+r_  generation:  2.237104654312134
+local_output_nid generation:  0.04043936729431152
+local_in_edges_tensor generation:  0.1290898323059082
+mini_batch_src_global generation:  0.250316858291626
+r_  generation:  2.1950271129608154
+local_output_nid generation:  0.040228843688964844
+local_in_edges_tensor generation:  0.1241605281829834
+mini_batch_src_global generation:  0.24822449684143066
+r_  generation:  2.175384759902954
+local_output_nid generation:  0.04018378257751465
+local_in_edges_tensor generation:  0.20478487014770508
+mini_batch_src_global generation:  0.2457437515258789
+r_  generation:  2.202310800552368
+local_output_nid generation:  0.05300426483154297
+local_in_edges_tensor generation:  0.1526503562927246
+mini_batch_src_global generation:  0.23646831512451172
+r_  generation:  2.1974475383758545
+local_output_nid generation:  0.048555850982666016
+local_in_edges_tensor generation:  0.1364765167236328
+mini_batch_src_global generation:  0.2359304428100586
+r_  generation:  2.2087697982788086
+local_output_nid generation:  0.040456295013427734
+local_in_edges_tensor generation:  0.1303544044494629
+mini_batch_src_global generation:  0.23575663566589355
+r_  generation:  2.1680755615234375
+local_output_nid generation:  0.04056811332702637
+local_in_edges_tensor generation:  0.12966227531433105
+mini_batch_src_global generation:  0.24012374877929688
+r_  generation:  2.183900833129883
+local_output_nid generation:  0.04036903381347656
+local_in_edges_tensor generation:  0.12739109992980957
+mini_batch_src_global generation:  0.2377910614013672
+r_  generation:  2.2258827686309814
+local_output_nid generation:  0.04154634475708008
+local_in_edges_tensor generation:  0.1275022029876709
+mini_batch_src_global generation:  0.2469789981842041
+r_  generation:  2.23917818069458
+local_output_nid generation:  0.0408320426940918
+local_in_edges_tensor generation:  0.1529080867767334
+mini_batch_src_global generation:  0.24080252647399902
+r_  generation:  2.227224111557007
+local_output_nid generation:  0.048066139221191406
+local_in_edges_tensor generation:  0.19298744201660156
+mini_batch_src_global generation:  0.24207067489624023
+r_  generation:  2.268308162689209
+local_output_nid generation:  0.06011343002319336
+local_in_edges_tensor generation:  0.14953064918518066
+mini_batch_src_global generation:  0.2518754005432129
+r_  generation:  2.2014095783233643
+local_output_nid generation:  0.04116320610046387
+local_in_edges_tensor generation:  0.1364908218383789
+mini_batch_src_global generation:  0.2359302043914795
+r_  generation:  2.179067850112915
+local_output_nid generation:  0.04091334342956543
+local_in_edges_tensor generation:  0.1302165985107422
+mini_batch_src_global generation:  0.2415599822998047
+r_  generation:  2.186826467514038
+local_output_nid generation:  0.04125571250915527
+local_in_edges_tensor generation:  0.13152146339416504
+mini_batch_src_global generation:  0.2390601634979248
+r_  generation:  2.2531745433807373
+local_output_nid generation:  0.04080486297607422
+local_in_edges_tensor generation:  0.12679147720336914
+mini_batch_src_global generation:  0.2440783977508545
+r_  generation:  2.215127944946289
+local_output_nid generation:  0.04064440727233887
+local_in_edges_tensor generation:  0.12450718879699707
+mini_batch_src_global generation:  0.2357792854309082
+r_  generation:  2.229646682739258
+local_output_nid generation:  0.040782928466796875
+local_in_edges_tensor generation:  0.20014190673828125
+mini_batch_src_global generation:  0.2372269630432129
+r_  generation:  2.205930471420288
+local_output_nid generation:  0.049712419509887695
+local_in_edges_tensor generation:  0.16152644157409668
+mini_batch_src_global generation:  0.23991847038269043
+r_  generation:  2.2202858924865723
+local_output_nid generation:  0.05331087112426758
+local_in_edges_tensor generation:  0.14115357398986816
+mini_batch_src_global generation:  0.23816609382629395
+r_  generation:  2.2011823654174805
+local_output_nid generation:  0.04128837585449219
+local_in_edges_tensor generation:  0.1355457305908203
+mini_batch_src_global generation:  0.23615717887878418
+r_  generation:  2.1976711750030518
+local_output_nid generation:  0.04127645492553711
+local_in_edges_tensor generation:  0.1290435791015625
+mini_batch_src_global generation:  0.24071168899536133
+r_  generation:  2.203148365020752
+local_output_nid generation:  0.04097557067871094
+local_in_edges_tensor generation:  0.12996530532836914
+mini_batch_src_global generation:  0.23872637748718262
+r_  generation:  2.2250888347625732
+local_output_nid generation:  0.0406336784362793
+local_in_edges_tensor generation:  0.12532496452331543
+mini_batch_src_global generation:  0.2384788990020752
+r_  generation:  2.2182352542877197
+local_output_nid generation:  0.040941476821899414
+local_in_edges_tensor generation:  0.12565112113952637
+mini_batch_src_global generation:  0.23649191856384277
+r_  generation:  2.1873388290405273
+local_output_nid generation:  0.040204524993896484
+local_in_edges_tensor generation:  0.20760846138000488
+mini_batch_src_global generation:  0.24710416793823242
+r_  generation:  2.1941936016082764
+local_output_nid generation:  0.05468273162841797
+local_in_edges_tensor generation:  0.15424561500549316
+mini_batch_src_global generation:  0.23639893531799316
+r_  generation:  2.1959452629089355
+local_output_nid generation:  0.04991412162780762
+local_in_edges_tensor generation:  0.13907146453857422
+mini_batch_src_global generation:  0.23922228813171387
+r_  generation:  2.2007715702056885
+local_output_nid generation:  0.041521310806274414
+local_in_edges_tensor generation:  0.13413548469543457
+mini_batch_src_global generation:  0.2436237335205078
+r_  generation:  2.2043190002441406
+local_output_nid generation:  0.04076695442199707
+local_in_edges_tensor generation:  0.13070440292358398
+mini_batch_src_global generation:  0.24074435234069824
+r_  generation:  2.1898767948150635
+local_output_nid generation:  0.04023575782775879
+local_in_edges_tensor generation:  0.13129806518554688
+mini_batch_src_global generation:  0.2393505573272705
+r_  generation:  2.195843458175659
+local_output_nid generation:  0.04571819305419922
+local_in_edges_tensor generation:  0.12700939178466797
+mini_batch_src_global generation:  0.24858403205871582
+r_  generation:  2.2185871601104736
+local_output_nid generation:  0.04074740409851074
+local_in_edges_tensor generation:  0.17217206954956055
+mini_batch_src_global generation:  0.23758888244628906
+r_  generation:  2.2060306072235107
+local_output_nid generation:  0.049685001373291016
+local_in_edges_tensor generation:  0.18703246116638184
+mini_batch_src_global generation:  0.2398242950439453
+r_  generation:  2.239407539367676
+local_output_nid generation:  0.059836387634277344
+local_in_edges_tensor generation:  0.14675283432006836
+mini_batch_src_global generation:  0.25144171714782715
+r_  generation:  2.202657699584961
+local_output_nid generation:  0.041765689849853516
+local_in_edges_tensor generation:  0.13454413414001465
+mini_batch_src_global generation:  0.2361583709716797
+r_  generation:  2.1932578086853027
+local_output_nid generation:  0.04294586181640625
+local_in_edges_tensor generation:  0.13212323188781738
+mini_batch_src_global generation:  0.23404502868652344
+r_  generation:  2.198349714279175
+local_output_nid generation:  0.04152369499206543
+local_in_edges_tensor generation:  0.13199567794799805
+mini_batch_src_global generation:  0.23749899864196777
+r_  generation:  2.2450902462005615
+local_output_nid generation:  0.041493892669677734
+local_in_edges_tensor generation:  0.1289517879486084
+mini_batch_src_global generation:  0.24363136291503906
+r_  generation:  2.247652769088745
+local_output_nid generation:  0.04099559783935547
+local_in_edges_tensor generation:  0.12534070014953613
+mini_batch_src_global generation:  0.24026226997375488
+r_  generation:  2.237830400466919
+local_output_nid generation:  0.040995121002197266
+local_in_edges_tensor generation:  0.2045891284942627
+mini_batch_src_global generation:  0.23610782623291016
+r_  generation:  2.232480049133301
+local_output_nid generation:  0.05668139457702637
+local_in_edges_tensor generation:  0.16343116760253906
+mini_batch_src_global generation:  0.24363470077514648
+r_  generation:  2.2528865337371826
+local_output_nid generation:  0.051035165786743164
+local_in_edges_tensor generation:  0.1426563262939453
+mini_batch_src_global generation:  0.2398054599761963
+r_  generation:  2.208204507827759
+local_output_nid generation:  0.04240894317626953
+local_in_edges_tensor generation:  0.1369490623474121
+mini_batch_src_global generation:  0.24434256553649902
+r_  generation:  2.210376024246216
+local_output_nid generation:  0.042729854583740234
+local_in_edges_tensor generation:  0.12919259071350098
+mini_batch_src_global generation:  0.23880529403686523
+r_  generation:  2.193077325820923
+local_output_nid generation:  0.041590213775634766
+local_in_edges_tensor generation:  0.1312084197998047
+mini_batch_src_global generation:  0.2397012710571289
+r_  generation:  2.224250555038452
+local_output_nid generation:  0.040981292724609375
+local_in_edges_tensor generation:  0.12688279151916504
+mini_batch_src_global generation:  0.2465369701385498
+r_  generation:  2.2147982120513916
+local_output_nid generation:  0.04050946235656738
+local_in_edges_tensor generation:  0.13626360893249512
+mini_batch_src_global generation:  0.2393360137939453
+r_  generation:  2.1788651943206787
+local_output_nid generation:  0.04983210563659668
+local_in_edges_tensor generation:  0.21001410484313965
+mini_batch_src_global generation:  0.23681354522705078
+r_  generation:  2.194955825805664
+local_output_nid generation:  0.06050562858581543
+local_in_edges_tensor generation:  0.1566617488861084
+mini_batch_src_global generation:  0.2471013069152832
+r_  generation:  2.195164203643799
+local_output_nid generation:  0.04236578941345215
+local_in_edges_tensor generation:  0.14766550064086914
+mini_batch_src_global generation:  0.23974394798278809
+r_  generation:  2.197664260864258
+local_output_nid generation:  0.04127955436706543
+local_in_edges_tensor generation:  0.13309144973754883
+mini_batch_src_global generation:  0.2400953769683838
+r_  generation:  2.182361602783203
+local_output_nid generation:  0.04110598564147949
+local_in_edges_tensor generation:  0.13167095184326172
+mini_batch_src_global generation:  0.2365131378173828
+r_  generation:  2.2276172637939453
+local_output_nid generation:  0.04099464416503906
+local_in_edges_tensor generation:  0.1265263557434082
+mini_batch_src_global generation:  0.2551407814025879
+r_  generation:  2.2228455543518066
+local_output_nid generation:  0.041078805923461914
+local_in_edges_tensor generation:  0.12589216232299805
+mini_batch_src_global generation:  0.23482275009155273
+r_  generation:  2.203233480453491
+local_output_nid generation:  0.041556358337402344
+local_in_edges_tensor generation:  0.21451640129089355
+mini_batch_src_global generation:  0.2492828369140625
+r_  generation:  2.2772271633148193
+local_output_nid generation:  0.06665778160095215
+local_in_edges_tensor generation:  0.15590977668762207
+mini_batch_src_global generation:  0.23627781867980957
+r_  generation:  2.188018798828125
+local_output_nid generation:  0.04694080352783203
+local_in_edges_tensor generation:  0.14245963096618652
+mini_batch_src_global generation:  0.24040651321411133
+r_  generation:  2.2291481494903564
+local_output_nid generation:  0.041146278381347656
+local_in_edges_tensor generation:  0.13172221183776855
+mini_batch_src_global generation:  0.23833370208740234
+r_  generation:  2.1709392070770264
+local_output_nid generation:  0.041477203369140625
+local_in_edges_tensor generation:  0.13272476196289062
+mini_batch_src_global generation:  0.23818540573120117
+r_  generation:  2.216646671295166
+local_output_nid generation:  0.04148435592651367
+local_in_edges_tensor generation:  0.12870264053344727
+mini_batch_src_global generation:  0.2493276596069336
+r_  generation:  2.2509639263153076
+local_output_nid generation:  0.04083704948425293
+local_in_edges_tensor generation:  0.13031625747680664
+mini_batch_src_global generation:  0.23861432075500488
+r_  generation:  2.2073540687561035
+local_output_nid generation:  0.04155230522155762
+local_in_edges_tensor generation:  0.20394611358642578
+mini_batch_src_global generation:  0.23988127708435059
+r_  generation:  2.248737335205078
+local_output_nid generation:  0.04964137077331543
+local_in_edges_tensor generation:  0.16249895095825195
+mini_batch_src_global generation:  0.252103328704834
+r_  generation:  2.1874489784240723
+local_output_nid generation:  0.055374860763549805
+local_in_edges_tensor generation:  0.14726495742797852
+mini_batch_src_global generation:  0.24083685874938965
+r_  generation:  2.193683385848999
+local_output_nid generation:  0.041983604431152344
+local_in_edges_tensor generation:  0.1363821029663086
+mini_batch_src_global generation:  0.23949027061462402
+r_  generation:  2.2292697429656982
+local_output_nid generation:  0.042078256607055664
+local_in_edges_tensor generation:  0.1348257064819336
+mini_batch_src_global generation:  0.2416858673095703
+r_  generation:  2.2150702476501465
+local_output_nid generation:  0.04152226448059082
+local_in_edges_tensor generation:  0.12931585311889648
+mini_batch_src_global generation:  0.2501816749572754
+r_  generation:  2.254136323928833
+local_output_nid generation:  0.041133880615234375
+local_in_edges_tensor generation:  0.12567520141601562
+mini_batch_src_global generation:  0.23749542236328125
+r_  generation:  2.196673631668091
+local_output_nid generation:  0.041808128356933594
+local_in_edges_tensor generation:  0.1267855167388916
+mini_batch_src_global generation:  0.25278353691101074
+r_  generation:  2.2531890869140625
+local_output_nid generation:  0.047763824462890625
+local_in_edges_tensor generation:  0.21483349800109863
+mini_batch_src_global generation:  0.23957300186157227
+r_  generation:  2.253500461578369
+local_output_nid generation:  0.06429696083068848
+local_in_edges_tensor generation:  0.17266321182250977
+mini_batch_src_global generation:  0.23937511444091797
+r_  generation:  2.2200965881347656
+local_output_nid generation:  0.04219937324523926
+local_in_edges_tensor generation:  0.14051389694213867
+mini_batch_src_global generation:  0.23537683486938477
+r_  generation:  2.186624050140381
+local_output_nid generation:  0.041236162185668945
+local_in_edges_tensor generation:  0.13172078132629395
+mini_batch_src_global generation:  0.23650360107421875
+r_  generation:  2.162677764892578
+local_output_nid generation:  0.04142498970031738
+local_in_edges_tensor generation:  0.1324009895324707
+mini_batch_src_global generation:  0.23811030387878418
+r_  generation:  2.2069554328918457
+local_output_nid generation:  0.0455775260925293
+local_in_edges_tensor generation:  0.12935733795166016
+mini_batch_src_global generation:  0.2461414337158203
+r_  generation:  2.250244140625
+local_output_nid generation:  0.041368961334228516
+local_in_edges_tensor generation:  0.12653064727783203
+mini_batch_src_global generation:  0.2418808937072754
+r_  generation:  2.21345853805542
+local_output_nid generation:  0.04242300987243652
+local_in_edges_tensor generation:  0.20719504356384277
+mini_batch_src_global generation:  0.24130034446716309
+r_  generation:  2.253945827484131
+local_output_nid generation:  0.050646305084228516
+local_in_edges_tensor generation:  0.1645975112915039
+mini_batch_src_global generation:  0.2541513442993164
+r_  generation:  2.2033376693725586
+local_output_nid generation:  0.05128169059753418
+local_in_edges_tensor generation:  0.14275264739990234
+mini_batch_src_global generation:  0.23522543907165527
+r_  generation:  2.1854639053344727
+local_output_nid generation:  0.04447627067565918
+local_in_edges_tensor generation:  0.13702130317687988
+mini_batch_src_global generation:  0.24901556968688965
+r_  generation:  2.2316887378692627
+local_output_nid generation:  0.041249990463256836
+local_in_edges_tensor generation:  0.13282132148742676
+mini_batch_src_global generation:  0.23947572708129883
+r_  generation:  2.171321153640747
+local_output_nid generation:  0.042096853256225586
+local_in_edges_tensor generation:  0.12942767143249512
+mini_batch_src_global generation:  0.23886895179748535
+r_  generation:  2.258340835571289
+local_output_nid generation:  0.03709220886230469
+local_in_edges_tensor generation:  0.11475729942321777
+mini_batch_src_global generation:  0.23110294342041016
+r_  generation:  2.0432140827178955
+----------------------check_connections_block total spend ----------------------------- 390.6367857456207
+generate_one_block  3.8458545207977295
+generate_one_block  2.9798765182495117
+generate_one_block  3.099661111831665
+generate_one_block  2.761207342147827
+generate_one_block  2.860208511352539
+generate_one_block  2.8759310245513916
+generate_one_block  2.883977174758911
+generate_one_block  2.7386794090270996
+generate_one_block  2.8807826042175293
+generate_one_block  2.837360143661499
+generate_one_block  2.9319334030151367
+generate_one_block  2.9574520587921143
+generate_one_block  2.8805336952209473
+generate_one_block  2.8990533351898193
+generate_one_block  2.8572070598602295
+generate_one_block  2.7510156631469727
+generate_one_block  2.770744562149048
+generate_one_block  2.785374402999878
+generate_one_block  2.772747039794922
+generate_one_block  3.0700595378875732
+generate_one_block  3.069868564605713
+generate_one_block  2.863053560256958
+generate_one_block  2.843170166015625
+generate_one_block  2.885387897491455
+generate_one_block  3.16902232170105
+generate_one_block  2.8982369899749756
+generate_one_block  2.9738240242004395
+generate_one_block  2.7564523220062256
+generate_one_block  3.0228326320648193
+generate_one_block  2.9407496452331543
+generate_one_block  2.730820417404175
+generate_one_block  2.876816511154175
+generate_one_block  2.855720043182373
+generate_one_block  2.873009443283081
+generate_one_block  2.7607009410858154
+generate_one_block  2.968310832977295
+generate_one_block  2.9379467964172363
+generate_one_block  2.869767427444458
+generate_one_block  2.8956449031829834
+generate_one_block  2.958531141281128
+generate_one_block  2.829254150390625
+generate_one_block  2.7708756923675537
+generate_one_block  2.7476015090942383
+generate_one_block  2.8645262718200684
+generate_one_block  2.9935150146484375
+generate_one_block  2.9492573738098145
+generate_one_block  2.727917432785034
+generate_one_block  2.762162923812866
+generate_one_block  2.7546489238739014
+generate_one_block  2.7430102825164795
+generate_one_block  2.860766887664795
+generate_one_block  2.758063793182373
+generate_one_block  3.065514326095581
+generate_one_block  3.089607000350952
+generate_one_block  2.9769163131713867
+generate_one_block  2.7339913845062256
+generate_one_block  2.7510790824890137
+generate_one_block  2.8340048789978027
+generate_one_block  2.8572211265563965
+generate_one_block  2.863596200942993
+generate_one_block  2.831834554672241
+generate_one_block  3.037774085998535
+generate_one_block  2.9174063205718994
+generate_one_block  2.83253812789917
+generate_one_block  2.8410630226135254
+generate_one_block  2.8990423679351807
+generate_one_block  2.8814618587493896
+generate_one_block  2.785842180252075
+generate_one_block  2.7574234008789062
+generate_one_block  3.0433874130249023
+generate_one_block  2.9627370834350586
+generate_one_block  2.83038067817688
+generate_one_block  2.7814388275146484
+generate_one_block  2.750397205352783
+generate_one_block  2.7098491191864014
+generate_one_block  2.905386209487915
+generate_one_block  2.8560259342193604
+generate_one_block  3.109110116958618
+generate_one_block  3.012087106704712
+generate_one_block  2.8530123233795166
+generate_one_block  2.8469669818878174
+generate_one_block  2.851804494857788
+generate_one_block  2.8715031147003174
+generate_one_block  2.892085075378418
+generate_one_block  2.7896010875701904
+generate_one_block  3.162672519683838
+generate_one_block  3.0311686992645264
+generate_one_block  2.874997138977051
+generate_one_block  2.7498841285705566
+generate_one_block  2.7483363151550293
+generate_one_block  2.7544612884521484
+generate_one_block  2.8066978454589844
+generate_one_block  2.7209596633911133
+generate_one_block  3.0407867431640625
+generate_one_block  3.1217100620269775
+generate_one_block  2.736750364303589
+generate_one_block  2.760716676712036
+generate_one_block  2.7175180912017822
+generate_one_block  2.753092050552368
+generate_one_block  2.9206502437591553
+generate_one_block  2.748859167098999
+generate_one_block  2.9575445652008057
+generate_one_block  3.0676212310791016
+generate_one_block  2.8652241230010986
+generate_one_block  3.4560351371765137
+generate_one_block  2.720787286758423
+generate_one_block  2.8829987049102783
+generate_one_block  2.7378334999084473
+generate_one_block  2.909867286682129
+generate_one_block  2.9165303707122803
+generate_one_block  3.1444880962371826
+generate_one_block  3.055767059326172
+generate_one_block  2.763753890991211
+generate_one_block  2.9053664207458496
+generate_one_block  2.8409526348114014
+generate_one_block  2.9177935123443604
+generate_one_block  2.7809696197509766
+generate_one_block  2.781795024871826
+generate_one_block  2.798915386199951
+generate_one_block  3.0620899200439453
+generate_one_block  2.9788951873779297
+generate_one_block  2.9039440155029297
+generate_one_block  2.766996383666992
+generate_one_block  2.7227683067321777
+generate_one_block  2.8006207942962646
+generate_one_block  2.7744903564453125
+generate_one_block  2.905622720718384
+generate_one_block  2.5060036182403564
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 1.0560073852539062
+gen group dst list time:  4.436763763427734
+time for parepare:  0.4463982582092285
+local_output_nid generation:  0.35579609870910645
+local_in_edges_tensor generation:  0.612403392791748
+mini_batch_src_global generation:  0.3248627185821533
+r_  generation:  4.738036394119263
+local_output_nid generation:  0.3355982303619385
+local_in_edges_tensor generation:  0.483090877532959
+mini_batch_src_global generation:  0.4056813716888428
+r_  generation:  5.024697542190552
+local_output_nid generation:  0.3400759696960449
+local_in_edges_tensor generation:  0.5388445854187012
+mini_batch_src_global generation:  0.40454554557800293
+r_  generation:  5.011523246765137
+local_output_nid generation:  0.34087610244750977
+local_in_edges_tensor generation:  0.4920921325683594
+mini_batch_src_global generation:  0.4150519371032715
+r_  generation:  5.046230792999268
+local_output_nid generation:  0.349973201751709
+local_in_edges_tensor generation:  0.49362826347351074
+mini_batch_src_global generation:  0.4277966022491455
+r_  generation:  5.196381330490112
+local_output_nid generation:  0.34771060943603516
+local_in_edges_tensor generation:  0.4996023178100586
+mini_batch_src_global generation:  0.445298433303833
+r_  generation:  5.226959705352783
+local_output_nid generation:  0.39357805252075195
+local_in_edges_tensor generation:  0.5093872547149658
+mini_batch_src_global generation:  0.4389979839324951
+r_  generation:  5.262979745864868
+local_output_nid generation:  0.34814929962158203
+local_in_edges_tensor generation:  0.49866819381713867
+mini_batch_src_global generation:  0.5011038780212402
+r_  generation:  5.105576992034912
+local_output_nid generation:  0.3548593521118164
+local_in_edges_tensor generation:  0.5899209976196289
+mini_batch_src_global generation:  0.43964099884033203
+r_  generation:  5.227121114730835
+local_output_nid generation:  0.3594651222229004
+local_in_edges_tensor generation:  0.49620676040649414
+mini_batch_src_global generation:  0.4463531970977783
+r_  generation:  5.2006611824035645
+local_output_nid generation:  0.39696168899536133
+local_in_edges_tensor generation:  0.49353766441345215
+mini_batch_src_global generation:  0.43523383140563965
+r_  generation:  5.274193286895752
+local_output_nid generation:  0.3545241355895996
+local_in_edges_tensor generation:  0.5402488708496094
+mini_batch_src_global generation:  0.4450411796569824
+r_  generation:  5.130962371826172
+local_output_nid generation:  0.3568284511566162
+local_in_edges_tensor generation:  0.5019335746765137
+mini_batch_src_global generation:  0.43974733352661133
+r_  generation:  5.225689888000488
+local_output_nid generation:  0.3613581657409668
+local_in_edges_tensor generation:  0.49691343307495117
+mini_batch_src_global generation:  0.445873498916626
+r_  generation:  5.192984580993652
+local_output_nid generation:  0.38168978691101074
+local_in_edges_tensor generation:  0.5025060176849365
+mini_batch_src_global generation:  0.4407649040222168
+r_  generation:  5.284864664077759
+local_output_nid generation:  0.3502614498138428
+local_in_edges_tensor generation:  0.5496306419372559
+mini_batch_src_global generation:  0.4400508403778076
+r_  generation:  5.088347911834717
+local_output_nid generation:  0.3540511131286621
+local_in_edges_tensor generation:  0.4968891143798828
+mini_batch_src_global generation:  0.44138145446777344
+r_  generation:  5.213179588317871
+local_output_nid generation:  0.37328052520751953
+local_in_edges_tensor generation:  0.525792121887207
+mini_batch_src_global generation:  0.4535667896270752
+r_  generation:  5.125990629196167
+local_output_nid generation:  0.36760449409484863
+local_in_edges_tensor generation:  0.49982595443725586
+mini_batch_src_global generation:  0.4382753372192383
+r_  generation:  5.345316171646118
+local_output_nid generation:  0.3561406135559082
+local_in_edges_tensor generation:  0.5560970306396484
+mini_batch_src_global generation:  0.4390995502471924
+r_  generation:  5.145302057266235
+local_output_nid generation:  0.36171722412109375
+local_in_edges_tensor generation:  0.5100462436676025
+mini_batch_src_global generation:  0.4465198516845703
+r_  generation:  5.285461187362671
+local_output_nid generation:  0.39849281311035156
+local_in_edges_tensor generation:  0.5123195648193359
+mini_batch_src_global generation:  0.43742823600769043
+r_  generation:  5.163024663925171
+local_output_nid generation:  0.35518860816955566
+local_in_edges_tensor generation:  0.5041406154632568
+mini_batch_src_global generation:  0.438521146774292
+r_  generation:  5.308976173400879
+local_output_nid generation:  0.3595695495605469
+local_in_edges_tensor generation:  0.5543003082275391
+mini_batch_src_global generation:  0.43651795387268066
+r_  generation:  5.134866714477539
+local_output_nid generation:  0.3617849349975586
+local_in_edges_tensor generation:  0.5093870162963867
+mini_batch_src_global generation:  0.44840240478515625
+r_  generation:  5.175031661987305
+local_output_nid generation:  0.41048407554626465
+local_in_edges_tensor generation:  0.5051853656768799
+mini_batch_src_global generation:  0.4382166862487793
+r_  generation:  5.174039363861084
+local_output_nid generation:  0.35805606842041016
+local_in_edges_tensor generation:  0.5060915946960449
+mini_batch_src_global generation:  0.46177172660827637
+r_  generation:  5.300072193145752
+local_output_nid generation:  0.3540313243865967
+local_in_edges_tensor generation:  0.5528683662414551
+mini_batch_src_global generation:  0.4502828121185303
+r_  generation:  5.124295234680176
+local_output_nid generation:  0.37282347679138184
+local_in_edges_tensor generation:  0.5132160186767578
+mini_batch_src_global generation:  0.4377453327178955
+r_  generation:  5.26799464225769
+local_output_nid generation:  0.4000358581542969
+local_in_edges_tensor generation:  0.5003964900970459
+mini_batch_src_global generation:  0.44106078147888184
+r_  generation:  5.161120653152466
+local_output_nid generation:  0.35685253143310547
+local_in_edges_tensor generation:  0.5103158950805664
+mini_batch_src_global generation:  0.4533121585845947
+r_  generation:  5.280832052230835
+local_output_nid generation:  0.36009740829467773
+local_in_edges_tensor generation:  0.5587716102600098
+mini_batch_src_global generation:  0.43822765350341797
+r_  generation:  5.206996202468872
+local_output_nid generation:  0.3708834648132324
+local_in_edges_tensor generation:  0.5050356388092041
+mini_batch_src_global generation:  0.43819737434387207
+r_  generation:  5.251010894775391
+local_output_nid generation:  0.4123268127441406
+local_in_edges_tensor generation:  0.5089290142059326
+mini_batch_src_global generation:  0.44287109375
+r_  generation:  5.1954429149627686
+local_output_nid generation:  0.35758447647094727
+local_in_edges_tensor generation:  0.5105142593383789
+mini_batch_src_global generation:  0.4628877639770508
+r_  generation:  5.297934532165527
+local_output_nid generation:  0.36050963401794434
+local_in_edges_tensor generation:  0.5626368522644043
+mini_batch_src_global generation:  0.4396946430206299
+r_  generation:  5.208967924118042
+local_output_nid generation:  0.3573145866394043
+local_in_edges_tensor generation:  0.5034739971160889
+mini_batch_src_global generation:  0.44241857528686523
+r_  generation:  5.146921873092651
+local_output_nid generation:  0.3540689945220947
+local_in_edges_tensor generation:  0.49846339225769043
+mini_batch_src_global generation:  0.43399930000305176
+r_  generation:  5.184283256530762
+local_output_nid generation:  0.4022691249847412
+local_in_edges_tensor generation:  0.5069594383239746
+mini_batch_src_global generation:  0.44287991523742676
+r_  generation:  5.182901859283447
+local_output_nid generation:  0.3634002208709717
+local_in_edges_tensor generation:  0.5116684436798096
+mini_batch_src_global generation:  0.4773845672607422
+r_  generation:  5.289006471633911
+local_output_nid generation:  0.35897016525268555
+local_in_edges_tensor generation:  0.5607345104217529
+mini_batch_src_global generation:  0.44124531745910645
+r_  generation:  5.189939022064209
+local_output_nid generation:  0.36067676544189453
+local_in_edges_tensor generation:  0.5091102123260498
+mini_batch_src_global generation:  0.45266079902648926
+r_  generation:  5.220030307769775
+local_output_nid generation:  0.40747928619384766
+local_in_edges_tensor generation:  0.5040791034698486
+mini_batch_src_global generation:  0.43653202056884766
+r_  generation:  5.151018381118774
+local_output_nid generation:  0.36116480827331543
+local_in_edges_tensor generation:  0.5121204853057861
+mini_batch_src_global generation:  0.4844789505004883
+r_  generation:  5.320371389389038
+local_output_nid generation:  0.35956740379333496
+local_in_edges_tensor generation:  0.5620670318603516
+mini_batch_src_global generation:  0.43926334381103516
+r_  generation:  5.1766602993011475
+local_output_nid generation:  0.356611967086792
+local_in_edges_tensor generation:  0.504779577255249
+mini_batch_src_global generation:  0.44860029220581055
+r_  generation:  5.186954498291016
+local_output_nid generation:  0.40783238410949707
+local_in_edges_tensor generation:  0.5049400329589844
+mini_batch_src_global generation:  0.43558382987976074
+r_  generation:  5.098934173583984
+local_output_nid generation:  0.3575398921966553
+local_in_edges_tensor generation:  0.5133194923400879
+mini_batch_src_global generation:  0.48016834259033203
+r_  generation:  5.339808464050293
+local_output_nid generation:  0.35867953300476074
+local_in_edges_tensor generation:  0.5600602626800537
+mini_batch_src_global generation:  0.4363822937011719
+r_  generation:  5.152813196182251
+local_output_nid generation:  0.3633079528808594
+local_in_edges_tensor generation:  0.5046000480651855
+mini_batch_src_global generation:  0.4517664909362793
+r_  generation:  5.271851539611816
+local_output_nid generation:  0.4030299186706543
+local_in_edges_tensor generation:  0.5221707820892334
+mini_batch_src_global generation:  0.4394209384918213
+r_  generation:  5.188596963882446
+local_output_nid generation:  0.35479021072387695
+local_in_edges_tensor generation:  0.5092182159423828
+mini_batch_src_global generation:  0.4809439182281494
+r_  generation:  5.265553951263428
+local_output_nid generation:  0.3607945442199707
+local_in_edges_tensor generation:  0.5591554641723633
+mini_batch_src_global generation:  0.4383566379547119
+r_  generation:  5.143918752670288
+local_output_nid generation:  0.35829949378967285
+local_in_edges_tensor generation:  0.5100631713867188
+mini_batch_src_global generation:  0.44115233421325684
+r_  generation:  5.274271726608276
+local_output_nid generation:  0.4125068187713623
+local_in_edges_tensor generation:  0.510812520980835
+mini_batch_src_global generation:  0.44024062156677246
+r_  generation:  5.219985723495483
+local_output_nid generation:  0.3577439785003662
+local_in_edges_tensor generation:  0.5077650547027588
+mini_batch_src_global generation:  0.44558191299438477
+r_  generation:  5.324344635009766
+local_output_nid generation:  0.35794782638549805
+local_in_edges_tensor generation:  0.5070114135742188
+mini_batch_src_global generation:  0.46189451217651367
+r_  generation:  5.167717456817627
+local_output_nid generation:  0.36066770553588867
+local_in_edges_tensor generation:  0.5661666393280029
+mini_batch_src_global generation:  0.4406108856201172
+r_  generation:  5.278098821640015
+local_output_nid generation:  0.3691415786743164
+local_in_edges_tensor generation:  0.5222635269165039
+mini_batch_src_global generation:  0.46454954147338867
+r_  generation:  5.2013115882873535
+local_output_nid generation:  0.38102221488952637
+local_in_edges_tensor generation:  0.5134942531585693
+mini_batch_src_global generation:  0.44444990158081055
+r_  generation:  5.32347297668457
+local_output_nid generation:  0.3584458827972412
+local_in_edges_tensor generation:  0.5053484439849854
+mini_batch_src_global generation:  0.45324277877807617
+r_  generation:  5.144515514373779
+local_output_nid generation:  0.359907865524292
+local_in_edges_tensor generation:  0.5602350234985352
+mini_batch_src_global generation:  0.439638614654541
+r_  generation:  5.208710670471191
+local_output_nid generation:  0.36749815940856934
+local_in_edges_tensor generation:  0.5145697593688965
+mini_batch_src_global generation:  0.44130802154541016
+r_  generation:  5.17936635017395
+local_output_nid generation:  0.3877692222595215
+local_in_edges_tensor generation:  0.5092830657958984
+mini_batch_src_global generation:  0.4424784183502197
+r_  generation:  5.246572256088257
+local_output_nid generation:  0.3598339557647705
+local_in_edges_tensor generation:  0.5090105533599854
+mini_batch_src_global generation:  0.45272397994995117
+r_  generation:  5.2470245361328125
+local_output_nid generation:  0.3581714630126953
+local_in_edges_tensor generation:  0.5609476566314697
+mini_batch_src_global generation:  0.43689751625061035
+r_  generation:  5.2190470695495605
+local_output_nid generation:  0.3627891540527344
+local_in_edges_tensor generation:  0.5131807327270508
+mini_batch_src_global generation:  0.4499247074127197
+r_  generation:  5.2670605182647705
+local_output_nid generation:  0.4040365219116211
+local_in_edges_tensor generation:  0.5046982765197754
+mini_batch_src_global generation:  0.43741703033447266
+r_  generation:  5.176702976226807
+local_output_nid generation:  0.35961174964904785
+local_in_edges_tensor generation:  0.5011641979217529
+mini_batch_src_global generation:  0.4493370056152344
+r_  generation:  5.199397563934326
+local_output_nid generation:  0.3619661331176758
+local_in_edges_tensor generation:  0.5604221820831299
+mini_batch_src_global generation:  0.4373331069946289
+r_  generation:  5.1745240688323975
+local_output_nid generation:  0.36859130859375
+local_in_edges_tensor generation:  0.5085222721099854
+mini_batch_src_global generation:  0.4372224807739258
+r_  generation:  5.204107761383057
+local_output_nid generation:  0.4045140743255615
+local_in_edges_tensor generation:  0.5101604461669922
+mini_batch_src_global generation:  0.4893217086791992
+r_  generation:  5.4318764209747314
+local_output_nid generation:  0.36150312423706055
+local_in_edges_tensor generation:  0.5699822902679443
+mini_batch_src_global generation:  0.473618745803833
+r_  generation:  5.226508140563965
+local_output_nid generation:  0.4008059501647949
+local_in_edges_tensor generation:  5.08852219581604
+mini_batch_src_global generation:  0.46202826499938965
+r_  generation:  5.17702317237854
+local_output_nid generation:  0.35450172424316406
+local_in_edges_tensor generation:  0.5565967559814453
+mini_batch_src_global generation:  0.436173677444458
+r_  generation:  5.220025062561035
+local_output_nid generation:  0.3720133304595947
+local_in_edges_tensor generation:  0.5113937854766846
+mini_batch_src_global generation:  0.4768834114074707
+r_  generation:  5.203649044036865
+local_output_nid generation:  0.38448166847229004
+local_in_edges_tensor generation:  0.5086660385131836
+mini_batch_src_global generation:  0.4425797462463379
+r_  generation:  5.266568183898926
+local_output_nid generation:  0.3604011535644531
+local_in_edges_tensor generation:  0.5074553489685059
+mini_batch_src_global generation:  0.4454379081726074
+r_  generation:  5.2330615520477295
+local_output_nid generation:  0.3567953109741211
+local_in_edges_tensor generation:  0.5678248405456543
+mini_batch_src_global generation:  0.43506550788879395
+r_  generation:  5.145967960357666
+local_output_nid generation:  0.3583245277404785
+local_in_edges_tensor generation:  0.5191552639007568
+mini_batch_src_global generation:  0.45740222930908203
+r_  generation:  5.225621938705444
+local_output_nid generation:  0.4061312675476074
+local_in_edges_tensor generation:  0.5133712291717529
+mini_batch_src_global generation:  0.43869757652282715
+r_  generation:  5.2766501903533936
+local_output_nid generation:  0.36304450035095215
+local_in_edges_tensor generation:  0.5085117816925049
+mini_batch_src_global generation:  0.45203661918640137
+r_  generation:  5.278019666671753
+local_output_nid generation:  0.36133861541748047
+local_in_edges_tensor generation:  0.5638236999511719
+mini_batch_src_global generation:  0.44101977348327637
+r_  generation:  5.2174391746521
+local_output_nid generation:  0.3662750720977783
+local_in_edges_tensor generation:  0.5107054710388184
+mini_batch_src_global generation:  0.4441096782684326
+r_  generation:  5.334322690963745
+local_output_nid generation:  0.4047822952270508
+local_in_edges_tensor generation:  0.5131096839904785
+mini_batch_src_global generation:  0.4382188320159912
+r_  generation:  5.217942953109741
+local_output_nid generation:  0.36801600456237793
+local_in_edges_tensor generation:  0.5118796825408936
+mini_batch_src_global generation:  0.46344423294067383
+r_  generation:  5.312724828720093
+local_output_nid generation:  0.3625144958496094
+local_in_edges_tensor generation:  0.5644283294677734
+mini_batch_src_global generation:  0.4432182312011719
+r_  generation:  5.220540761947632
+local_output_nid generation:  0.36869239807128906
+local_in_edges_tensor generation:  0.5177576541900635
+mini_batch_src_global generation:  0.45395874977111816
+r_  generation:  5.278955936431885
+local_output_nid generation:  0.4015085697174072
+local_in_edges_tensor generation:  0.5091795921325684
+mini_batch_src_global generation:  0.43694186210632324
+r_  generation:  5.174378395080566
+local_output_nid generation:  0.36000490188598633
+local_in_edges_tensor generation:  0.5042533874511719
+mini_batch_src_global generation:  0.45830321311950684
+r_  generation:  5.2265589237213135
+local_output_nid generation:  0.35953760147094727
+local_in_edges_tensor generation:  0.5087082386016846
+mini_batch_src_global generation:  0.46440601348876953
+r_  generation:  5.113039970397949
+local_output_nid generation:  0.35581350326538086
+local_in_edges_tensor generation:  0.5571825504302979
+mini_batch_src_global generation:  0.43547987937927246
+r_  generation:  5.194920063018799
+local_output_nid generation:  0.4199361801147461
+local_in_edges_tensor generation:  0.50309157371521
+mini_batch_src_global generation:  0.4484376907348633
+r_  generation:  5.12419319152832
+local_output_nid generation:  0.3578951358795166
+local_in_edges_tensor generation:  0.5138354301452637
+mini_batch_src_global generation:  0.45566534996032715
+r_  generation:  5.246310472488403
+local_output_nid generation:  0.36109399795532227
+local_in_edges_tensor generation:  0.511310338973999
+mini_batch_src_global generation:  0.45046401023864746
+r_  generation:  5.223607063293457
+local_output_nid generation:  0.3564488887786865
+local_in_edges_tensor generation:  0.5594315528869629
+mini_batch_src_global generation:  0.4354536533355713
+r_  generation:  5.186970949172974
+local_output_nid generation:  0.3598957061767578
+local_in_edges_tensor generation:  0.5207564830780029
+mini_batch_src_global generation:  0.4431114196777344
+r_  generation:  5.197841644287109
+local_output_nid generation:  0.3984110355377197
+local_in_edges_tensor generation:  0.5073139667510986
+mini_batch_src_global generation:  0.4336233139038086
+r_  generation:  5.208618402481079
+local_output_nid generation:  0.3590579032897949
+local_in_edges_tensor generation:  0.5084400177001953
+mini_batch_src_global generation:  0.4501490592956543
+r_  generation:  5.320620059967041
+local_output_nid generation:  0.3612196445465088
+local_in_edges_tensor generation:  0.5640134811401367
+mini_batch_src_global generation:  0.44251251220703125
+r_  generation:  5.213485240936279
+local_output_nid generation:  0.370563268661499
+local_in_edges_tensor generation:  0.5125713348388672
+mini_batch_src_global generation:  0.4449138641357422
+r_  generation:  5.2846081256866455
+local_output_nid generation:  0.4217112064361572
+local_in_edges_tensor generation:  0.525615930557251
+mini_batch_src_global generation:  0.44620394706726074
+r_  generation:  5.373456716537476
+local_output_nid generation:  0.392162561416626
+local_in_edges_tensor generation:  0.5279736518859863
+mini_batch_src_global generation:  0.47753000259399414
+r_  generation:  5.51593017578125
+local_output_nid generation:  0.3710155487060547
+local_in_edges_tensor generation:  0.5921826362609863
+mini_batch_src_global generation:  0.45718932151794434
+r_  generation:  5.409874677658081
+local_output_nid generation:  0.3859586715698242
+local_in_edges_tensor generation:  0.5360124111175537
+mini_batch_src_global generation:  0.47928714752197266
+r_  generation:  5.3178489208221436
+local_output_nid generation:  0.40398669242858887
+local_in_edges_tensor generation:  0.5063784122467041
+mini_batch_src_global generation:  0.4416236877441406
+r_  generation:  5.589999198913574
+local_output_nid generation:  0.3963325023651123
+local_in_edges_tensor generation:  0.5161995887756348
+mini_batch_src_global generation:  0.4658668041229248
+r_  generation:  5.578452110290527
+local_output_nid generation:  0.3544604778289795
+local_in_edges_tensor generation:  0.49825406074523926
+mini_batch_src_global generation:  0.46464967727661133
+r_  generation:  5.187772989273071
+local_output_nid generation:  0.35951781272888184
+local_in_edges_tensor generation:  0.5664863586425781
+mini_batch_src_global generation:  0.45612359046936035
+r_  generation:  5.305607080459595
+local_output_nid generation:  0.4229090213775635
+local_in_edges_tensor generation:  0.5131735801696777
+mini_batch_src_global generation:  0.44825291633605957
+r_  generation:  5.253453016281128
+local_output_nid generation:  0.36659932136535645
+local_in_edges_tensor generation:  0.5187203884124756
+mini_batch_src_global generation:  0.46373438835144043
+r_  generation:  5.282999277114868
+local_output_nid generation:  0.3595452308654785
+local_in_edges_tensor generation:  0.5074400901794434
+mini_batch_src_global generation:  0.4592001438140869
+r_  generation:  5.242502689361572
+local_output_nid generation:  0.3553285598754883
+local_in_edges_tensor generation:  0.5629012584686279
+mini_batch_src_global generation:  0.439716100692749
+r_  generation:  5.193294048309326
+local_output_nid generation:  0.36215782165527344
+local_in_edges_tensor generation:  0.5072097778320312
+mini_batch_src_global generation:  0.47672557830810547
+r_  generation:  5.2188193798065186
+local_output_nid generation:  0.38703441619873047
+local_in_edges_tensor generation:  0.5102946758270264
+mini_batch_src_global generation:  0.46193361282348633
+r_  generation:  5.256052017211914
+local_output_nid generation:  0.3651595115661621
+local_in_edges_tensor generation:  0.5115041732788086
+mini_batch_src_global generation:  0.44880151748657227
+r_  generation:  5.281798601150513
+local_output_nid generation:  0.35280537605285645
+local_in_edges_tensor generation:  0.5544559955596924
+mini_batch_src_global generation:  0.43921518325805664
+r_  generation:  5.160950422286987
+local_output_nid generation:  0.35599613189697266
+local_in_edges_tensor generation:  0.49977564811706543
+mini_batch_src_global generation:  0.4530763626098633
+r_  generation:  5.20923924446106
+local_output_nid generation:  0.4060485363006592
+local_in_edges_tensor generation:  0.5109202861785889
+mini_batch_src_global generation:  0.4382750988006592
+r_  generation:  5.233460426330566
+local_output_nid generation:  0.36391472816467285
+local_in_edges_tensor generation:  0.5049436092376709
+mini_batch_src_global generation:  0.4448411464691162
+r_  generation:  5.2231175899505615
+local_output_nid generation:  0.3552970886230469
+local_in_edges_tensor generation:  0.5449709892272949
+mini_batch_src_global generation:  0.45110416412353516
+r_  generation:  5.116681337356567
+local_output_nid generation:  0.36277294158935547
+local_in_edges_tensor generation:  0.523200511932373
+mini_batch_src_global generation:  0.4460911750793457
+r_  generation:  5.2787909507751465
+local_output_nid generation:  0.40245699882507324
+local_in_edges_tensor generation:  0.5064754486083984
+mini_batch_src_global generation:  0.43708014488220215
+r_  generation:  5.207686185836792
+local_output_nid generation:  0.35474491119384766
+local_in_edges_tensor generation:  0.5082430839538574
+mini_batch_src_global generation:  0.453265905380249
+r_  generation:  5.176370620727539
+local_output_nid generation:  0.3537178039550781
+local_in_edges_tensor generation:  0.5039281845092773
+mini_batch_src_global generation:  0.45336294174194336
+r_  generation:  5.137163400650024
+local_output_nid generation:  0.355715274810791
+local_in_edges_tensor generation:  0.5613784790039062
+mini_batch_src_global generation:  0.4396703243255615
+r_  generation:  5.217249631881714
+local_output_nid generation:  0.3767073154449463
+local_in_edges_tensor generation:  0.530113935470581
+mini_batch_src_global generation:  0.4517652988433838
+r_  generation:  5.179715871810913
+local_output_nid generation:  0.35594964027404785
+local_in_edges_tensor generation:  0.4788985252380371
+mini_batch_src_global generation:  0.4714367389678955
+r_  generation:  4.93060827255249
+----------------------check_connections_block total spend ----------------------------- 981.647531747818
+generate_one_block  6.856696844100952
+generate_one_block  6.359198331832886
+generate_one_block  6.398518800735474
+generate_one_block  6.702538728713989
+generate_one_block  6.4056456089019775
+generate_one_block  6.3798956871032715
+generate_one_block  6.372631311416626
+generate_one_block  6.359895706176758
+generate_one_block  8.5866219997406
+generate_one_block  6.339547157287598
+generate_one_block  6.316955089569092
+generate_one_block  6.305181503295898
+generate_one_block  6.4120564460754395
+generate_one_block  6.593016147613525
+generate_one_block  6.599149942398071
+generate_one_block  6.2883851528167725
+generate_one_block  6.363100290298462
+generate_one_block  6.30746865272522
+generate_one_block  6.382816553115845
+generate_one_block  7.037505626678467
+generate_one_block  6.414475202560425
+generate_one_block  6.449277877807617
+generate_one_block  6.293525695800781
+generate_one_block  6.3894944190979
+generate_one_block  6.700826168060303
+generate_one_block  6.361987352371216
+generate_one_block  6.3140549659729
+generate_one_block  6.294478416442871
+generate_one_block  6.290494203567505
+generate_one_block  6.359885931015015
+generate_one_block  6.677965402603149
+generate_one_block  6.345510721206665
+generate_one_block  6.331493139266968
+generate_one_block  6.302446603775024
+generate_one_block  6.435970306396484
+generate_one_block  6.76244592666626
+generate_one_block  6.276534080505371
+generate_one_block  6.256943225860596
+generate_one_block  6.420463800430298
+generate_one_block  6.3392088413238525
+generate_one_block  6.3917460441589355
+generate_one_block  6.743157625198364
+generate_one_block  6.242162466049194
+generate_one_block  6.3722007274627686
+generate_one_block  6.273930311203003
+generate_one_block  6.276479721069336
+generate_one_block  6.596368074417114
+generate_one_block  6.472045183181763
+generate_one_block  6.314715385437012
+generate_one_block  6.40110445022583
+generate_one_block  6.342678546905518
+generate_one_block  6.335693597793579
+generate_one_block  6.767150402069092
+generate_one_block  6.375239849090576
+generate_one_block  6.410191297531128
+generate_one_block  6.361347436904907
+generate_one_block  6.356206893920898
+generate_one_block  6.6434221267700195
+generate_one_block  6.565850734710693
+generate_one_block  6.372584104537964
+generate_one_block  6.428067207336426
+generate_one_block  6.304096221923828
+generate_one_block  6.456493377685547
+generate_one_block  6.78080153465271
+generate_one_block  6.374745607376099
+generate_one_block  6.365428686141968
+generate_one_block  6.4562153816223145
+generate_one_block  6.344893932342529
+generate_one_block  6.354780912399292
+generate_one_block  6.78717565536499
+generate_one_block  6.312790870666504
+generate_one_block  6.379227876663208
+generate_one_block  6.34925103187561
+generate_one_block  6.503845691680908
+generate_one_block  6.687195062637329
+generate_one_block  6.41000771522522
+generate_one_block  6.320404767990112
+generate_one_block  6.3678879737854
+generate_one_block  6.266801595687866
+generate_one_block  6.4093992710113525
+generate_one_block  6.828042507171631
+generate_one_block  6.346704721450806
+generate_one_block  6.341384172439575
+generate_one_block  6.3905627727508545
+generate_one_block  6.318469047546387
+generate_one_block  6.4635419845581055
+generate_one_block  6.9057536125183105
+generate_one_block  6.330151557922363
+generate_one_block  6.306203603744507
+generate_one_block  6.350088119506836
+generate_one_block  6.3625969886779785
+generate_one_block  6.4770097732543945
+generate_one_block  6.578181266784668
+generate_one_block  6.320750951766968
+generate_one_block  6.397267818450928
+generate_one_block  6.341626167297363
+generate_one_block  6.334869861602783
+generate_one_block  6.718986511230469
+generate_one_block  6.359030246734619
+generate_one_block  6.46928071975708
+generate_one_block  6.36536169052124
+generate_one_block  6.320711851119995
+generate_one_block  6.384393692016602
+generate_one_block  6.773105144500732
+generate_one_block  6.386158227920532
+generate_one_block  6.2180187702178955
+generate_one_block  6.465979099273682
+generate_one_block  6.285716772079468
+generate_one_block  6.462652921676636
+generate_one_block  6.852964401245117
+generate_one_block  6.351020812988281
+generate_one_block  6.343267440795898
+generate_one_block  6.4579339027404785
+generate_one_block  6.35306978225708
+generate_one_block  6.490940809249878
+generate_one_block  6.744852542877197
+generate_one_block  6.265992641448975
+generate_one_block  6.283188104629517
+generate_one_block  6.41518497467041
+generate_one_block  6.336288213729858
+generate_one_block  6.758704900741577
+generate_one_block  6.358262777328491
+generate_one_block  6.311939477920532
+generate_one_block  6.3071160316467285
+generate_one_block  6.287429332733154
+generate_one_block  12.40431523323059
+generate_one_block  6.7816243171691895
+generate_one_block  6.043854475021362
+-----------------------------------------after block dataloader generation 
+ Nvidia-smi: 9.6795654296875 GB
+    Memory Allocated: 0.0006527900695800781  GigaBytes
+Max Memory Allocated: 0.0006527900695800781  GigaBytes
+
+connection checking time:  1372.2843174934387
+block generation total time  1200.3567950725555
+average batch blocks generation time:  9.37778746150434
+----------------------------------------before batch_pred = model(blocks, batch_inputs) 
+ Nvidia-smi: 10.5037841796875 GB
+    Memory Allocated: 0.7613563537597656  GigaBytes
+Max Memory Allocated: 0.7613563537597656  GigaBytes
+
